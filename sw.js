@@ -1,4 +1,4 @@
-// Crate Brain service worker - true offline app shell
+// Crate Brain service worker - true offline app shell (relative paths for subfolder hosting)
 const CACHE_VERSION = 'crate-v1';
 const SHELL = [
   './',
@@ -24,12 +24,9 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
-  // Only handle same-origin GETs for the shell; let everything else (CDN fonts,
-  // external links) pass straight through to the network.
   if (e.request.method !== 'GET' || url.origin !== self.location.origin) return;
   e.respondWith(
     caches.match(e.request).then((cached) => cached || fetch(e.request).then((res) => {
-      // Runtime-cache successful same-origin responses (e.g. crate.json if hosted)
       if (res && res.status === 200) {
         const copy = res.clone();
         caches.open(CACHE_VERSION).then((c) => c.put(e.request, copy));
