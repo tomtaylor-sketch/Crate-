@@ -370,6 +370,35 @@
     font-family: var(--font-mono); font-size: 11px; padding: 6px 10px; border-radius: 8px;
     text-transform: uppercase; letter-spacing: 0.5px;
   }
+
+  /* ---- Pairings ---- */
+  .pair-badge {
+    background: var(--accent); color: #000; font-family: var(--font-mono);
+    font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 4px;
+    text-transform: uppercase; letter-spacing: 0.5px; flex-shrink: 0;
+  }
+  .compat-row.paired { background: rgba(212,255,0,0.06); }
+  .compat-row.paired .score-pill { background: var(--accent); color: #000; }
+  .pair-unlink {
+    background: transparent; border: 1px solid var(--border); color: var(--text-3);
+    font-family: var(--font-mono); font-size: 9px; padding: 3px 7px; border-radius: 5px;
+    cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .pair-unlink:active { border-color: var(--danger); color: var(--danger); }
+  /* Pair picker overlay */
+  .picker-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 500;
+    display: flex; flex-direction: column; padding-top: var(--safe-top);
+  }
+  .picker-head { padding: 16px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--border); }
+  .picker-head .picker-title { font-family: var(--font-display); font-weight: 900; font-size: 18px; text-transform: uppercase; flex: 1; }
+  .picker-search { margin: 12px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; display: flex; align-items: center; padding: 0 14px; height: 44px; }
+  .picker-search input { flex: 1; background: transparent; border: none; color: var(--text); font-size: 15px; outline: none; }
+  .picker-list { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .pair-prompt {
+    font-family: var(--font-mono); font-size: 10px; color: var(--text-2);
+    text-transform: uppercase; letter-spacing: 1px; padding: 4px 16px 12px;
+  }
 </style>
 </head>
 <body>
@@ -398,13 +427,14 @@ var state = {
   sortBy: 'az',
   scrollMemory: {},
   navStack: [],
+  pairs: {},
 };
 
 // ============================================================================
 // IndexedDB
 // ============================================================================
 var DB_NAME = 'cratebrain';
-var DB_VERSION = 1;
+var DB_VERSION = 2;
 var _db = null;
 
 function openDB() {
@@ -426,6 +456,10 @@ function openDB() {
       }
       if (!db.objectStoreNames.contains('crate')) {
         db.createObjectStore('crate', { keyPath: 'key' });
+      }
+      if (!db.objectStoreNames.contains('pairs')) {
+        // Each pair: { key: 'idA|idB', a: idA, b: idB, created: ts }
+        db.createObjectStore('pairs', { keyPath: 'key' });
       }
     };
     req.onsuccess = function() { _db = req.result; resolve(_db); };
@@ -475,6 +509,146 @@ function getStateDB(key) {
       req.onerror = function() { reject(req.error); };
     });
   });
+}
+
+// ============================================================================
+// Pairings - DJ-curated "these work together" links (symmetric)
+// state.pairs is an in-memory index: { trackId: [partnerId, ...] } for fast lookup
+// ============================================================================
+function pairKey(a, b) {
+  // Canonical key so A|B and B|A are the same stored record
+  return [a, b].sort().join('|');
+}
+
+function loadPairs() {
+  return openDB().then(function(db) {
+    return new Promise(function(resolve) {
+      var tx = db.transaction('pairs', 'readonly');
+      var req = tx.objectStore('pairs').getAll();
+      req.onsuccess = function() {
+        var index = {};
+        (req.result || []).forEach(function(p) {
+          (index[p.a] = index[p.a] || []).push(p.b);
+          (index[p.b] = index[p.b] || []).push(p.a);
+        });
+        state.pairs = index;
+        resolve(index);
+      };
+      req.onerror = function() { state.pairs = {}; resolve({}); };
+    });
+  });
+}
+
+function isPaired(a, b) {
+  return !!(state.pairs[a] && state.pairs[a].indexOf(b) >= 0);
+}
+
+function savePair(a, b) {
+  if (a === b) return Promise.resolve();
+  return openDB().then(function(db) {
+    return new Promise(function(resolve, reject) {
+      var tx = db.transaction('pairs', 'readwrite');
+      tx.objectStore('pairs').put({ key: pairKey(a, b), a: a, b: b, created: Date.now() });
+      tx.oncomplete = function() {
+        (state.pairs[a] = state.pairs[a] || []).push(b);
+        (state.pairs[b] = state.pairs[b] || []).push(a);
+        resolve();
+      };
+      tx.onerror = function() { reject(tx.error); };
+    });
+  });
+}
+
+function removePair(a, b) {
+  return openDB().then(function(db) {
+    return new Promise(function(resolve, reject) {
+      var tx = db.transaction('pairs', 'readwrite');
+      tx.objectStore('pairs').delete(pairKey(a, b));
+      tx.oncomplete = function() {
+        if (state.pairs[a]) state.pairs[a] = state.pairs[a].filter(function(x) { return x !== b; });
+        if (state.pairs[b]) state.pairs[b] = state.pairs[b].filter(function(x) { return x !== a; });
+        resolve();
+      };
+      tx.onerror = function() { reject(tx.error); };
+    });
+  });
+}
+
+// Look up the full track objects a track is paired with
+function pairedTracks(trackId) {
+  var ids = state.pairs[trackId] || [];
+  if (!ids.length || !state.data) return [];
+  var byId = {};
+  state.data.tracks.forEach(function(t) { byId[t.id] = t; });
+  return ids.map(function(id) { return byId[id]; }).filter(Boolean);
+}
+
+// Floating overlay to pick a track to pair with `seed`. Doesn't touch the
+// current view or scroll - it's layered on top and removed on close.
+function openPairPicker(seed) {
+  var overlay = el('div', { class: 'picker-overlay' });
+  var query = '';
+
+  function close() {
+    if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+  }
+
+  function buildList() {
+    var q = query.trim().toLowerCase();
+    var list = state.data.tracks.filter(function(t) {
+      if (t.id === seed.id) return false;
+      if (!q) return false; // require a search term so we don't render 2000 rows
+      return (t.title || '').toLowerCase().indexOf(q) >= 0
+        || (t.artist || '').toLowerCase().indexOf(q) >= 0;
+    }).slice(0, 60);
+
+    var rows = list.map(function(t) {
+      var already = isPaired(seed.id, t.id);
+      return el('div', {
+        class: 'track-row',
+        onClick: function() {
+          if (already) return;
+          savePair(seed.id, t.id).then(function() {
+            showToast('PAIRED');
+            close();
+            refresh(); // reflect the new pair in the detail view underneath
+          });
+        },
+      }, [
+        el('div', { class: 'cover' }, coverImg(t.cover ? coverFor(t.cover) : null, t.title)),
+        el('div', { class: 'info' }, [
+          el('div', { class: 'title' }, t.title),
+          el('div', { class: 'sub' }, t.artist + (t.bpm ? ' \u00b7 ' + Math.round(t.bpm) + ' BPM' : '')),
+        ]),
+        already ? el('span', { class: 'pair-badge' }, 'Paired')
+                : (t.key_camelot ? keyChip(t.key_camelot) : null),
+      ]);
+    });
+
+    var listEl = overlay.querySelector('.picker-list');
+    listEl.innerHTML = '';
+    if (!q) {
+      listEl.appendChild(el('div', { class: 'pair-prompt' }, 'Search for a track to pair with "' + seed.title + '"'));
+    } else if (rows.length === 0) {
+      listEl.appendChild(el('div', { class: 'empty' }, el('div', { class: 'empty-msg' }, 'No matches')));
+    } else {
+      rows.forEach(function(r) { listEl.appendChild(r); });
+    }
+  }
+
+  var searchInput = el('input', { placeholder: 'Search title or artist', autofocus: true });
+  searchInput.addEventListener('input', function(e) { query = e.target.value; buildList(); });
+
+  overlay.appendChild(el('div', { class: 'picker-head' }, [
+    el('button', { class: 'icon-btn', onClick: close }, svgEl('x')),
+    el('div', { class: 'picker-title' }, 'Pair a track'),
+  ]));
+  overlay.appendChild(el('div', { class: 'picker-search' }, [svgEl('search'), searchInput]));
+  overlay.appendChild(el('div', { class: 'picker-list' }));
+
+  document.body.appendChild(overlay);
+  buildList();
+  setTimeout(function() { try { searchInput.focus(); } catch (e) {} }, 50);
 }
 
 function logPlay(track, sessionId) {
@@ -593,29 +767,48 @@ function styleScore(trackA, trackB) {
 
 function findCompatible(seed, allTracks, max) {
   max = max || 30;
-  if (!seed.bpm || !seed.key_camelot) return [];
+  if (!seed.bpm || !seed.key_camelot) {
+    // Even with no mixing data, surface confirmed pairs - the DJ's judgment
+    // doesn't depend on the algorithm.
+    return pairedTracks(seed.id).map(function(t) {
+      return { track: t, score: 1, h: 1, tp: 1, s: 1, isPair: true, reason: 'PAIRED \u2605' };
+    });
+  }
+  var pairIds = state.pairs[seed.id] || [];
   var candidates = [];
+  var seen = {};
   for (var i = 0; i < allTracks.length; i++) {
     var t = allTracks[i];
     if (t.id === seed.id) continue;
-    if (!t.bpm || !t.key_camelot) continue;
+    var paired = pairIds.indexOf(t.id) >= 0;
+    if (!t.bpm || !t.key_camelot) {
+      // Include a paired track even if it has no mixing data
+      if (paired) { candidates.push({ track: t, score: 2, h: 1, tp: 1, s: 1, isPair: true }); seen[t.id] = true; }
+      continue;
+    }
     var h = harmonicScore(seed.key_camelot, t.key_camelot);
     var tp = tempoScore(seed.bpm, t.bpm);
-    if (h === 0 || tp === 0) continue;
     var s = styleScore(seed, t);
+    if (!paired && (h === 0 || tp === 0)) continue;
     var total = h * 0.45 + tp * 0.30 + s * 0.25;
-    if (total < 0.2) continue;
-    candidates.push({ track: t, score: total, h: h, tp: tp, s: s });
+    if (!paired && total < 0.2) continue;
+    // Paired tracks get a big boost so they sit at the very top
+    if (paired) total += 2;
+    candidates.push({ track: t, score: total, h: h, tp: tp, s: s, isPair: paired });
+    seen[t.id] = true;
   }
   candidates.sort(function(a, b) { return b.score - a.score; });
   return candidates.slice(0, max).map(function(c) {
     var reasons = [];
+    if (c.isPair) reasons.push('PAIRED \u2605');
     if (c.h >= 0.99) reasons.push('SAME KEY');
     else if (c.h >= 0.85) reasons.push('RELATED KEY');
     else if (c.h >= 0.5) reasons.push('ADJACENT');
     else if (c.h >= 0.2) reasons.push('NEAR KEY');
-    var diff = c.track.bpm - seed.bpm;
-    reasons.push((diff >= 0 ? '+' : '') + diff.toFixed(0) + ' BPM');
+    if (c.track.bpm && seed.bpm) {
+      var diff = c.track.bpm - seed.bpm;
+      reasons.push((diff >= 0 ? '+' : '') + diff.toFixed(0) + ' BPM');
+    }
     if (seed.release_id === c.track.release_id) reasons.push('SAME RELEASE');
     if (seed.artist_id === c.track.artist_id) reasons.push('SAME ARTIST');
     var sharedGenres = (seed.genres || []).filter(function(g) {
@@ -689,6 +882,7 @@ function svgEl(name) {
 function coverFor(filename) {
   if (!filename) return null;
   if (filename.indexOf('data:') === 0) return filename;
+  if (filename.indexOf('http') === 0) return filename;
   if (state.coverBase && typeof state.coverBase === 'object') {
     return state.coverBase[filename] || null;
   }
@@ -760,7 +954,7 @@ function renderCompatRow(c, opts) {
   }
 
   return el('div', {
-    class: 'compat-row' + (c.score < 0.5 ? ' weak' : ''),
+    class: 'compat-row' + (c.isPair ? ' paired' : (c.score < 0.5 ? ' weak' : '')),
     onClick: function() {
       if (opts.advanceInPlace) {
         advanceNowPlaying(t);
@@ -775,9 +969,10 @@ function renderCompatRow(c, opts) {
       el('div', { class: 'title' }, t.title),
       el('div', { class: 'reason' }, t.artist + ' \u00b7 ' + c.reason),
     ]),
-    keyChip(t.key_camelot),
+    c.isPair ? el('span', { class: 'pair-badge' }, '\u2605') : null,
+    t.key_camelot ? keyChip(t.key_camelot) : null,
     energyArrow,
-    el('div', { class: 'score-pill' }, String(Math.round(c.score * 100))),
+    el('div', { class: 'score-pill' }, c.isPair ? 'PAIR' : String(Math.min(100, Math.round(c.score * 100)))),
   ]);
 }
 
@@ -947,6 +1142,37 @@ function renderTrackDetail(track) {
       return el('span', { class: 'tag' }, g);
     })));
   }
+
+  // ---- Paired tracks (DJ-curated doubles) ----
+  var pairs = pairedTracks(track.id);
+  c.push(el('div', { class: 'section-heading' }, [
+    'Paired \u2605',
+    el('span', { style: { color: 'var(--text-2)', fontWeight: 400, marginLeft: '8px' } },
+      '(' + pairs.length + ')'),
+  ]));
+  c.push(el('div', { class: 'actions-row', style: { marginTop: '0' } }, [
+    el('button', { class: 'btn', onClick: function() { openPairPicker(track); } }, '+ Pair a track'),
+  ]));
+  if (pairs.length > 0) {
+    c.push(el('div', { class: 'compat-list' }, pairs.map(function(pt) {
+      return el('div', { class: 'compat-row paired' }, [
+        el('div', { class: 'cover', onClick: function() { navigateToTrack(pt); } },
+          coverImg(pt.cover ? coverFor(pt.cover) : null, pt.title)),
+        el('div', { class: 'info', onClick: function() { navigateToTrack(pt); } }, [
+          el('div', { class: 'title' }, pt.title),
+          el('div', { class: 'reason' }, pt.artist + (pt.bpm ? ' \u00b7 ' + Math.round(pt.bpm) + ' BPM' : '')),
+        ]),
+        pt.key_camelot ? keyChip(pt.key_camelot) : null,
+        el('button', {
+          class: 'pair-unlink',
+          onClick: function() {
+            removePair(track.id, pt.id).then(function() { showToast('UNPAIRED'); refresh(); });
+          },
+        }, 'Unlink'),
+      ]);
+    })));
+  }
+
   c.push(el('div', { class: 'section-heading' }, [
     'Mixes Into',
     el('span', { style: { color: 'var(--text-2)', fontWeight: 400, marginLeft: '8px' } },
@@ -1179,7 +1405,6 @@ function renderLoader() {
 // Navigation
 // ============================================================================
 function currentScrollKey() {
-  // A stable key for the current view, used to remember scroll position
   if (state.view.type === 'track') return 'track:' + state.view.track.id;
   if (state.view.type === 'genre') return 'genre:' + state.view.name;
   return 'tab:' + state.tab;
@@ -1190,49 +1415,65 @@ function saveScroll() {
   if (main) state.scrollMemory[currentScrollKey()] = main.scrollTop;
 }
 
+// Apply a scroll position AFTER the new DOM has painted. Setting scrollTop
+// synchronously right after refresh() does nothing because the new content
+// isn't laid out yet - that was the cause of the jump. Two rAFs guarantees
+// layout has happened.
+function applyScroll(top) {
+  requestAnimationFrame(function() {
+    requestAnimationFrame(function() {
+      var main = document.querySelector('.main');
+      if (main) main.scrollTop = top || 0;
+    });
+  });
+}
+
 function restoreScroll() {
-  var main = document.querySelector('.main');
-  if (!main) return;
   var remembered = state.scrollMemory[currentScrollKey()];
-  main.scrollTop = remembered != null ? remembered : 0;
+  applyScroll(remembered != null ? remembered : 0);
 }
 
 function navigateToTrack(track) {
   saveScroll();
-  state.navStack.push({ view: state.view, tab: state.tab });
+  state.navStack.push({ view: state.view, tab: state.tab, scroll: getMainScroll() });
   state.view = { type: 'track', track: track };
   refresh();
-  restoreScroll();
+  applyScroll(0); // new track view always starts at the top
+}
+
+function getMainScroll() {
+  var main = document.querySelector('.main');
+  return main ? main.scrollTop : 0;
 }
 
 function navigateToGenre(name) {
   saveScroll();
-  state.navStack.push({ view: state.view, tab: state.tab });
+  state.navStack.push({ view: state.view, tab: state.tab, scroll: getMainScroll() });
   state.view = { type: 'genre', name: name };
   refresh();
-  restoreScroll();
+  applyScroll(0); // new genre view starts at top
 }
 
 function navigateBack() {
-  saveScroll();
   var prev = state.navStack.pop();
   if (prev) {
     state.view = prev.view;
     state.tab = prev.tab;
+    refresh();
+    applyScroll(prev.scroll || 0); // drift back to exactly where you were
   } else {
     state.view = { type: 'tab' };
+    refresh();
+    applyScroll(0);
   }
-  refresh();
-  restoreScroll();
 }
 
 function switchTab(name) {
-  saveScroll();
   state.tab = name;
   state.view = { type: 'tab' };
   state.navStack = [];
   refresh();
-  restoreScroll();
+  applyScroll(0);
 }
 
 function handlePlay(track) {
@@ -1427,7 +1668,7 @@ function boot() {
       state.coverBase = (saved.cover_inline && Object.keys(saved.cover_inline).length > 0)
         ? saved.cover_inline : './covers/';
     }
-    return Promise.all([getStateDB('current_track'), getStateDB('current_session')]);
+    return Promise.all([getStateDB('current_track'), getStateDB('current_session'), loadPairs()]);
   }).then(function(results) {
     if (results[0]) state.currentTrack = results[0];
     if (results[1]) state.sessionId = results[1];
