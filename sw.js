@@ -1,5 +1,5 @@
 // Crate Brain service worker - true offline app shell (relative paths for subfolder hosting)
-const CACHE_VERSION = 'crate-v3';
+const CACHE_VERSION = 'crate-v4';
 const SHELL = [
   './',
   './index.html',

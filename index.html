@@ -429,6 +429,38 @@
     display: flex; align-items: center; gap: 8px;
   }
   .linked-header svg { width: 14px; height: 14px; stroke: var(--accent); fill: none; stroke-width: 2; }
+
+  /* ---- Persistent Now Playing bar (sits above tab bar) ---- */
+  .np-bar {
+    position: fixed; left: 0; right: 0;
+    bottom: calc(var(--tab-bar-h) + var(--safe-bottom));
+    height: 56px; background: var(--surface-raised);
+    border-top: 1px solid var(--border-strong);
+    display: flex; align-items: center; gap: 10px; padding: 0 14px;
+    z-index: 90; cursor: pointer;
+  }
+  .np-bar:active { background: var(--surface); }
+  .np-bar .npb-cover { width: 40px; height: 40px; border-radius: 4px; overflow: hidden; flex-shrink: 0; background: var(--surface); }
+  .np-bar .npb-cover img { width: 100%; height: 100%; object-fit: cover; }
+  .np-bar .npb-info { flex: 1; min-width: 0; }
+  .np-bar .npb-label { font-family: var(--font-mono); font-size: 8px; color: var(--accent); text-transform: uppercase; letter-spacing: 1.5px; }
+  .np-bar .npb-title { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .np-bar .npb-stats { display: flex; align-items: center; gap: 8px; flex-shrink: 0; font-family: var(--font-mono); }
+  .np-bar .npb-bpm { color: var(--accent); font-weight: 700; font-size: 14px; }
+  .np-bar .npb-energy { width: 28px; height: 4px; background: var(--surface); border-radius: 2px; overflow: hidden; }
+  .np-bar .npb-energy-fill { height: 100%; background: linear-gradient(90deg, #6df7c1, #e3e36e, #f9978f); }
+  /* when np-bar is visible, give main extra bottom padding so nothing hides behind it */
+  .main.with-npbar { padding-bottom: calc(var(--tab-bar-h) + var(--safe-bottom) + 56px); }
+
+  /* ---- Quick link button on candidate rows ---- */
+  .row-link-action {
+    background: transparent; border: 1px solid var(--border-strong); color: var(--text-2);
+    border-radius: 8px; width: 34px; height: 34px; flex-shrink: 0; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; padding: 0;
+  }
+  .row-link-action svg { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .row-link-action:active { transform: scale(0.92); }
+  .row-link-action.is-linked { background: var(--accent); border-color: var(--accent); color: #000; }
 </style>
 </head>
 <body>
@@ -992,6 +1024,26 @@ function renderCompatRow(c, opts) {
     else energyArrow = el('span', { class: 'energy-arrow energy-flat' }, '\u2192');
   }
 
+  // Quick-link button: pair this candidate with the seed (current/playing track),
+  // no search needed. Tapping it must not also trigger the row's advance/navigate.
+  var linkBtn = null;
+  if (opts.seed && opts.seed.id !== t.id) {
+    var linked = isPaired(opts.seed.id, t.id);
+    linkBtn = el('button', {
+      class: 'row-link-action' + (linked ? ' is-linked' : ''),
+      title: linked ? 'Unlink' : 'Link to current track',
+      onClick: function(e) {
+        e.stopPropagation();
+        if (isPaired(opts.seed.id, t.id)) {
+          removePair(opts.seed.id, t.id).then(function() { showToast('UNLINKED'); refresh(); });
+        } else {
+          savePair(opts.seed.id, t.id).then(function() { showToast('LINKED \u2605'); refresh(); });
+        }
+      },
+    });
+    linkBtn.appendChild(svgEl('link'));
+  }
+
   return el('div', {
     class: 'compat-row' + (c.isPair ? ' paired' : (c.score < 0.5 ? ' weak' : '')),
     onClick: function() {
@@ -1012,6 +1064,7 @@ function renderCompatRow(c, opts) {
     t.key_camelot ? keyChip(t.key_camelot) : null,
     energyArrow,
     el('div', { class: 'score-pill' }, c.isPair ? 'PAIR' : String(Math.min(100, Math.round(c.score * 100)))),
+    linkBtn,
   ]);
 }
 
@@ -1699,7 +1752,33 @@ function refresh() {
     tabButton('browse', 'Browse'),
   ]);
 
-  renderApp([topBar, mainEl, tabs]);
+  // Persistent Now Playing bar: shown whenever a track is loaded and we're not
+  // already on the Now Playing screen. Lets you compare BPM/key/energy from anywhere.
+  var npBar = null;
+  var onPlayingScreen = (state.tab === 'playing' && state.view.type === 'tab');
+  if (state.currentTrack && !onPlayingScreen) {
+    var ct = state.currentTrack;
+    var kp = parseCamelot(ct.key_camelot);
+    mainEl.className = 'main with-npbar';
+    npBar = el('div', { class: 'np-bar', onClick: function() { switchTab('playing'); } }, [
+      el('div', { class: 'npb-cover' }, coverImg(ct.cover ? coverFor(ct.cover) : null, ct.title)),
+      el('div', { class: 'npb-info' }, [
+        el('div', { class: 'npb-label' }, 'Now Playing'),
+        el('div', { class: 'npb-title' }, ct.title),
+      ]),
+      el('div', { class: 'npb-stats' }, [
+        ct.bpm ? el('span', { class: 'npb-bpm' }, String(Math.round(ct.bpm))) : null,
+        ct.key_camelot ? keyChip(ct.key_camelot) : null,
+        ct.energy != null ? el('div', { class: 'npb-energy' },
+          el('div', { class: 'npb-energy-fill', style: { width: Math.round(ct.energy * 100) + '%' } })) : null,
+      ]),
+    ]);
+  }
+
+  var shell = [topBar, mainEl];
+  if (npBar) shell.push(npBar);
+  shell.push(tabs);
+  renderApp(shell);
 }
 
 function tabButton(name, label) {
