@@ -399,6 +399,36 @@
     font-family: var(--font-mono); font-size: 10px; color: var(--text-2);
     text-transform: uppercase; letter-spacing: 1px; padding: 4px 16px 12px;
   }
+  /* Star badge on a grid tile / row showing it has pairings */
+  .tile-link-badge {
+    position: absolute; top: 6px; right: 6px; z-index: 3;
+    background: var(--accent); color: #000; border-radius: 50%;
+    width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  }
+  .row-link-badge {
+    background: var(--accent); color: #000; border-radius: 4px;
+    font-family: var(--font-mono); font-size: 9px; font-weight: 700;
+    padding: 2px 6px; flex-shrink: 0; display: inline-flex; align-items: center; gap: 3px;
+  }
+  /* The big "Link a track" button */
+  .link-btn {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    background: var(--surface-raised); color: var(--accent);
+    border: 1px solid var(--accent); border-radius: 12px; padding: 13px;
+    font-family: var(--font-mono); font-size: 12px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 1.5px; cursor: pointer; width: 100%;
+  }
+  .link-btn:active { transform: scale(0.98); background: var(--accent-dim); }
+  .link-btn svg { width: 16px; height: 16px; stroke: var(--accent); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  /* Linked-tracks section on Now Playing - scrolls if many */
+  .linked-section { border-top: 1px solid var(--border); margin-top: 8px; }
+  .linked-header {
+    font-family: var(--font-mono); font-size: 11px; color: var(--accent);
+    text-transform: uppercase; letter-spacing: 2px; padding: 16px 24px 8px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .linked-header svg { width: 14px; height: 14px; stroke: var(--accent); fill: none; stroke-width: 2; }
 </style>
 </head>
 <body>
@@ -871,6 +901,7 @@ var SVG = {
   back: '<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>',
   search: '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>',
   x: '<svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>',
+  link: '<svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>',
 };
 
 function svgEl(name) {
@@ -906,6 +937,10 @@ function coverImg(src, alt) {
 // ============================================================================
 // Renderers
 // ============================================================================
+function linkCount(trackId) {
+  return (state.pairs[trackId] || []).length;
+}
+
 function renderGridTile(track) {
   var cover = track.cover ? coverFor(track.cover) : null;
   var metaChildren = [];
@@ -913,17 +948,20 @@ function renderGridTile(track) {
   if (track.bpm && track.key_camelot) metaChildren.push(' ');
   if (track.key_camelot) metaChildren.push(el('span', { class: 'tile-key' }, track.key_camelot));
 
+  var n = linkCount(track.id);
   return el('div', {
     class: 'grid-tile',
     onClick: function() { navigateToTrack(track); },
   }, [
     coverImg(cover, track.title),
+    n > 0 ? el('div', { class: 'tile-link-badge', title: n + ' linked' }, '\u2605') : null,
     metaChildren.length > 0 ? el('div', { class: 'tile-meta' }, metaChildren) : null,
   ]);
 }
 
 function renderTrackRow(track) {
   var cover = track.cover ? coverFor(track.cover) : null;
+  var n = linkCount(track.id);
   return el('div', {
     class: 'track-row',
     onClick: function() { navigateToTrack(track); },
@@ -934,6 +972,7 @@ function renderTrackRow(track) {
       el('div', { class: 'sub' }, track.artist + (track.release ? ' \u00b7 ' + track.release : '')),
     ]),
     el('div', { class: 'data' }, [
+      n > 0 ? el('div', { class: 'row-link-badge' }, '\u2605 ' + n) : null,
       track.bpm ? el('div', { class: 'bpm' }, String(Math.round(track.bpm))) : null,
       track.key_camelot ? keyChip(track.key_camelot) : null,
     ]),
@@ -1143,15 +1182,16 @@ function renderTrackDetail(track) {
     })));
   }
 
-  // ---- Paired tracks (DJ-curated doubles) ----
+  // ---- Linked tracks (DJ-curated doubles / chains) ----
   var pairs = pairedTracks(track.id);
   c.push(el('div', { class: 'section-heading' }, [
-    'Paired \u2605',
+    'Linked \u2605',
     el('span', { style: { color: 'var(--text-2)', fontWeight: 400, marginLeft: '8px' } },
       '(' + pairs.length + ')'),
   ]));
-  c.push(el('div', { class: 'actions-row', style: { marginTop: '0' } }, [
-    el('button', { class: 'btn', onClick: function() { openPairPicker(track); } }, '+ Pair a track'),
+  c.push(el('div', { style: { padding: '0 20px', margin: '0 0 16px' } }, [
+    el('button', { class: 'link-btn', onClick: function() { openPairPicker(track); } },
+      [svgEl('link'), 'Link a track']),
   ]));
   if (pairs.length > 0) {
     c.push(el('div', { class: 'compat-list' }, pairs.map(function(pt) {
@@ -1166,7 +1206,7 @@ function renderTrackDetail(track) {
         el('button', {
           class: 'pair-unlink',
           onClick: function() {
-            removePair(track.id, pt.id).then(function() { showToast('UNPAIRED'); refresh(); });
+            removePair(track.id, pt.id).then(function() { showToast('UNLINKED'); refresh(); });
           },
         }, 'Unlink'),
       ]);
@@ -1237,14 +1277,39 @@ function renderNowPlayingTab() {
   // Deep links to hear the track
   c.push(listenRow(t));
 
-  c.push(el('div', { class: 'np-compat-header' }, 'Mix into \u2014 ' + compat.length + ' candidates'));
-  if (compat.length === 0) {
+  // ---- Linked tracks: the DJ's own "these work together" picks ----
+  var npPairs = pairedTracks(t.id);
+  c.push(el('div', { class: 'linked-section' }, [
+    el('div', { class: 'linked-header' }, [svgEl('link'), 'Linked \u2605 (' + npPairs.length + ')']),
+    el('div', { style: { padding: '0 24px 8px' } }, [
+      el('button', { class: 'link-btn', onClick: function() { openPairPicker(t); } },
+        [svgEl('link'), 'Link a track to this']),
+    ]),
+  ]));
+  if (npPairs.length > 0) {
+    c.push(el('div', { class: 'compat-list' }, npPairs.map(function(pt) {
+      return el('div', { class: 'compat-row paired', onClick: function() { advanceNowPlaying(pt); } }, [
+        el('div', { class: 'cover' }, coverImg(pt.cover ? coverFor(pt.cover) : null, pt.title)),
+        el('div', { class: 'info' }, [
+          el('div', { class: 'title' }, pt.title),
+          el('div', { class: 'reason' }, pt.artist + (pt.bpm ? ' \u00b7 ' + Math.round(pt.bpm) + ' BPM' : '')),
+        ]),
+        el('span', { class: 'pair-badge' }, '\u2605'),
+        pt.key_camelot ? keyChip(pt.key_camelot) : null,
+      ]);
+    })));
+  }
+
+  // ---- Algorithmic suggestions (excluding the pairs already shown above) ----
+  var nonPairCompat = compat.filter(function(x) { return !x.isPair; });
+  c.push(el('div', { class: 'np-compat-header' }, 'Mix into \u2014 ' + nonPairCompat.length + ' candidates'));
+  if (nonPairCompat.length === 0) {
     c.push(el('div', { class: 'empty' }, [
       el('div', { class: 'empty-msg' }, 'No compatible tracks'),
       el('div', { class: 'empty-hint' }, 'Try another seed'),
     ]));
   } else {
-    c.push(el('div', { class: 'compat-list' }, compat.map(function(x) {
+    c.push(el('div', { class: 'compat-list' }, nonPairCompat.map(function(x) {
       return renderCompatRow(x, { advanceInPlace: true, seed: t });
     })));
   }
