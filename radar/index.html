@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1B1F2A">
+<title>Dig Radar</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icon-192.png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<style>
+:root{--bg:#F1F0EC;--ink:#1B1F2A;--muted:#5C6270;--rule:#D8D6CF;--link:#0B5FA5;--sticker:#FFD84D;--rise:#C8102E;--chip:#E4E2DB;--chip-on:#1B1F2A;--good:#1E7D4E}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom)}
+header{position:sticky;top:0;background:var(--bg);z-index:5;padding:12px 12px 8px;border-bottom:1px solid var(--rule)}
+h1{font-size:22px;margin:0;letter-spacing:-.01em;display:flex;align-items:baseline;gap:10px}
+h1 small{font-size:13px;color:var(--muted);font-weight:400}
+.search{width:100%;margin-top:8px;padding:9px 12px;border:1px solid var(--rule);border-radius:10px;background:#fff;font-size:16px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:0;background:var(--chip);color:var(--ink);border-radius:16px;padding:6px 12px;font-size:14px}
+.chip.on{background:var(--chip-on);color:#fff}
+.controls{display:none;padding:8px 0 2px;gap:8px;flex-wrap:wrap}
+.controls.open{display:flex}
+.controls label{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:2px;flex:1 1 120px}
+.controls input,.controls select{padding:7px 8px;border:1px solid var(--rule);border-radius:8px;background:#fff;font-size:15px;min-width:0}
+.bar{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--muted);padding-top:6px}
+.bar button{border:0;background:none;color:var(--link);font-size:13px;padding:4px 0}
+main{max-width:760px;margin:0 auto;padding:0 12px 40px}
+.row{display:flex;gap:10px;padding:12px 0;border-bottom:1px solid var(--rule)}
+.row.done{opacity:.45}
+.thumb{flex:0 0 58px;width:58px;height:58px;background:#DDD9D0;border-radius:3px;object-fit:cover}
+.body{flex:1;min-width:0}
+.name{font-weight:650;font-size:16px;margin:0;display:flex;gap:6px;align-items:flex-start}
+.new{font-size:11px;background:var(--rise);color:#fff;border-radius:8px;padding:1px 6px;margin-top:3px;flex:0 0 auto}
+.rel{color:var(--muted);font-size:13px;margin:2px 0 5px;overflow-wrap:anywhere}
+.stats{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:13px;margin:0 0 5px}
+.price{background:var(--sticker);padding:1px 8px;border-radius:12px;font-weight:650}
+.rise{color:var(--rise);font-weight:650}
+.seen{font-size:12px;color:var(--muted);margin:0 0 7px}
+.links a{display:inline-block;font-size:13px;color:var(--link);text-decoration:none;border:1px solid var(--link);border-radius:14px;padding:2px 9px;margin:0 5px 5px 0}
+.marks{display:flex;gap:6px;margin-top:2px}
+.marks button{border:1px solid var(--rule);background:#fff;border-radius:14px;padding:3px 10px;font-size:13px;color:var(--ink)}
+.marks button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.marks button.bought.on{background:var(--good);border-color:var(--good)}
+.empty{color:var(--muted);font-style:italic;padding:30px 0;text-align:center}
+.empty input{display:block;margin:12px auto 0}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){.row{transition:opacity .15s}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Dig Radar <small id="meta">loading…</small></h1>
+  <input class="search" id="q" type="search" placeholder="Search artist, title, label, DJ" autocomplete="off">
+  <div class="chips" id="tiers"></div>
+  <div class="chips" id="styles"></div>
+  <div class="controls" id="controls">
+    <label>Max price <input id="maxPrice" type="number" inputmode="decimal" placeholder="any"></label>
+    <label>Year from <input id="yFrom" type="number" inputmode="numeric" placeholder="1990"></label>
+    <label>Year to <input id="yTo" type="number" inputmode="numeric" placeholder="2012"></label>
+    <label>Played by <select id="src"><option value="">anyone</option></select></label>
+    <label>Sort <select id="sort">
+      <option value="score">Gem score</option>
+      <option value="price">Price, low first</option>
+      <option value="want">Most overlooked (fewest wants)</option>
+      <option value="views">Most YouTube views</option>
+      <option value="trend">Rising wants</option>
+      <option value="mentions">Most played</option>
+    </select></label>
+    <label>Show <select id="show">
+      <option value="open">To do (hide bought & skipped)</option>
+      <option value="new">New since last visit</option>
+      <option value="watch">Watching</option>
+      <option value="bought">Bought</option>
+      <option value="all">Everything</option>
+    </select></label>
+  </div>
+  <div class="bar"><span id="count"></span><span><button id="toggle">Filters</button> · <button id="refresh">Refresh</button></span></div>
+</header>
+<main id="list"></main>
+<script>
+(function(){
+'use strict';
+var DATA_URL = './radar_targets.json';
+var TIERS = [['buy','Buy now'],['pricey','Above ceiling'],['watch','Wantlist'],['unresolved','Not on Discogs'],['pending','Unresolved']];
+var mem = {};
+var store = {
+  get: function(k, d){ try { var v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch(e){ return (k in mem) ? mem[k] : d; } },
+  set: function(k, v){ mem[k] = v; try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
+};
+var state = {
+  items: [], generated: '', currency: 'GBP',
+  tiers: store.get('dr_tiers', {buy:true, pricey:false, watch:true, unresolved:false, pending:false}),
+  styles: store.get('dr_styles', {}),
+  status: store.get('dr_status', {}),           // key -> 'bought' | 'skip' | 'watch'
+  seen: store.get('dr_seen', []),               // keys seen on the previous visit
+  q: '', maxPrice: store.get('dr_maxPrice', ''), yFrom: '', yTo: '', src: '',
+  sort: store.get('dr_sort', 'score'), show: store.get('dr_show', 'open')
+};
+var newKeys = {};
+
+function $(id){ return document.getElementById(id); }
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function money(v){ if (v == null) return '—'; var sym = {GBP:'£',USD:'$',EUR:'€'}[state.currency] || (state.currency + ' '); return sym + Number(v).toFixed(2); }
+function keyOf(it){ return (it.artist + '|' + it.title).toLowerCase().replace(/[^a-z0-9|]+/g, ' ').trim(); }
+function baseTitle(t){ return t.replace(/\s*[\(\[].*?[\)\]]\s*/g, ' ').trim() || t; }
+function q(s){ return encodeURIComponent(s).replace(/%20/g, '+'); }
+function djOf(name){ return (name || '').split(':')[0].trim(); }
+
+function links(it){
+  var s = q(it.artist + ' ' + baseTitle(it.title)), r = it.release, out = [];
+  if (r) {
+    out.push(['Discogs', 'https://www.discogs.com/release/' + r.release_id]);
+    out.push(['For sale', 'https://www.discogs.com/sell/release/' + r.release_id + '?sort=price%2Casc']);
+    if (r.videos && r.videos.length) out.push(['YouTube', r.videos[0]]);
+  } else {
+    out.push(['Discogs', 'https://www.discogs.com/search/?q=' + s + '&type=all']);
+    out.push(['YouTube', 'https://www.youtube.com/results?search_query=' + s]);
+  }
+  out.push(['Bandcamp', 'https://bandcamp.com/search?q=' + s + '&item_type=t']);
+  out.push(['Juno', 'https://www.juno.co.uk/search/?q%5Ball%5D%5B%5D=' + s]);
+  out.push(['eBay', 'https://www.ebay.co.uk/sch/176985/i.html?_nkw=' + s]);
+  return out;
+}
+
+function load(data){
+  state.items = (data.targets || []).map(function(it){ it._key = keyOf(it); return it; });
+  state.generated = data.generated || '';
+  state.currency = data.currency || 'GBP';
+  var seenSet = {}; state.seen.forEach(function(k){ seenSet[k] = 1; });
+  newKeys = {};
+  if (state.seen.length) state.items.forEach(function(it){ if (!seenSet[it._key]) newKeys[it._key] = 1; });
+  store.set('dr_seen', state.items.map(function(it){ return it._key; }));
+  buildChips(); buildSources(); render();
+}
+
+function buildChips(){
+  var t = $('tiers'); t.innerHTML = '';
+  TIERS.forEach(function(p){
+    var n = state.items.filter(function(it){ return it.tier === p[0]; }).length;
+    if (!n && p[0] !== 'buy') return;
+    var b = document.createElement('button'); b.className = 'chip' + (state.tiers[p[0]] ? ' on' : '');
+    b.textContent = p[1] + ' ' + n; b.setAttribute('aria-pressed', !!state.tiers[p[0]]);
+    b.onclick = function(){ state.tiers[p[0]] = !state.tiers[p[0]]; store.set('dr_tiers', state.tiers); buildChips(); render(); };
+    t.appendChild(b);
+  });
+  var counts = {};
+  state.items.forEach(function(it){ var st = (it.release && it.release.styles) ? it.release.styles.split(',') : []; st.forEach(function(x){ x = x.trim(); if (x) counts[x] = (counts[x] || 0) + 1; }); });
+  var top = Object.keys(counts).sort(function(a, b){ return counts[b] - counts[a]; }).slice(0, 14);
+  var s = $('styles'); s.innerHTML = '';
+  top.forEach(function(name){
+    var b = document.createElement('button'); b.className = 'chip' + (state.styles[name] ? ' on' : '');
+    b.textContent = name + ' ' + counts[name]; b.setAttribute('aria-pressed', !!state.styles[name]);
+    b.onclick = function(){ state.styles[name] = !state.styles[name]; store.set('dr_styles', state.styles); buildChips(); render(); };
+    s.appendChild(b);
+  });
+  s.style.display = top.length ? '' : 'none';
+}
+
+function buildSources(){
+  var sel = $('src'), names = {};
+  state.items.forEach(function(it){ (it.sightings || []).forEach(function(sg){ var d = djOf(sg.source_name); if (d) names[d] = 1; }); });
+  sel.innerHTML = '<option value="">anyone</option>' + Object.keys(names).sort().map(function(n){ return '<option value="' + esc(n) + '">' + esc(n) + '</option>'; }).join('');
+  sel.value = state.src;
+}
+
+function visible(it){
+  if (!state.tiers[it.tier]) return false;
+  var st = state.status[it._key];
+  if (state.show === 'open' && (st === 'bought' || st === 'skip')) return false;
+  if (state.show === 'new' && !newKeys[it._key]) return false;
+  if (state.show === 'watch' && st !== 'watch') return false;
+  if (state.show === 'bought' && st !== 'bought') return false;
+  var mk = it.market || {}, rel = it.release || {};
+  if (state.maxPrice !== '' && mk.lowest_price != null && Number(mk.lowest_price) > Number(state.maxPrice)) return false;
+  if (state.yFrom && rel.year && rel.year < Number(state.yFrom)) return false;
+  if (state.yTo && rel.year && rel.year > Number(state.yTo)) return false;
+  var wanted = Object.keys(state.styles).filter(function(k){ return state.styles[k]; });
+  if (wanted.length) { var have = (rel.styles || '').split(',').map(function(x){ return x.trim(); }); if (!wanted.some(function(w){ return have.indexOf(w) >= 0; })) return false; }
+  if (state.src && !(it.sightings || []).some(function(sg){ return djOf(sg.source_name) === state.src; })) return false;
+  if (state.q) {
+    var hay = [it.artist, it.title, it.label_hint, rel.title, rel.labels, rel.styles].concat((it.sightings || []).map(function(sg){ return sg.source_name; })).join(' ').toLowerCase();
+    if (hay.indexOf(state.q) < 0) return false;
+  }
+  return true;
+}
+
+function sorter(a, b){
+  var ma = a.market || {}, mb = b.market || {};
+  switch (state.sort) {
+    case 'price': return (ma.lowest_price == null ? 1e9 : ma.lowest_price) - (mb.lowest_price == null ? 1e9 : mb.lowest_price);
+    case 'want': return (ma.want == null ? 1e9 : ma.want) - (mb.want == null ? 1e9 : mb.want);
+    case 'views': return (mb.yt_views || 0) - (ma.yt_views || 0);
+    case 'trend': return ((b.trend && b.trend.want_delta) || 0) - ((a.trend && a.trend.want_delta) || 0);
+    case 'mentions': return (b.mentions || 0) - (a.mentions || 0);
+    default: return (b.gem_score || 0) - (a.gem_score || 0);
+  }
+}
+
+function render(){
+  var list = $('list'), rows = state.items.filter(visible).sort(sorter);
+  $('count').textContent = rows.length + ' of ' + state.items.length + (Object.keys(newKeys).length ? ' · ' + Object.keys(newKeys).length + ' new' : '');
+  $('meta').textContent = state.generated ? 'updated ' + state.generated.slice(0, 10) : '';
+  if (!state.items.length) {
+    list.innerHTML = '<div class="empty">No data yet. Put <b>radar_targets.json</b> next to this file, or pick it:<input type="file" id="pick" accept=".json,application/json"></div>';
+    $('pick').onchange = function(e){ var f = e.target.files[0]; if (!f) return; f.text().then(function(t){ var d = JSON.parse(t); store.set('dr_cache', d); load(d); }); };
+    return;
+  }
+  if (!rows.length) { list.innerHTML = '<div class="empty">Nothing matches these filters.</div>'; return; }
+  var html = rows.map(function(it){
+    var rel = it.release, mk = it.market, st = state.status[it._key] || '';
+    var thumb = (rel && rel.thumb) ? '<img class="thumb" src="' + esc(rel.thumb) + '" alt="" loading="lazy">' : '<div class="thumb"></div>';
+    var relline = rel ? [rel.title, rel.labels, rel.year, rel.formats, rel.styles].filter(Boolean).map(esc).join(' · ') : (it.label_hint ? 'label hint: ' + esc(it.label_hint) : 'not matched on Discogs');
+    var stats = [];
+    if (mk) {
+      stats.push(mk.num_for_sale ? '<span class="price">' + money(mk.lowest_price) + '</span><span>' + mk.num_for_sale + ' for sale</span>' : '<span>none for sale</span>');
+      if (mk.want != null) stats.push('<span>want ' + mk.want + ' · have ' + mk.have + '</span>');
+      if (mk.yt_views) stats.push('<span>' + Number(mk.yt_views).toLocaleString() + ' views</span>');
+    }
+    stats.push('<span>seen ' + it.mentions + '× in ' + it.sources + ' source' + (it.sources === 1 ? '' : 's') + '</span>');
+    if (it.trend && it.trend.want_delta) stats.push('<span class="rise">' + (it.trend.want_delta > 0 ? '▲' : '▼') + ' ' + (it.trend.want_delta > 0 ? '+' : '') + it.trend.want_delta + ' wants in ' + it.trend.days + 'd</span>');
+    var seen = (it.sightings || []).slice(0, 3).map(function(sg){ return esc(sg.source_name.slice(0, 60)) + (sg.position ? ' @ ' + esc(sg.position) : ''); }).join(' · ');
+    var lk = links(it).map(function(l){ return '<a href="' + esc(l[1]) + '" target="_blank" rel="noopener">' + esc(l[0]) + '</a>'; }).join('');
+    return '<div class="row' + (st === 'bought' || st === 'skip' ? ' done' : '') + '" data-key="' + esc(it._key) + '">' + thumb +
+      '<div class="body"><p class="name"><span>' + esc(it.artist) + ' – ' + esc(it.title) + '</span>' + (newKeys[it._key] ? '<span class="new">new</span>' : '') + '</p>' +
+      '<p class="rel">' + relline + '</p><p class="stats">' + stats.join('') + '</p><p class="seen">' + seen + '</p><p class="links">' + lk + '</p>' +
+      '<div class="marks">' +
+        '<button class="bought' + (st === 'bought' ? ' on' : '') + '" data-mark="bought">✓ Bought</button>' +
+        '<button class="' + (st === 'watch' ? 'on' : '') + '" data-mark="watch">★ Watch</button>' +
+        '<button class="' + (st === 'skip' ? 'on' : '') + '" data-mark="skip">Skip</button>' +
+        (navigator.share ? '<button data-mark="share">Share</button>' : '') +
+      '</div></div></div>';
+  }).join('');
+  list.innerHTML = html;
+}
+
+$('list').addEventListener('click', function(e){
+  var b = e.target.closest('button[data-mark]'); if (!b) return;
+  var row = b.closest('.row'), key = row.getAttribute('data-key'), mark = b.getAttribute('data-mark');
+  if (mark === 'share') {
+    var it = state.items.filter(function(x){ return x._key === key; })[0]; if (!it) return;
+    var url = links(it)[1][1];
+    navigator.share({ title: it.artist + ' – ' + it.title, text: it.artist + ' – ' + it.title, url: url }).catch(function(){});
+    return;
+  }
+  state.status[key] = (state.status[key] === mark) ? '' : mark;
+  store.set('dr_status', state.status); render();
+});
+$('q').addEventListener('input', function(e){ state.q = e.target.value.trim().toLowerCase(); render(); });
+$('maxPrice').value = state.maxPrice;
+$('maxPrice').addEventListener('input', function(e){ state.maxPrice = e.target.value; store.set('dr_maxPrice', state.maxPrice); render(); });
+$('yFrom').addEventListener('input', function(e){ state.yFrom = e.target.value; render(); });
+$('yTo').addEventListener('input', function(e){ state.yTo = e.target.value; render(); });
+$('src').addEventListener('change', function(e){ state.src = e.target.value; render(); });
+$('sort').value = state.sort;
+$('sort').addEventListener('change', function(e){ state.sort = e.target.value; store.set('dr_sort', state.sort); render(); });
+$('show').value = state.show;
+$('show').addEventListener('change', function(e){ state.show = e.target.value; store.set('dr_show', state.show); render(); });
+$('toggle').addEventListener('click', function(){ $('controls').classList.toggle('open'); });
+$('refresh').addEventListener('click', function(){ fetchData(true); });
+
+function fetchData(force){
+  fetch(DATA_URL + (force ? '?t=' + Date.now() : ''), { cache: force ? 'no-store' : 'default' })
+    .then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(d){ store.set('dr_cache', d); load(d); })
+    .catch(function(){ var c = store.get('dr_cache', null); if (c) load(c); else { state.items = []; render(); } });
+}
+fetchData(false);
+if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) { navigator.serviceWorker.register('./sw.js').catch(function(){}); }
+})();
+</script>
+</body>
+</html>
