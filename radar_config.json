@@ -1,0 +1,64 @@
+{
+  "keys": {
+    "youtube_api_key": "",
+    "discogs_token": "",
+    "discogs_username": "",
+    "soundcloud_client_id": "",
+    "soundcloud_client_secret": "",
+    "anthropic_api_key": ""
+  },
+  "user_agent": "DigRadar/0.2 (personal record digging tool)",
+  "notify": {
+    "_help": "Install the ntfy app on Android, subscribe to a private-looking topic name, put it here.",
+    "ntfy_server": "https://ntfy.sh",
+    "ntfy_topic": "",
+    "tiers": [
+      "buy"
+    ],
+    "max_individual": 6,
+    "app_url": ""
+  },
+  "llm": {
+    "_help": "Optional. Uses Claude to read the messy comments the regex can't, e.g. 'pretty sure thats the sultan remix of closer to me'.",
+    "enabled": false,
+    "model": "claude-haiku-4-5-20251001",
+    "max_comments_per_video": 150,
+    "batch_size": 60
+  },
+  "currency": "GBP",
+  "sources": {
+    "_help": "Paste channel URLs, @handles or UC... ids. Playlists/videos/tracks take full URLs.",
+    "youtube_channels": [
+      "https://www.youtube.com/@BoilerRoom"
+    ],
+    "youtube_playlists": [],
+    "youtube_videos": [],
+    "soundcloud_users": [],
+    "soundcloud_tracks": []
+  },
+  "harvest": {
+    "videos_per_channel": 8,
+    "comments_per_video": 400,
+    "tracks_per_soundcloud_user": 10,
+    "reharvest_after_days": 7
+  },
+  "scoring": {
+    "max_price": 15.0,
+    "prefer_years": [
+      1993,
+      2012
+    ],
+    "style_boost": [
+      "Progressive House",
+      "Progressive Trance",
+      "Trance",
+      "Breaks",
+      "Tech House",
+      "Deep House",
+      "Techno"
+    ],
+    "style_boost_weight": 1.5,
+    "prefer_format": "Vinyl",
+    "min_confidence": 0.5
+  }
+}
