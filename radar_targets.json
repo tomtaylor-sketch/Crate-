@@ -1,0 +1,699 @@
+{
+ "generated": "2026-09-04T23:54:41Z",
+ "currency": "GBP",
+ "targets": [
+  {
+   "artist": "28:06: Rockin",
+   "title": "DJ Delicious, Phunk-A-Delic",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "release": {
+    "release_id": 1147508,
+    "master_id": 537045,
+    "title": "Hed Kandi The Mix: 2008",
+    "artists": "Various",
+    "year": 2007,
+    "country": "UK",
+    "labels": "Hed Kandi",
+    "formats": "CD Compilation Mixed",
+    "styles": "House, Progressive House, Electro House, Disco",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/w4rNgRnYjz-ubSSO2Jwdys2km7nMjjwPUe6MmfgffpI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDc1/MDgtMTM1OTM4NzI2/MS03MzQ4LmpwZWc.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=gSAkyFjVmQE",
+     "https://www.youtube.com/watch?v=_sW76ue9YU8",
+     "https://www.youtube.com/watch?v=eFZrPZSebvE",
+     "https://www.youtube.com/watch?v=gSAkyFjVmQE",
+     "https://www.youtube.com/watch?v=_sW76ue9YU8",
+     "https://www.youtube.com/watch?v=eFZrPZSebvE"
+    ],
+    "fetched_at": "2026-09-04T23:54:29Z"
+   },
+   "market": {
+    "release_id": 1147508,
+    "taken_at": "2026-09-04T23:54:29Z",
+    "want": 46,
+    "have": 494,
+    "num_for_sale": 50,
+    "lowest_price": 0.86,
+    "currency": "GBP",
+    "yt_views": 240354
+   },
+   "gem_score": 1.597,
+   "tier": "buy"
+  },
+  {
+   "artist": "Trumpet",
+   "title": "Ben Edwards",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.9,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_description",
+     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
+     "position": null,
+     "confidence": 0.9
+    }
+   ],
+   "release": {
+    "release_id": 9741465,
+    "master_id": 0,
+    "title": "The Jazz Trumpet Volume 1: From Classic Jazz To Swing",
+    "artists": "Various",
+    "year": 1983,
+    "country": "US",
+    "labels": "Prestige",
+    "formats": "Vinyl LP Compilation",
+    "styles": "Dixieland, Swing",
+    "genres": "Jazz, Blues",
+    "thumb": "https://i.discogs.com/ALNoFpxHogWnBtCSPZ75ZtoJ4Vt5vqdHCJhIUf1HWrg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3NDE0/NjUtMTQ4NTYzODc1/My05OTk4LmpwZWc.jpeg",
+    "videos": [],
+    "fetched_at": "2026-09-04T23:53:49Z"
+   },
+   "market": {
+    "release_id": 9741465,
+    "taken_at": "2026-09-04T23:53:49Z",
+    "want": 8,
+    "have": 62,
+    "num_for_sale": 9,
+    "lowest_price": 2.58,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "gem_score": 0.66,
+   "tier": "buy"
+  },
+  {
+   "artist": "4:28: ID",
+   "title": "Dale Howard",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "release": {
+    "release_id": 5562936,
+    "master_id": 674155,
+    "title": "Bethlehem's Best",
+    "artists": "Various",
+    "year": 1958,
+    "country": "US",
+    "labels": "Bethlehem Records",
+    "formats": "Vinyl LP Compilation",
+    "styles": "Cool Jazz, Swing, Vocal",
+    "genres": "Jazz",
+    "thumb": "https://i.discogs.com/j8oA0NoK0IHeFu0_RaRW1A9S-oN4izxL2nKbHK_lc1M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1NjI5/MzYtMTM5NzAyNjQx/Ni0xMTIzLmpwZWc.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=xJEJoFLClHM",
+     "https://www.youtube.com/watch?v=xJEJoFLClHM"
+    ],
+    "fetched_at": "2026-09-04T23:54:10Z"
+   },
+   "market": {
+    "release_id": 5562936,
+    "taken_at": "2026-09-04T23:54:10Z",
+    "want": 23,
+    "have": 160,
+    "num_for_sale": 15,
+    "lowest_price": 1.72,
+    "currency": "GBP",
+    "yt_views": 3192
+   },
+   "gem_score": 0.642,
+   "tier": "buy"
+  },
+  {
+   "artist": "chlo\u00eb robinson + dj adhd",
+   "title": "redbull",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "21:52",
+     "confidence": 0.65
+    }
+   ],
+   "release": {
+    "release_id": 25713682,
+    "master_id": 2990927,
+    "title": "Steamin EP",
+    "artists": "DJ ADHD (2), Chlo\u00e9 Robinson",
+    "year": 2022,
+    "country": "UK",
+    "labels": "Pretty Weird Records",
+    "formats": "Vinyl 12\"",
+    "styles": "House, Techno",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/UCkFw36m6SPkmZdtw2XocW0sTJBwu0cTQfoKs2wqpzg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NzEz/NjgyLTE2NzMyNjYx/MTMtNzUwNS5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=E1CbA_lqyN0",
+     "https://www.youtube.com/watch?v=_UzlIa0Mq8M",
+     "https://www.youtube.com/watch?v=cu-1W8es7BY",
+     "https://www.youtube.com/watch?v=E1CbA_lqyN0",
+     "https://www.youtube.com/watch?v=_UzlIa0Mq8M",
+     "https://www.youtube.com/watch?v=cu-1W8es7BY",
+     "https://www.youtube.com/watch?v=E1CbA_lqyN0",
+     "https://www.youtube.com/watch?v=_UzlIa0Mq8M",
+     "https://www.youtube.com/watch?v=cu-1W8es7BY"
+    ],
+    "fetched_at": "2026-09-04T23:54:06Z"
+   },
+   "market": {
+    "release_id": 25713682,
+    "taken_at": "2026-09-04T23:54:06Z",
+    "want": 45,
+    "have": 69,
+    "num_for_sale": 5,
+    "lowest_price": 17.26,
+    "currency": "GBP",
+    "yt_views": 68004
+   },
+   "gem_score": 1.181,
+   "tier": "pricey"
+  },
+  {
+   "artist": "11:45: Keep It Comin",
+   "title": "Beat Addicts (Riordan Remix)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "release": {
+    "release_id": 24032066,
+    "master_id": 0,
+    "title": "Wyld Beests And Weirdos (6CDs Of British 60's R&B Beat Punk)",
+    "artists": "Various",
+    "year": 2022,
+    "country": "UK",
+    "labels": "Rubble (2)",
+    "formats": "Box Set Compilation, CD Compilation Remastered",
+    "styles": "Rhythm & Blues, Garage Rock, Beat, Mod, Rock & Roll",
+    "genres": "Rock, Blues",
+    "thumb": "https://i.discogs.com/tZVau9Beeyg38l6dREdTBzP2O15_8X8z8aVLV4UQCQU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MDMy/MDY2LTE2NjA1NTM0/MzMtNzk4Mi5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=EKgXVeU1XFo",
+     "https://www.youtube.com/watch?v=69MqiVFwauk"
+    ],
+    "fetched_at": "2026-09-04T23:54:17Z"
+   },
+   "market": {
+    "release_id": 24032066,
+    "taken_at": "2026-09-04T23:54:17Z",
+    "want": 109,
+    "have": 90,
+    "num_for_sale": 1,
+    "lowest_price": 62.82,
+    "currency": "GBP",
+    "yt_views": 2908
+   },
+   "gem_score": 0.466,
+   "tier": "pricey"
+  },
+  {
+   "artist": "1-800 GIRLS",
+   "title": "Your Side",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "12:00",
+     "confidence": 0.65
+    }
+   ],
+   "release": {
+    "release_id": 1196026,
+    "master_id": 0,
+    "title": "Bruce Lee, Heroin, And The Punk Scene",
+    "artists": "Various",
+    "year": 1994,
+    "country": "US",
+    "labels": "Massacre At Central Hi",
+    "formats": "Vinyl 7\" 33 \u2153 RPM 45 RPM Limited Edition",
+    "styles": "Experimental",
+    "genres": "Rock",
+    "thumb": "https://i.discogs.com/h9XwfVS9V8QA2EeNu5dDKwVXhAp3XAQIwJbYWVRGzIc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTYw/MjYtMTE5OTk1NjM5/OC5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=fwzCEspWFiQ"
+    ],
+    "fetched_at": "2026-09-04T23:54:03Z"
+   },
+   "market": {
+    "release_id": 1196026,
+    "taken_at": "2026-09-04T23:54:03Z",
+    "want": 92,
+    "have": 117,
+    "num_for_sale": 11,
+    "lowest_price": 21.99,
+    "currency": "GBP",
+    "yt_views": 0
+   },
+   "gem_score": 0.457,
+   "tier": "pricey"
+  },
+  {
+   "artist": "four tet",
+   "title": "140Eye",
+   "label_hint": null,
+   "mentions": 2,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "25:30",
+     "confidence": 0.65
+    },
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "25:00",
+     "confidence": 0.65
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.515
+  },
+  {
+   "artist": "Skream + Benga",
+   "title": "Good Things Come To Those Who Wait +",
+   "label_hint": null,
+   "mentions": 2,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "12:00",
+     "confidence": 0.65
+    },
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "10:00",
+     "confidence": 0.65
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.515
+  },
+  {
+   "artist": "7:43: The Dream",
+   "title": "Caleb Laurenson",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "16:00: Friction",
+   "title": "Riordan, Locky",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "20:22: Lifting",
+   "title": "Riordan, Silva Bumpa",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "24:16: Needle On The Record (ID remix?)",
+   "title": "Riordan",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "32:27: Deep Inside",
+   "title": "Hardrive, Barbara Tucker, Louie Vega",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "38:45: Bring Me Down",
+   "title": "Riordan, Stanton Warriors",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "42:30: Just Cant Stop",
+   "title": "Robbie Doherty",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "55:00: Fancy Footwork (Chris Lorenzo remix)",
+   "title": "Chromeo",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Robbie Doherty",
+   "title": "Just Can\u2019t Stop unreleased",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": "43:20",
+     "confidence": 0.65
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Vocals",
+   "title": "Vula Malinga, Phebe Edwards, Jai Amore",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.9,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_description",
+     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
+     "position": null,
+     "confidence": 0.9
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Drums",
+   "title": "Nathan \u201cTuggy\u201d Curran",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.9,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_description",
+     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
+     "position": null,
+     "confidence": 0.9
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Percussion",
+   "title": "Oli Savill",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.9,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_description",
+     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
+     "position": null,
+     "confidence": 0.9
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Dancers",
+   "title": "Tia Hockey, Vanessa Vince-Pang, Bleu Tuitt-Gordon",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.9,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_description",
+     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
+     "position": null,
+     "confidence": 0.9
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Ballerina",
+   "title": "Ella Marjorie Betts",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.9,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_description",
+     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
+     "position": null,
+     "confidence": 0.9
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Good things come to those who wait",
+   "title": "Skream & Benga",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "9:48",
+     "confidence": 0.7
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Lots of dubstep in this, leftfield bass too",
+   "title": "lots of it from her label \"Pretty Weird",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  }
+ ]
+}
