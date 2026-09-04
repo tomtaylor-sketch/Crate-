@@ -1,0 +1,44 @@
+name: Dig Radar
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Harvest, resolve, report, notify
+        env:
+          DIGRADAR_YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          DIGRADAR_DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+          DIGRADAR_DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
+          DIGRADAR_NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DIGRADAR_ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DIGRADAR_LLM_ENABLED: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+          DIGRADAR_SOUNDCLOUD_CLIENT_ID: ${{ secrets.SOUNDCLOUD_CLIENT_ID }}
+          DIGRADAR_SOUNDCLOUD_CLIENT_SECRET: ${{ secrets.SOUNDCLOUD_CLIENT_SECRET }}
+        run: |
+          python dig_radar.py all --limit 60
+          mkdir -p radar
+          cp radar_targets.json radar/radar_targets.json
+
+      - name: Commit results
+        run: |
+          git config user.name "dig-radar-bot"
+          git config user.email "dig-radar-bot@users.noreply.github.com"
+          git add radar.db radar_targets.json radar_report.html radar/radar_targets.json
+          git commit -m "Dig Radar $(date -u +%F)" || echo "nothing new"
+          git push
