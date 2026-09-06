@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T11:09:23Z",
+ "generated": "2026-09-06T04:24:23Z",
  "currency": "GBP",
  "targets": [
   {
@@ -40,17 +40,17 @@
      "https://www.youtube.com/watch?v=_sW76ue9YU8",
      "https://www.youtube.com/watch?v=eFZrPZSebvE"
     ],
-    "fetched_at": "2026-09-04T23:54:29Z"
+    "fetched_at": "2026-09-06T04:24:09Z"
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-09-04T23:54:29Z",
+    "taken_at": "2026-09-06T04:24:09Z",
     "want": 46,
     "have": 494,
     "num_for_sale": 50,
     "lowest_price": 0.86,
     "currency": "GBP",
-    "yt_views": 240354
+    "yt_views": 240588
    },
    "gem_score": 1.597,
    "tier": "buy"
@@ -86,11 +86,11 @@
     "genres": "Jazz, Blues",
     "thumb": "https://i.discogs.com/ALNoFpxHogWnBtCSPZ75ZtoJ4Vt5vqdHCJhIUf1HWrg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3NDE0/NjUtMTQ4NTYzODc1/My05OTk4LmpwZWc.jpeg",
     "videos": [],
-    "fetched_at": "2026-09-04T23:53:49Z"
+    "fetched_at": "2026-09-06T04:23:28Z"
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-09-04T23:53:49Z",
+    "taken_at": "2026-09-06T04:23:28Z",
     "want": 8,
     "have": 62,
     "num_for_sale": 9,
@@ -135,11 +135,11 @@
      "https://www.youtube.com/watch?v=xJEJoFLClHM",
      "https://www.youtube.com/watch?v=xJEJoFLClHM"
     ],
-    "fetched_at": "2026-09-04T23:54:10Z"
+    "fetched_at": "2026-09-06T04:23:49Z"
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-09-04T23:54:10Z",
+    "taken_at": "2026-09-06T04:23:49Z",
     "want": 23,
     "have": 160,
     "num_for_sale": 15,
@@ -191,17 +191,17 @@
      "https://www.youtube.com/watch?v=_UzlIa0Mq8M",
      "https://www.youtube.com/watch?v=cu-1W8es7BY"
     ],
-    "fetched_at": "2026-09-04T23:54:06Z"
+    "fetched_at": "2026-09-06T04:23:41Z"
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-09-04T23:54:06Z",
+    "taken_at": "2026-09-06T04:23:41Z",
     "want": 45,
     "have": 69,
     "num_for_sale": 5,
     "lowest_price": 17.26,
     "currency": "GBP",
-    "yt_views": 68004
+    "yt_views": 68046
    },
    "gem_score": 1.181,
    "tier": "pricey"
@@ -240,11 +240,11 @@
      "https://www.youtube.com/watch?v=EKgXVeU1XFo",
      "https://www.youtube.com/watch?v=69MqiVFwauk"
     ],
-    "fetched_at": "2026-09-04T23:54:17Z"
+    "fetched_at": "2026-09-06T04:23:57Z"
    },
    "market": {
     "release_id": 24032066,
-    "taken_at": "2026-09-04T23:54:17Z",
+    "taken_at": "2026-09-06T04:23:57Z",
     "want": 109,
     "have": 90,
     "num_for_sale": 1,
@@ -288,11 +288,11 @@
     "videos": [
      "https://www.youtube.com/watch?v=fwzCEspWFiQ"
     ],
-    "fetched_at": "2026-09-04T23:54:03Z"
+    "fetched_at": "2026-09-06T04:23:45Z"
    },
    "market": {
     "release_id": 1196026,
-    "taken_at": "2026-09-04T23:54:03Z",
+    "taken_at": "2026-09-06T04:23:45Z",
     "want": 92,
     "have": 117,
     "num_for_sale": 11,
@@ -648,6 +648,27 @@
      "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
      "position": null,
      "confidence": 0.9
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Intro is Georgy Sviridov",
+   "title": "Snowstorm Waltz",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
+     "position": null,
+     "confidence": 0.5
     }
    ],
    "tier": "unresolved",
