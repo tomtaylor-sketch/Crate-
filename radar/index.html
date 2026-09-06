@@ -37,6 +37,18 @@ main{max-width:760px;margin:0 auto;padding:0 12px 40px}
 .stats{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:13px;margin:0 0 5px}
 .price{background:var(--sticker);padding:1px 8px;border-radius:12px;font-weight:650}
 .rise{color:var(--rise);font-weight:650}
+.like{color:var(--good);font-weight:650}
+.verdict{font-size:14px;margin:0 0 6px;padding:6px 9px;border-radius:6px;background:var(--chip)}
+.verdict b{letter-spacing:.03em;margin-right:5px}
+.v-buy{background:#DFF0E4}.v-listen{background:#FFF3CC}.v-wantlist{background:#E3ECF7}.v-skip{background:#EFEDE7;color:var(--muted)}
+#ask{padding:10px 0 4px;border-top:1px solid var(--rule);margin-top:8px}
+#ask.hide{display:none}
+#askIn{width:100%;padding:10px 12px;border:1px solid var(--rule);border-radius:10px;background:#fff;font-size:16px}
+#askGo{margin-top:6px;border:0;background:var(--ink);color:#fff;border-radius:10px;padding:9px 16px;font-size:15px}
+#askGo:disabled{opacity:.5}
+#askOut{margin-top:8px;font-size:15px;white-space:pre-wrap;background:#fff;border:1px solid var(--rule);border-radius:10px;padding:10px;display:none}
+#askOut.on{display:block}
+.mini{font-size:12px;color:var(--muted);margin-top:6px}
 .seen{font-size:12px;color:var(--muted);margin:0 0 7px}
 .links a{display:inline-block;font-size:13px;color:var(--link);text-decoration:none;border:1px solid var(--link);border-radius:14px;padding:2px 9px;margin:0 5px 5px 0}
 .marks{display:flex;gap:6px;margin-top:2px}
@@ -71,12 +83,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
     <label>Show <select id="show">
       <option value="open">To do (hide bought & skipped)</option>
       <option value="new">New since last visit</option>
+      <option value="buy">Agent says buy</option>
+      <option value="listen">Agent says listen</option>
+      <option value="played">Played by a DJ</option>
+      <option value="soundslike">Sounds like (cosine)</option>
       <option value="watch">Watching</option>
       <option value="bought">Bought</option>
       <option value="all">Everything</option>
     </select></label>
   </div>
-  <div class="bar"><span id="count"></span><span><button id="toggle">Filters</button> · <button id="refresh">Refresh</button></span></div>
+  <div class="bar"><span id="count"></span><span><button id="toggle">Filters</button> · <button id="askToggle">Ask</button> · <button id="refresh">Refresh</button></span></div>
+  <div id="ask" class="hide">
+    <input id="askIn" type="text" placeholder="Ask about these records…" autocomplete="off">
+    <button id="askGo">Ask</button>
+    <div id="askOut"></div>
+    <p class="mini" id="askNote"></p>
+  </div>
 </header>
 <main id="list"></main>
 <script>
@@ -170,6 +192,11 @@ function visible(it){
   var st = state.status[it._key];
   if (state.show === 'open' && (st === 'bought' || st === 'skip')) return false;
   if (state.show === 'new' && !newKeys[it._key]) return false;
+  if (state.show === 'buy' && it.verdict !== 'buy') return false;
+  if (state.show === 'listen' && it.verdict !== 'listen') return false;
+  if (state.show === 'open' && it.verdict === 'skip') return false;
+  if (state.show === 'played' && it.played === false) return false;
+  if (state.show === 'soundslike' && it.played !== false) return false;
   if (state.show === 'watch' && st !== 'watch') return false;
   if (state.show === 'bought' && st !== 'bought') return false;
   var mk = it.market || {}, rel = it.release || {};
@@ -218,13 +245,18 @@ function render(){
       if (mk.want != null) stats.push('<span>want ' + mk.want + ' · have ' + mk.have + '</span>');
       if (mk.yt_views) stats.push('<span>' + Number(mk.yt_views).toLocaleString() + ' views</span>');
     }
-    stats.push('<span>seen ' + it.mentions + '× in ' + it.sources + ' source' + (it.sources === 1 ? '' : 's') + '</span>');
+    if (it.played === false && it.similar_to) {
+      stats.push('<span class="like">sounds like ' + esc(it.similar_to) + (it.similarity ? ' (' + Number(it.similarity).toFixed(2) + ')' : '') + '</span>');
+    } else {
+      stats.push('<span>seen ' + it.mentions + '× in ' + it.sources + ' source' + (it.sources === 1 ? '' : 's') + '</span>');
+    }
     if (it.trend && it.trend.want_delta) stats.push('<span class="rise">' + (it.trend.want_delta > 0 ? '▲' : '▼') + ' ' + (it.trend.want_delta > 0 ? '+' : '') + it.trend.want_delta + ' wants in ' + it.trend.days + 'd</span>');
     var seen = (it.sightings || []).slice(0, 3).map(function(sg){ return esc(sg.source_name.slice(0, 60)) + (sg.position ? ' @ ' + esc(sg.position) : ''); }).join(' · ');
     var lk = links(it).map(function(l){ return '<a href="' + esc(l[1]) + '" target="_blank" rel="noopener">' + esc(l[0]) + '</a>'; }).join('');
+    var vd = it.verdict ? '<p class="verdict v-' + esc(it.verdict) + '"><b>' + esc(it.verdict.toUpperCase()) + '</b>' + esc(it.verdict_reason || '') + '</p>' : '';
     return '<div class="row' + (st === 'bought' || st === 'skip' ? ' done' : '') + '" data-key="' + esc(it._key) + '">' + thumb +
       '<div class="body"><p class="name"><span>' + esc(it.artist) + ' – ' + esc(it.title) + '</span>' + (newKeys[it._key] ? '<span class="new">new</span>' : '') + '</p>' +
-      '<p class="rel">' + relline + '</p><p class="stats">' + stats.join('') + '</p><p class="seen">' + seen + '</p><p class="links">' + lk + '</p>' +
+      '<p class="rel">' + relline + '</p><p class="stats">' + stats.join('') + '</p>' + vd + '<p class="seen">' + seen + '</p><p class="links">' + lk + '</p>' +
       '<div class="marks">' +
         '<button class="bought' + (st === 'bought' ? ' on' : '') + '" data-mark="bought">✓ Bought</button>' +
         '<button class="' + (st === 'watch' ? 'on' : '') + '" data-mark="watch">★ Watch</button>' +
@@ -259,6 +291,72 @@ $('show').value = state.show;
 $('show').addEventListener('change', function(e){ state.show = e.target.value; store.set('dr_show', state.show); render(); });
 $('toggle').addEventListener('click', function(){ $('controls').classList.toggle('open'); });
 $('refresh').addEventListener('click', function(){ fetchData(true); });
+
+// ---- Ask: bring-your-own-key, stored on this device only, never in the repo ----
+function askKey(){ return store.get('dr_key', ''); }
+
+function askContext(){
+  var rows = state.items.filter(visible).sort(sorter).slice(0, 60).map(function(it){
+    var r = it.release || {}, m = it.market || {};
+    return { artist: it.artist, title: it.title, verdict: it.verdict, reason: it.verdict_reason,
+             provenance: it.played === false ? 'sounds-like' : 'played', sounds_like: it.similar_to,
+             release: r.title, label: r.labels, year: r.year, format: r.formats, styles: r.styles,
+             price: m.lowest_price, for_sale: m.num_for_sale, want: m.want, have: m.have,
+             views: m.yt_views, tier: it.tier, score: it.gem_score,
+             status: state.status[it._key] || '' };
+  });
+  return rows;
+}
+
+function runAsk(){
+  var q = $('askIn').value.trim();
+  if (!q) return;
+  var key = askKey();
+  if (!key) {
+    key = window.prompt('Anthropic API key (sk-ant-…). Stored on this phone only, never in the repo. Leave blank to cancel.');
+    if (!key) return;
+    store.set('dr_key', key.trim());
+  }
+  var out = $('askOut');
+  out.className = 'on'; out.textContent = 'Thinking…';
+  $('askGo').disabled = true;
+  var body = {
+    model: 'claude-sonnet-5', max_tokens: 1200,
+    system: 'You help a DJ decide what records to buy. You are given the candidates currently on screen as JSON. '
+          + 'Answer only from that data — never invent a price, want count or record. Respect provenance: "played" means a DJ '
+          + 'actually played it, "sounds-like" is audio similarity that nobody has played and always needs a listen. '
+          + 'Be short and specific. Name records as Artist – Title. Say plainly when the answer is "none of these".',
+    messages: [{ role: 'user', content: 'CANDIDATES ON SCREEN:\n' + JSON.stringify(askContext())
+                 + '\n\nQUESTION: ' + q }]
+  };
+  fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-api-key': key,
+               'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true' },
+    body: JSON.stringify(body)
+  }).then(function(r){ return r.json(); }).then(function(d){
+    if (d.error) { out.textContent = 'Error: ' + (d.error.message || JSON.stringify(d.error)); return; }
+    out.textContent = (d.content || []).filter(function(b){ return b.type === 'text'; })
+      .map(function(b){ return b.text; }).join('\n').trim() || 'No answer came back.';
+  }).catch(function(e){ out.textContent = 'Could not reach the API: ' + e.message; })
+    .then(function(){ $('askGo').disabled = false; });
+}
+
+$('askToggle').addEventListener('click', function(){
+  var el = $('ask'); el.classList.toggle('hide');
+  if (!el.classList.contains('hide')) {
+    $('askNote').textContent = askKey()
+      ? 'Answers use only the records currently filtered on screen. Tap and hold Ask to forget your key.'
+      : 'Needs an Anthropic API key. It is stored on this phone only and never leaves it except to call the API.';
+    $('askIn').focus();
+  }
+});
+$('askGo').addEventListener('click', runAsk);
+$('askIn').addEventListener('keydown', function(e){ if (e.key === 'Enter') runAsk(); });
+$('askToggle').addEventListener('contextmenu', function(e){
+  e.preventDefault();
+  if (askKey() && window.confirm('Forget the API key stored on this device?')) { store.set('dr_key', ''); $('askNote').textContent = 'Key forgotten.'; }
+});
 
 function fetchData(force){
   fetch(DATA_URL + (force ? '?t=' + Date.now() : ''), { cache: force ? 'no-store' : 'default' })

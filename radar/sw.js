@@ -1,5 +1,5 @@
 // Dig Radar service worker. Bump CACHE when you change index.html so installed copies update.
-const CACHE = 'dig-radar-v1';
+const CACHE = 'dig-radar-v3';
 const SHELL = ['./index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
