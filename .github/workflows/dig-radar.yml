@@ -1,9 +1,17 @@
+# Runs Dig Radar every morning on GitHub's servers, publishes the results to your GitHub Pages site,
+# and pings your phone via ntfy. Nothing to host. Free on a public repo.
+#
+# One-time setup:  repo Settings -> Secrets and variables -> Actions -> New repository secret:
+#   YOUTUBE_API_KEY, DISCOGS_TOKEN, DISCOGS_USERNAME, NTFY_TOPIC  (optional: ANTHROPIC_API_KEY,
+#   SOUNDCLOUD_CLIENT_ID, SOUNDCLOUD_CLIENT_SECRET)
+# Keep radar_config.json in the repo with the keys left blank; secrets are injected as env vars.
+
 name: Dig Radar
 
 on:
   schedule:
-    - cron: "0 7 * * *"
-  workflow_dispatch:
+    - cron: "0 7 * * *"      # 07:00 UTC daily
+  workflow_dispatch:         # lets you press "Run workflow" by hand
 
 permissions:
   contents: write
@@ -35,7 +43,7 @@ jobs:
           mkdir -p radar
           cp radar_targets.json radar/radar_targets.json
 
-      - name: Commit results
+      - name: Commit results back to the repo (this also redeploys GitHub Pages)
         run: |
           git config user.name "dig-radar-bot"
           git config user.email "dig-radar-bot@users.noreply.github.com"
