@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T04:24:23Z",
+ "generated": "2026-09-06T04:31:53Z",
  "currency": "GBP",
  "targets": [
   {
@@ -40,17 +40,17 @@
      "https://www.youtube.com/watch?v=_sW76ue9YU8",
      "https://www.youtube.com/watch?v=eFZrPZSebvE"
     ],
-    "fetched_at": "2026-09-06T04:24:09Z"
+    "fetched_at": "2026-09-06T04:31:39Z"
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-09-06T04:24:09Z",
+    "taken_at": "2026-09-06T04:31:39Z",
     "want": 46,
     "have": 494,
     "num_for_sale": 50,
     "lowest_price": 0.86,
     "currency": "GBP",
-    "yt_views": 240588
+    "yt_views": 240592
    },
    "gem_score": 1.597,
    "tier": "buy"
@@ -86,11 +86,11 @@
     "genres": "Jazz, Blues",
     "thumb": "https://i.discogs.com/ALNoFpxHogWnBtCSPZ75ZtoJ4Vt5vqdHCJhIUf1HWrg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3NDE0/NjUtMTQ4NTYzODc1/My05OTk4LmpwZWc.jpeg",
     "videos": [],
-    "fetched_at": "2026-09-06T04:23:28Z"
+    "fetched_at": "2026-09-06T04:31:00Z"
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-09-06T04:23:28Z",
+    "taken_at": "2026-09-06T04:31:00Z",
     "want": 8,
     "have": 62,
     "num_for_sale": 9,
@@ -135,11 +135,11 @@
      "https://www.youtube.com/watch?v=xJEJoFLClHM",
      "https://www.youtube.com/watch?v=xJEJoFLClHM"
     ],
-    "fetched_at": "2026-09-06T04:23:49Z"
+    "fetched_at": "2026-09-06T04:31:20Z"
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-09-06T04:23:49Z",
+    "taken_at": "2026-09-06T04:31:20Z",
     "want": 23,
     "have": 160,
     "num_for_sale": 15,
@@ -191,11 +191,11 @@
      "https://www.youtube.com/watch?v=_UzlIa0Mq8M",
      "https://www.youtube.com/watch?v=cu-1W8es7BY"
     ],
-    "fetched_at": "2026-09-06T04:23:41Z"
+    "fetched_at": "2026-09-06T04:31:12Z"
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-09-06T04:23:41Z",
+    "taken_at": "2026-09-06T04:31:12Z",
     "want": 45,
     "have": 69,
     "num_for_sale": 5,
@@ -240,11 +240,11 @@
      "https://www.youtube.com/watch?v=EKgXVeU1XFo",
      "https://www.youtube.com/watch?v=69MqiVFwauk"
     ],
-    "fetched_at": "2026-09-06T04:23:57Z"
+    "fetched_at": "2026-09-06T04:31:28Z"
    },
    "market": {
     "release_id": 24032066,
-    "taken_at": "2026-09-06T04:23:57Z",
+    "taken_at": "2026-09-06T04:31:28Z",
     "want": 109,
     "have": 90,
     "num_for_sale": 1,
@@ -288,11 +288,11 @@
     "videos": [
      "https://www.youtube.com/watch?v=fwzCEspWFiQ"
     ],
-    "fetched_at": "2026-09-06T04:23:45Z"
+    "fetched_at": "2026-09-06T04:31:16Z"
    },
    "market": {
     "release_id": 1196026,
-    "taken_at": "2026-09-06T04:23:45Z",
+    "taken_at": "2026-09-06T04:31:16Z",
     "want": 92,
     "have": 117,
     "num_for_sale": 11,
