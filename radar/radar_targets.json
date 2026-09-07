@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T11:32:38Z",
+ "generated": "2026-09-07T13:19:41Z",
  "currency": "GBP",
  "targets": [
   {
@@ -44,15 +44,19 @@
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-09-06T04:31:39Z",
+    "taken_at": "2026-09-07T13:19:34Z",
     "want": 46,
     "have": 494,
     "num_for_sale": 50,
     "lowest_price": 0.86,
     "currency": "GBP",
-    "yt_views": 240592
+    "yt_views": null
    },
-   "gem_score": 1.597,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.783,
    "tier": "buy"
   },
   {
@@ -90,13 +94,17 @@
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-09-06T04:31:00Z",
+    "taken_at": "2026-09-07T13:19:38Z",
     "want": 8,
     "have": 62,
     "num_for_sale": 9,
     "lowest_price": 2.58,
     "currency": "GBP",
     "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 1
    },
    "gem_score": 0.66,
    "tier": "buy"
@@ -139,15 +147,19 @@
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-09-06T04:31:20Z",
+    "taken_at": "2026-09-07T13:19:37Z",
     "want": 23,
-    "have": 160,
+    "have": 159,
     "num_for_sale": 15,
     "lowest_price": 1.72,
     "currency": "GBP",
-    "yt_views": 3192
+    "yt_views": null
    },
-   "gem_score": 0.642,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.505,
    "tier": "buy"
   },
   {
@@ -195,15 +207,71 @@
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-09-06T04:31:12Z",
+    "taken_at": "2026-09-07T13:19:41Z",
     "want": 45,
     "have": 69,
     "num_for_sale": 5,
     "lowest_price": 17.26,
     "currency": "GBP",
-    "yt_views": 68046
+    "yt_views": null
    },
-   "gem_score": 1.181,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.655,
+   "tier": "pricey"
+  },
+  {
+   "artist": "1-800 GIRLS",
+   "title": "Your Side",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "12:00",
+     "confidence": 0.65
+    }
+   ],
+   "release": {
+    "release_id": 1196026,
+    "master_id": 0,
+    "title": "Bruce Lee, Heroin, And The Punk Scene",
+    "artists": "Various",
+    "year": 1994,
+    "country": "US",
+    "labels": "Massacre At Central Hi",
+    "formats": "Vinyl 7\" 33 \u2153 RPM 45 RPM Limited Edition",
+    "styles": "Experimental",
+    "genres": "Rock",
+    "thumb": "https://i.discogs.com/h9XwfVS9V8QA2EeNu5dDKwVXhAp3XAQIwJbYWVRGzIc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTYw/MjYtMTE5OTk1NjM5/OC5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=fwzCEspWFiQ"
+    ],
+    "fetched_at": "2026-09-06T04:31:16Z"
+   },
+   "market": {
+    "release_id": 1196026,
+    "taken_at": "2026-09-07T13:19:35Z",
+    "want": 92,
+    "have": 117,
+    "num_for_sale": 11,
+    "lowest_price": 21.99,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.457,
    "tier": "pricey"
   },
   {
@@ -244,63 +312,19 @@
    },
    "market": {
     "release_id": 24032066,
-    "taken_at": "2026-09-06T04:31:28Z",
+    "taken_at": "2026-09-07T13:19:39Z",
     "want": 109,
     "have": 90,
     "num_for_sale": 1,
     "lowest_price": 62.82,
     "currency": "GBP",
-    "yt_views": 2908
+    "yt_views": null
    },
-   "gem_score": 0.466,
-   "tier": "pricey"
-  },
-  {
-   "artist": "1-800 GIRLS",
-   "title": "Your Side",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.65,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
-     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
-     "position": "12:00",
-     "confidence": 0.65
-    }
-   ],
-   "release": {
-    "release_id": 1196026,
-    "master_id": 0,
-    "title": "Bruce Lee, Heroin, And The Punk Scene",
-    "artists": "Various",
-    "year": 1994,
-    "country": "US",
-    "labels": "Massacre At Central Hi",
-    "formats": "Vinyl 7\" 33 \u2153 RPM 45 RPM Limited Edition",
-    "styles": "Experimental",
-    "genres": "Rock",
-    "thumb": "https://i.discogs.com/h9XwfVS9V8QA2EeNu5dDKwVXhAp3XAQIwJbYWVRGzIc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTYw/MjYtMTE5OTk1NjM5/OC5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=fwzCEspWFiQ"
-    ],
-    "fetched_at": "2026-09-06T04:31:16Z"
+   "trend": {
+    "want_delta": 0,
+    "days": 1
    },
-   "market": {
-    "release_id": 1196026,
-    "taken_at": "2026-09-06T04:31:16Z",
-    "want": 92,
-    "have": 117,
-    "num_for_sale": 11,
-    "lowest_price": 21.99,
-    "currency": "GBP",
-    "yt_views": 0
-   },
-   "gem_score": 0.457,
+   "gem_score": 0.37,
    "tier": "pricey"
   },
   {
