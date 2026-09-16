@@ -6,7 +6,7 @@ real Android APK with no Android Studio.
 
 ## What's in this folder
 
-- `index.html` — the app (your upgraded version: colour-coded keys, scroll memory, Now Playing flow, deep links, sorting)
+- `index.html` — the app (your upgraded version: colour-coded keys, scroll memory, Now Playing flow, deep links, sorting, and a Schedule tab for planning upcoming sets)
 - `manifest.json` — app identity (name, icons, colours) so it installs properly
 - `sw.js` — service worker, makes the app open and run fully offline after first load
 - `icon-192.png`, `icon-512.png`, `icon-512-maskable.png` — app icons
