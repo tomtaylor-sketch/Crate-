@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T12:24:33Z",
+ "generated": "2026-09-23T12:36:25Z",
  "currency": "GBP",
  "targets": [
   {
@@ -44,9 +44,9 @@
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-09-21T13:41:45Z",
+    "taken_at": "2026-09-23T12:36:18Z",
     "want": 46,
-    "have": 497,
+    "have": 498,
     "num_for_sale": 49,
     "lowest_price": 0.87,
     "currency": "GBP",
@@ -54,7 +54,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 15
+    "days": 17
    },
    "gem_score": 0.783,
    "tier": "buy"
@@ -94,7 +94,7 @@
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-09-21T13:41:49Z",
+    "taken_at": "2026-09-23T12:36:22Z",
     "want": 8,
     "have": 62,
     "num_for_sale": 10,
@@ -104,7 +104,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 15
+    "days": 17
    },
    "gem_score": 0.66,
    "tier": "buy"
@@ -144,7 +144,7 @@
    },
    "market": {
     "release_id": 835523,
-    "taken_at": "2026-09-21T13:41:44Z",
+    "taken_at": "2026-09-23T12:36:17Z",
     "want": 44,
     "have": 224,
     "num_for_sale": 14,
@@ -154,7 +154,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 8
+    "days": 10
    },
    "gem_score": 0.527,
    "tier": "buy"
@@ -197,7 +197,7 @@
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-09-21T13:41:48Z",
+    "taken_at": "2026-09-23T12:36:21Z",
     "want": 23,
     "have": 159,
     "num_for_sale": 14,
@@ -207,7 +207,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 15
+    "days": 17
    },
    "gem_score": 0.505,
    "tier": "buy"
@@ -257,7 +257,7 @@
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-09-21T13:41:52Z",
+    "taken_at": "2026-09-23T12:36:25Z",
     "want": 46,
     "have": 69,
     "num_for_sale": 5,
@@ -267,7 +267,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 15
+    "days": 17
    },
    "gem_score": 0.685,
    "tier": "pricey"
@@ -309,7 +309,7 @@
    },
    "market": {
     "release_id": 1196026,
-    "taken_at": "2026-09-21T13:41:47Z",
+    "taken_at": "2026-09-23T12:36:20Z",
     "want": 92,
     "have": 117,
     "num_for_sale": 11,
@@ -319,7 +319,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 15
+    "days": 17
    },
    "gem_score": 0.457,
    "tier": "pricey"
@@ -362,7 +362,7 @@
    },
    "market": {
     "release_id": 24032066,
-    "taken_at": "2026-09-21T13:41:51Z",
+    "taken_at": "2026-09-23T12:36:24Z",
     "want": 108,
     "have": 90,
     "num_for_sale": 1,
@@ -372,7 +372,7 @@
    },
    "trend": {
     "want_delta": -1,
-    "days": 15
+    "days": 17
    },
    "gem_score": 0.352,
    "tier": "pricey"
