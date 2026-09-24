@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T12:36:25Z",
+ "generated": "2026-09-24T12:35:11Z",
  "currency": "GBP",
  "targets": [
   {
@@ -848,6 +848,132 @@
      "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
      "position": null,
      "confidence": 0.6
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "great Finale",
+   "title": "ever since she called",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Yung Lean & Bladee | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=60ifct5h78Q",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "let's rap",
+   "title": "you got some bars bro?",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Yung Lean & Bladee | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=60ifct5h78Q",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "No it\u2019s bladee",
+   "title": "ONE SECOND FT YUNG LEAN",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Yung Lean & Bladee | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=60ifct5h78Q",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Yung Lean x bladee",
+   "title": "Victorious",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Yung Lean & Bladee | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=60ifct5h78Q",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Bliss",
+   "title": "yung lean ft fka twigs",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Yung Lean & Bladee | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=60ifct5h78Q",
+     "position": "30:09",
+     "confidence": 0.65
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "bladee",
+   "title": "reborn from 2014",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Yung Lean & Bladee | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=60ifct5h78Q",
+     "position": null,
+     "confidence": 0.5
     }
    ],
    "tier": "unresolved",
