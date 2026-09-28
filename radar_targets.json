@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T12:49:52Z",
+ "generated": "2026-09-28T15:01:07Z",
  "currency": "GBP",
  "targets": [
   {
@@ -44,19 +44,19 @@
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-09-27T12:49:45Z",
-    "want": 46,
-    "have": 498,
+    "taken_at": "2026-09-28T15:01:01Z",
+    "want": 47,
+    "have": 499,
     "num_for_sale": 49,
     "lowest_price": 0.88,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": 0,
-    "days": 21
+    "want_delta": 1,
+    "days": 22
    },
-   "gem_score": 0.783,
+   "gem_score": 0.818,
    "tier": "buy"
   },
   {
@@ -94,7 +94,7 @@
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-09-27T12:49:49Z",
+    "taken_at": "2026-09-28T15:01:05Z",
     "want": 8,
     "have": 62,
     "num_for_sale": 11,
@@ -104,7 +104,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 21
+    "days": 22
    },
    "gem_score": 0.66,
    "tier": "buy"
@@ -144,7 +144,7 @@
    },
    "market": {
     "release_id": 835523,
-    "taken_at": "2026-09-27T12:49:44Z",
+    "taken_at": "2026-09-28T15:00:59Z",
     "want": 44,
     "have": 225,
     "num_for_sale": 14,
@@ -154,7 +154,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 14
+    "days": 15
    },
    "gem_score": 0.527,
    "tier": "buy"
@@ -197,7 +197,7 @@
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-09-27T12:49:48Z",
+    "taken_at": "2026-09-28T15:01:03Z",
     "want": 23,
     "have": 159,
     "num_for_sale": 14,
@@ -207,7 +207,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 21
+    "days": 22
    },
    "gem_score": 0.505,
    "tier": "buy"
@@ -257,17 +257,17 @@
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-09-27T12:49:52Z",
+    "taken_at": "2026-09-28T15:01:07Z",
     "want": 46,
     "have": 69,
-    "num_for_sale": 4,
+    "num_for_sale": 5,
     "lowest_price": 17.19,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 1,
-    "days": 21
+    "days": 22
    },
    "gem_score": 0.685,
    "tier": "pricey"
@@ -309,7 +309,7 @@
    },
    "market": {
     "release_id": 1196026,
-    "taken_at": "2026-09-27T12:49:46Z",
+    "taken_at": "2026-09-28T15:01:02Z",
     "want": 92,
     "have": 117,
     "num_for_sale": 11,
@@ -319,7 +319,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 21
+    "days": 22
    },
    "gem_score": 0.457,
    "tier": "pricey"
@@ -362,7 +362,7 @@
    },
    "market": {
     "release_id": 24032066,
-    "taken_at": "2026-09-27T12:49:50Z",
+    "taken_at": "2026-09-28T15:01:06Z",
     "want": 108,
     "have": 90,
     "num_for_sale": 1,
@@ -372,7 +372,7 @@
    },
    "trend": {
     "want_delta": -1,
-    "days": 21
+    "days": 22
    },
    "gem_score": 0.352,
    "tier": "pricey"
@@ -974,6 +974,48 @@
      "source_url": "https://www.youtube.com/watch?v=60ifct5h78Q",
      "position": null,
      "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Glue",
+   "title": "Bicep?? and then it\u2019s a Two Weeks - FKA twigs remix of some sort",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Harriet Jaxxon | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=mOYf1888G6Q",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Vocals are FKA Twigs",
+   "title": "Two Weeks. Not sure about the rest",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Harriet Jaxxon | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=mOYf1888G6Q",
+     "position": "24:50",
+     "confidence": 0.65
     }
    ],
    "tier": "unresolved",
