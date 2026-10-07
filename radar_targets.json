@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T13:59:02Z",
+ "generated": "2026-10-07T14:15:57Z",
  "currency": "GBP",
  "targets": [
   {
@@ -44,7 +44,7 @@
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-10-05T15:37:03Z",
+    "taken_at": "2026-10-07T14:15:50Z",
     "want": 47,
     "have": 500,
     "num_for_sale": 50,
@@ -54,7 +54,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 29
+    "days": 31
    },
    "gem_score": 0.818,
    "tier": "buy"
@@ -104,17 +104,17 @@
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-10-05T15:37:09Z",
+    "taken_at": "2026-10-07T14:15:57Z",
     "want": 46,
     "have": 69,
     "num_for_sale": 5,
-    "lowest_price": 12.87,
+    "lowest_price": 13.04,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 1,
-    "days": 29
+    "days": 31
    },
    "gem_score": 0.685,
    "tier": "buy"
@@ -154,7 +154,7 @@
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-10-05T15:37:06Z",
+    "taken_at": "2026-10-07T14:15:54Z",
     "want": 8,
     "have": 62,
     "num_for_sale": 11,
@@ -164,7 +164,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 29
+    "days": 31
    },
    "gem_score": 0.66,
    "tier": "buy"
@@ -204,7 +204,7 @@
    },
    "market": {
     "release_id": 835523,
-    "taken_at": "2026-10-05T15:37:01Z",
+    "taken_at": "2026-10-07T14:15:49Z",
     "want": 44,
     "have": 224,
     "num_for_sale": 14,
@@ -214,7 +214,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.527,
    "tier": "buy"
@@ -257,7 +257,7 @@
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-10-05T15:37:05Z",
+    "taken_at": "2026-10-07T14:15:53Z",
     "want": 23,
     "have": 160,
     "num_for_sale": 15,
@@ -267,7 +267,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 29
+    "days": 31
    },
    "gem_score": 0.505,
    "tier": "buy"
@@ -309,19 +309,19 @@
    },
    "market": {
     "release_id": 1196026,
-    "taken_at": "2026-10-05T15:37:04Z",
-    "want": 92,
+    "taken_at": "2026-10-07T14:15:52Z",
+    "want": 93,
     "have": 117,
-    "num_for_sale": 11,
-    "lowest_price": 16.39,
+    "num_for_sale": 10,
+    "lowest_price": 22.25,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": 0,
-    "days": 29
+    "want_delta": 1,
+    "days": 31
    },
-   "gem_score": 0.457,
+   "gem_score": 0.479,
    "tier": "pricey"
   },
   {
@@ -362,19 +362,19 @@
    },
    "market": {
     "release_id": 24032066,
-    "taken_at": "2026-10-05T15:37:08Z",
-    "want": 108,
-    "have": 90,
+    "taken_at": "2026-10-07T14:15:56Z",
+    "want": 107,
+    "have": 91,
     "num_for_sale": 1,
-    "lowest_price": 46.84,
+    "lowest_price": 47.47,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": -1,
-    "days": 29
+    "want_delta": -2,
+    "days": 31
    },
-   "gem_score": 0.352,
+   "gem_score": 0.334,
    "tier": "pricey"
   },
   {
@@ -1037,6 +1037,90 @@
      "source_url": "https://www.youtube.com/watch?v=KmhIx7xNxeg",
      "position": null,
      "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Yes",
+   "title": "Much love to the Beeyou Boiler Room crew",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Laidlaw | Boiler Room London: Beeyou Records",
+     "source_url": "https://www.youtube.com/watch?v=WonilCVG3aE",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Laidlaw",
+   "title": "Vogue edit (unreleased)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Laidlaw | Boiler Room London: Beeyou Records",
+     "source_url": "https://www.youtube.com/watch?v=WonilCVG3aE",
+     "position": "1:36:12",
+     "confidence": 0.7
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "Pete Thane",
+   "title": "Surve It Up",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Laidlaw | Boiler Room London: Beeyou Records",
+     "source_url": "https://www.youtube.com/watch?v=WonilCVG3aE",
+     "position": "7:40",
+     "confidence": 0.65
+    }
+   ],
+   "tier": "unresolved",
+   "gem_score": 2.109
+  },
+  {
+   "artist": "It\u2019s: Admnti",
+   "title": "TB or not TB. Coming on Conspiracy sometime next year",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": -1,
+   "match_note": "no Discogs match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Elijah Something | Boiler Room London: Beeyou Records",
+     "source_url": "https://www.youtube.com/watch?v=_KncLAx-DZk",
+     "position": "21:00",
+     "confidence": 0.65
     }
    ],
    "tier": "unresolved",
