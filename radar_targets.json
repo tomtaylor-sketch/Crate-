@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T12:33:58Z",
+ "generated": "2026-10-21T12:46:07Z",
  "currency": "GBP",
  "targets": [
   {
@@ -48,7 +48,7 @@
    },
    "market": {
     "release_id": 16060788,
-    "taken_at": "2026-10-19T14:24:53Z",
+    "taken_at": "2026-10-21T12:45:54Z",
     "want": 10,
     "have": 6,
     "num_for_sale": 2,
@@ -58,7 +58,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 1.117,
    "tier": "buy"
@@ -105,7 +105,7 @@
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-10-19T14:24:41Z",
+    "taken_at": "2026-10-21T12:45:43Z",
     "want": 47,
     "have": 502,
     "num_for_sale": 52,
@@ -115,7 +115,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 43
+    "days": 45
    },
    "gem_score": 0.818,
    "tier": "buy"
@@ -165,8 +165,8 @@
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-10-19T14:24:57Z",
-    "want": 46,
+    "taken_at": "2026-10-21T12:45:58Z",
+    "want": 47,
     "have": 69,
     "num_for_sale": 5,
     "lowest_price": 13.04,
@@ -174,10 +174,10 @@
     "yt_views": null
    },
    "trend": {
-    "want_delta": 1,
-    "days": 43
+    "want_delta": 2,
+    "days": 45
    },
-   "gem_score": 0.685,
+   "gem_score": 0.714,
    "tier": "buy"
   },
   {
@@ -215,7 +215,7 @@
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-10-19T14:24:49Z",
+    "taken_at": "2026-10-21T12:45:51Z",
     "want": 8,
     "have": 62,
     "num_for_sale": 11,
@@ -225,7 +225,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 43
+    "days": 45
    },
    "gem_score": 0.66,
    "tier": "buy"
@@ -269,7 +269,7 @@
    },
    "market": {
     "release_id": 226979,
-    "taken_at": "2026-10-19T14:24:33Z",
+    "taken_at": "2026-10-21T12:45:35Z",
     "want": 118,
     "have": 356,
     "num_for_sale": 5,
@@ -279,7 +279,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.657,
    "tier": "buy"
@@ -322,7 +322,7 @@
    },
    "market": {
     "release_id": 105706,
-    "taken_at": "2026-10-19T14:24:26Z",
+    "taken_at": "2026-10-21T12:45:28Z",
     "want": 122,
     "have": 241,
     "num_for_sale": 10,
@@ -332,7 +332,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.653,
    "tier": "buy"
@@ -393,7 +393,7 @@
    },
    "market": {
     "release_id": 200097,
-    "taken_at": "2026-10-19T14:24:32Z",
+    "taken_at": "2026-10-21T12:45:34Z",
     "want": 150,
     "have": 293,
     "num_for_sale": 12,
@@ -403,7 +403,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.631,
    "tier": "buy"
@@ -448,8 +448,8 @@
    },
    "market": {
     "release_id": 17764483,
-    "taken_at": "2026-10-19T14:24:54Z",
-    "want": 128,
+    "taken_at": "2026-10-21T12:45:56Z",
+    "want": 129,
     "have": 207,
     "num_for_sale": 10,
     "lowest_price": 10.0,
@@ -457,10 +457,10 @@
     "yt_views": null
    },
    "trend": {
-    "want_delta": 2,
-    "days": 3
+    "want_delta": 3,
+    "days": 5
    },
-   "gem_score": 0.594,
+   "gem_score": 0.62,
    "tier": "buy"
   },
   {
@@ -503,8 +503,8 @@
    },
    "market": {
     "release_id": 17764483,
-    "taken_at": "2026-10-19T14:24:54Z",
-    "want": 128,
+    "taken_at": "2026-10-21T12:45:56Z",
+    "want": 129,
     "have": 207,
     "num_for_sale": 10,
     "lowest_price": 10.0,
@@ -512,60 +512,10 @@
     "yt_views": null
    },
    "trend": {
-    "want_delta": 2,
-    "days": 3
+    "want_delta": 3,
+    "days": 5
    },
-   "gem_score": 0.594,
-   "tier": "buy"
-  },
-  {
-   "artist": "not boiler room",
-   "title": "this",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
-     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 835523,
-    "master_id": 171602,
-    "title": "MTV:  The Return Of The Rock ",
-    "artists": "Various",
-    "year": 2000,
-    "country": "US",
-    "labels": "MTV Music Television, Roadrunner Records",
-    "formats": "CD Compilation",
-    "styles": "Alternative Rock, Nu Metal",
-    "genres": "Rock",
-    "thumb": "https://i.discogs.com/71F8zxEJcF0G0woXw9BCx_irxcgi_mqjeC0bwlfKB9E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNTUy/My0xNDgxMTIwMDIx/LTc3MjcuanBlZw.jpeg",
-    "videos": [],
-    "fetched_at": "2026-09-13T12:34:27Z"
-   },
-   "market": {
-    "release_id": 835523,
-    "taken_at": "2026-10-19T14:24:40Z",
-    "want": 46,
-    "have": 224,
-    "num_for_sale": 12,
-    "lowest_price": 0.62,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 2,
-    "days": 36
-   },
-   "gem_score": 0.574,
+   "gem_score": 0.62,
    "tier": "buy"
   },
   {
@@ -619,19 +569,69 @@
    },
    "market": {
     "release_id": 98481,
-    "taken_at": "2026-10-19T14:24:24Z",
-    "want": 341,
+    "taken_at": "2026-10-21T12:45:26Z",
+    "want": 342,
     "have": 497,
-    "num_for_sale": 9,
+    "num_for_sale": 10,
     "lowest_price": 9.0,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": 0,
-    "days": 3
+    "want_delta": 1,
+    "days": 5
    },
-   "gem_score": 0.555,
+   "gem_score": 0.583,
+   "tier": "buy"
+  },
+  {
+   "artist": "not boiler room",
+   "title": "this",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Basement Jaxx | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=djsItMOfCQA",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 835523,
+    "master_id": 171602,
+    "title": "MTV:  The Return Of The Rock ",
+    "artists": "Various",
+    "year": 2000,
+    "country": "US",
+    "labels": "MTV Music Television, Roadrunner Records",
+    "formats": "CD Compilation",
+    "styles": "Alternative Rock, Nu Metal",
+    "genres": "Rock",
+    "thumb": "https://i.discogs.com/71F8zxEJcF0G0woXw9BCx_irxcgi_mqjeC0bwlfKB9E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNTUy/My0xNDgxMTIwMDIx/LTc3MjcuanBlZw.jpeg",
+    "videos": [],
+    "fetched_at": "2026-09-13T12:34:27Z"
+   },
+   "market": {
+    "release_id": 835523,
+    "taken_at": "2026-10-21T12:45:42Z",
+    "want": 46,
+    "have": 224,
+    "num_for_sale": 13,
+    "lowest_price": 0.62,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 2,
+    "days": 38
+   },
+   "gem_score": 0.574,
    "tier": "buy"
   },
   {
@@ -672,7 +672,7 @@
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-10-19T14:24:46Z",
+    "taken_at": "2026-10-21T12:45:48Z",
     "want": 23,
     "have": 160,
     "num_for_sale": 14,
@@ -682,7 +682,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 43
+    "days": 45
    },
    "gem_score": 0.505,
    "tier": "buy"
@@ -725,7 +725,7 @@
    },
    "market": {
     "release_id": 166858,
-    "taken_at": "2026-10-19T14:24:29Z",
+    "taken_at": "2026-10-21T12:45:31Z",
     "want": 62,
     "have": 188,
     "num_for_sale": 4,
@@ -735,7 +735,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.492,
    "tier": "buy"
@@ -778,9 +778,9 @@
    },
    "market": {
     "release_id": 250375,
-    "taken_at": "2026-10-19T14:24:35Z",
+    "taken_at": "2026-10-21T12:45:37Z",
     "want": 68,
-    "have": 80,
+    "have": 81,
     "num_for_sale": 4,
     "lowest_price": 10.0,
     "currency": "GBP",
@@ -788,7 +788,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.484,
    "tier": "buy"
@@ -830,7 +830,7 @@
    },
    "market": {
     "release_id": 44476,
-    "taken_at": "2026-10-19T14:24:22Z",
+    "taken_at": "2026-10-21T12:45:24Z",
     "want": 103,
     "have": 188,
     "num_for_sale": 3,
@@ -840,7 +840,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.448,
    "tier": "buy"
@@ -882,7 +882,7 @@
    },
    "market": {
     "release_id": 44476,
-    "taken_at": "2026-10-19T14:24:22Z",
+    "taken_at": "2026-10-21T12:45:24Z",
     "want": 103,
     "have": 188,
     "num_for_sale": 3,
@@ -892,10 +892,60 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.448,
    "tier": "buy"
+  },
+  {
+   "artist": "10 Miro",
+   "title": "Final Signal",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 653251,
+    "master_id": 22674,
+    "title": "Thunderdome - The Box",
+    "artists": "Various",
+    "year": 1999,
+    "country": "Netherlands",
+    "labels": "ID&T",
+    "formats": "Box Set Limited Edition, CD Compilation Mixed, VHS Mixed PAL",
+    "styles": "Hardcore, Gabber, Happy Hardcore, Acid, Hard Trance, Techno, Field Recording, Interview",
+    "genres": "Electronic, Non-Music",
+    "thumb": "https://i.discogs.com/t7DhUc5YqPTiyvEOFYiSQjHVNRsB8nqFTHNkKtnD_sk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MzI1/MS0xMTU0MDgyMzUx/LmpwZWc.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-16T12:09:34Z"
+   },
+   "market": {
+    "release_id": 653251,
+    "taken_at": "2026-10-21T12:45:41Z",
+    "want": 210,
+    "have": 128,
+    "num_for_sale": 1,
+    "lowest_price": 50.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 1,
+    "days": 5
+   },
+   "gem_score": 0.628,
+   "tier": "pricey"
   },
   {
    "artist": "Dennis Quin",
@@ -941,7 +991,7 @@
    },
    "market": {
     "release_id": 35301913,
-    "taken_at": "2026-10-19T14:25:03Z",
+    "taken_at": "2026-10-21T12:46:05Z",
     "want": 52,
     "have": 96,
     "num_for_sale": 4,
@@ -951,7 +1001,7 @@
    },
    "trend": {
     "want_delta": -1,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.605,
    "tier": "pricey"
@@ -991,7 +1041,7 @@
    },
    "market": {
     "release_id": 33602817,
-    "taken_at": "2026-10-19T14:25:02Z",
+    "taken_at": "2026-10-21T12:46:03Z",
     "want": 71,
     "have": 63,
     "num_for_sale": 3,
@@ -1001,59 +1051,9 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.6,
-   "tier": "pricey"
-  },
-  {
-   "artist": "10 Miro",
-   "title": "Final Signal",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 653251,
-    "master_id": 22674,
-    "title": "Thunderdome - The Box",
-    "artists": "Various",
-    "year": 1999,
-    "country": "Netherlands",
-    "labels": "ID&T",
-    "formats": "Box Set Limited Edition, CD Compilation Mixed, VHS Mixed PAL",
-    "styles": "Hardcore, Gabber, Happy Hardcore, Acid, Hard Trance, Techno, Field Recording, Interview",
-    "genres": "Electronic, Non-Music",
-    "thumb": "https://i.discogs.com/t7DhUc5YqPTiyvEOFYiSQjHVNRsB8nqFTHNkKtnD_sk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MzI1/MS0xMTU0MDgyMzUx/LmpwZWc.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-16T12:09:34Z"
-   },
-   "market": {
-    "release_id": 653251,
-    "taken_at": "2026-10-19T14:24:39Z",
-    "want": 209,
-    "have": 128,
-    "num_for_sale": 1,
-    "lowest_price": 50.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 3
-   },
-   "gem_score": 0.598,
    "tier": "pricey"
   },
   {
@@ -1094,7 +1094,7 @@
    },
    "market": {
     "release_id": 350498,
-    "taken_at": "2026-10-19T14:24:36Z",
+    "taken_at": "2026-10-21T12:45:38Z",
     "want": 113,
     "have": 446,
     "num_for_sale": 4,
@@ -1104,7 +1104,7 @@
    },
    "trend": {
     "want_delta": 5,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.552,
    "tier": "pricey"
@@ -1148,17 +1148,17 @@
    },
    "market": {
     "release_id": 35915272,
-    "taken_at": "2026-10-19T14:25:06Z",
+    "taken_at": "2026-10-21T12:46:07Z",
     "want": 343,
-    "have": 1784,
-    "num_for_sale": 37,
-    "lowest_price": 35.6,
+    "have": 1786,
+    "num_for_sale": 40,
+    "lowest_price": 34.0,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 2,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.509,
    "tier": "pricey"
@@ -1200,7 +1200,7 @@
    },
    "market": {
     "release_id": 1196026,
-    "taken_at": "2026-10-19T14:24:42Z",
+    "taken_at": "2026-10-21T12:45:44Z",
     "want": 92,
     "have": 118,
     "num_for_sale": 10,
@@ -1210,7 +1210,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 43
+    "days": 45
    },
    "gem_score": 0.457,
    "tier": "pricey"
@@ -1254,7 +1254,7 @@
    },
    "market": {
     "release_id": 15353,
-    "taken_at": "2026-10-19T14:24:19Z",
+    "taken_at": "2026-10-21T12:45:21Z",
     "want": 1039,
     "have": 1010,
     "num_for_sale": 17,
@@ -1264,7 +1264,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.398,
    "tier": "pricey"
@@ -1309,7 +1309,7 @@
    },
    "market": {
     "release_id": 376202,
-    "taken_at": "2026-10-19T14:24:37Z",
+    "taken_at": "2026-10-21T12:45:39Z",
     "want": 243,
     "have": 405,
     "num_for_sale": 8,
@@ -1319,7 +1319,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.39,
    "tier": "pricey"
@@ -1363,7 +1363,7 @@
    },
    "market": {
     "release_id": 60296,
-    "taken_at": "2026-10-19T14:24:23Z",
+    "taken_at": "2026-10-21T12:45:25Z",
     "want": 242,
     "have": 1040,
     "num_for_sale": 6,
@@ -1373,7 +1373,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.39,
    "tier": "pricey"
@@ -1418,7 +1418,7 @@
    },
    "market": {
     "release_id": 376202,
-    "taken_at": "2026-10-19T14:24:37Z",
+    "taken_at": "2026-10-21T12:45:39Z",
     "want": 243,
     "have": 405,
     "num_for_sale": 8,
@@ -1428,7 +1428,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.39,
    "tier": "pricey"
@@ -1473,7 +1473,7 @@
    },
    "market": {
     "release_id": 114985,
-    "taken_at": "2026-10-19T14:24:27Z",
+    "taken_at": "2026-10-21T12:45:29Z",
     "want": 343,
     "have": 621,
     "num_for_sale": 7,
@@ -1483,7 +1483,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.388,
    "tier": "pricey"
@@ -1527,7 +1527,7 @@
    },
    "market": {
     "release_id": 122837,
-    "taken_at": "2026-10-19T14:24:28Z",
+    "taken_at": "2026-10-21T12:45:30Z",
     "want": 377,
     "have": 695,
     "num_for_sale": 11,
@@ -1537,7 +1537,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.383,
    "tier": "pricey"
@@ -1580,7 +1580,7 @@
    },
    "market": {
     "release_id": 12749503,
-    "taken_at": "2026-10-19T14:24:52Z",
+    "taken_at": "2026-10-21T12:45:53Z",
     "want": 216,
     "have": 246,
     "num_for_sale": 2,
@@ -1590,64 +1590,9 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.347,
-   "tier": "pricey"
-  },
-  {
-   "artist": "20 Pilldriver",
-   "title": "Pitch-Hiker",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 1396749,
-    "master_id": 217524,
-    "title": "Classic Hardcore Vol. 3",
-    "artists": "Pilldriver",
-    "year": 2008,
-    "country": "Germany",
-    "labels": "ACA2017 Productions",
-    "formats": "Vinyl 12\" 45 RPM",
-    "styles": "Hardcore, Gabber",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/cJeipEwkcQcW1Ixm-EPkwqxyXuwiPR3OVPJHB0qt6NQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTY3/NDktMTIxNjIzNTQx/Ny5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=QdnpfZ70AOQ",
-     "https://www.youtube.com/watch?v=XPxwWCHjjZM",
-     "https://www.youtube.com/watch?v=QdnpfZ70AOQ",
-     "https://www.youtube.com/watch?v=XPxwWCHjjZM"
-    ],
-    "fetched_at": "2026-10-16T12:10:07Z"
-   },
-   "market": {
-    "release_id": 1396749,
-    "taken_at": "2026-10-19T14:24:44Z",
-    "want": 878,
-    "have": 904,
-    "num_for_sale": 6,
-    "lowest_price": 65.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 1,
-    "days": 3
-   },
-   "gem_score": 0.342,
    "tier": "pricey"
   },
   {
@@ -1688,7 +1633,7 @@
    },
    "market": {
     "release_id": 24032066,
-    "taken_at": "2026-10-19T14:24:56Z",
+    "taken_at": "2026-10-21T12:45:57Z",
     "want": 107,
     "have": 92,
     "num_for_sale": 1,
@@ -1698,7 +1643,7 @@
    },
    "trend": {
     "want_delta": -2,
-    "days": 43
+    "days": 45
    },
    "gem_score": 0.334,
    "tier": "pricey"
@@ -1745,7 +1690,7 @@
    },
    "market": {
     "release_id": 24382,
-    "taken_at": "2026-10-19T14:24:21Z",
+    "taken_at": "2026-10-21T12:45:22Z",
     "want": 738,
     "have": 835,
     "num_for_sale": 6,
@@ -1755,9 +1700,64 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.333,
+   "tier": "pricey"
+  },
+  {
+   "artist": "20 Pilldriver",
+   "title": "Pitch-Hiker",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 1396749,
+    "master_id": 217524,
+    "title": "Classic Hardcore Vol. 3",
+    "artists": "Pilldriver",
+    "year": 2008,
+    "country": "Germany",
+    "labels": "ACA2017 Productions",
+    "formats": "Vinyl 12\" 45 RPM",
+    "styles": "Hardcore, Gabber",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/cJeipEwkcQcW1Ixm-EPkwqxyXuwiPR3OVPJHB0qt6NQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTY3/NDktMTIxNjIzNTQx/Ny5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=QdnpfZ70AOQ",
+     "https://www.youtube.com/watch?v=XPxwWCHjjZM",
+     "https://www.youtube.com/watch?v=QdnpfZ70AOQ",
+     "https://www.youtube.com/watch?v=XPxwWCHjjZM"
+    ],
+    "fetched_at": "2026-10-16T12:10:07Z"
+   },
+   "market": {
+    "release_id": 1396749,
+    "taken_at": "2026-10-21T12:45:46Z",
+    "want": 877,
+    "have": 904,
+    "num_for_sale": 6,
+    "lowest_price": 65.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 5
+   },
+   "gem_score": 0.325,
    "tier": "pricey"
   },
   {
@@ -1800,7 +1800,7 @@
    },
    "market": {
     "release_id": 33445883,
-    "taken_at": "2026-10-19T14:25:01Z",
+    "taken_at": "2026-10-21T12:46:02Z",
     "want": 0,
     "have": 13,
     "num_for_sale": 0,
@@ -1810,7 +1810,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 2.109,
    "tier": "watch"
@@ -1855,7 +1855,7 @@
    },
    "market": {
     "release_id": 35809126,
-    "taken_at": "2026-10-19T14:25:05Z",
+    "taken_at": "2026-10-21T12:46:06Z",
     "want": 0,
     "have": 1,
     "num_for_sale": 0,
@@ -1865,7 +1865,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 2.109,
    "tier": "watch"
@@ -1905,7 +1905,7 @@
    },
    "market": {
     "release_id": 27776160,
-    "taken_at": "2026-10-19T14:24:58Z",
+    "taken_at": "2026-10-21T12:46:00Z",
     "want": 2,
     "have": 2,
     "num_for_sale": 0,
@@ -1915,7 +1915,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 1.005,
    "tier": "watch"
@@ -1955,7 +1955,7 @@
    },
    "market": {
     "release_id": 8612286,
-    "taken_at": "2026-10-19T14:24:48Z",
+    "taken_at": "2026-10-21T12:45:49Z",
     "want": 4,
     "have": 10,
     "num_for_sale": 0,
@@ -1965,7 +1965,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.97,
    "tier": "watch"
@@ -2005,7 +2005,7 @@
    },
    "market": {
     "release_id": 32394792,
-    "taken_at": "2026-10-19T14:25:00Z",
+    "taken_at": "2026-10-21T12:46:01Z",
     "want": 3,
     "have": 5,
     "num_for_sale": 0,
@@ -2015,7 +2015,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.884,
    "tier": "watch"
@@ -2064,7 +2064,7 @@
    },
    "market": {
     "release_id": 10651856,
-    "taken_at": "2026-10-19T14:24:50Z",
+    "taken_at": "2026-10-21T12:45:52Z",
     "want": 8,
     "have": 22,
     "num_for_sale": 0,
@@ -2074,7 +2074,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.66,
    "tier": "watch"
@@ -2116,7 +2116,7 @@
    },
    "market": {
     "release_id": 2253021,
-    "taken_at": "2026-10-19T14:24:45Z",
+    "taken_at": "2026-10-21T12:45:47Z",
     "want": 90,
     "have": 39,
     "num_for_sale": 0,
@@ -2126,7 +2126,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.459,
    "tier": "watch"
@@ -2172,7 +2172,7 @@
    },
    "market": {
     "release_id": 168851,
-    "taken_at": "2026-10-19T14:24:31Z",
+    "taken_at": "2026-10-21T12:45:33Z",
     "want": 210,
     "have": 107,
     "num_for_sale": 0,
@@ -2182,7 +2182,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 3
+    "days": 5
    },
    "gem_score": 0.398,
    "tier": "watch"
