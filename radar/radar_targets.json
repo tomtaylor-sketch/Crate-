@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T13:53:19Z",
+ "generated": "2026-10-29T13:59:27Z",
  "currency": "GBP",
  "targets": [
   {
@@ -48,7 +48,7 @@
    },
    "market": {
     "release_id": 16060788,
-    "taken_at": "2026-10-28T13:53:07Z",
+    "taken_at": "2026-10-29T13:59:06Z",
     "want": 10,
     "have": 6,
     "num_for_sale": 2,
@@ -58,7 +58,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
    "gem_score": 1.117,
    "tier": "buy"
@@ -105,7 +105,7 @@
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-10-28T13:52:56Z",
+    "taken_at": "2026-10-29T13:58:42Z",
     "want": 47,
     "have": 502,
     "num_for_sale": 52,
@@ -115,7 +115,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 52
+    "days": 53
    },
    "gem_score": 0.818,
    "tier": "buy"
@@ -165,7 +165,7 @@
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-10-28T13:53:10Z",
+    "taken_at": "2026-10-29T13:59:13Z",
     "want": 47,
     "have": 69,
     "num_for_sale": 5,
@@ -175,7 +175,7 @@
    },
    "trend": {
     "want_delta": 2,
-    "days": 52
+    "days": 53
    },
    "gem_score": 0.714,
    "tier": "buy"
@@ -236,7 +236,7 @@
    },
    "market": {
     "release_id": 200097,
-    "taken_at": "2026-10-28T13:52:48Z",
+    "taken_at": "2026-10-29T13:58:33Z",
     "want": 151,
     "have": 294,
     "num_for_sale": 12,
@@ -246,7 +246,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.662,
    "tier": "buy"
@@ -286,7 +286,7 @@
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-10-28T13:53:03Z",
+    "taken_at": "2026-10-29T13:58:55Z",
     "want": 8,
     "have": 62,
     "num_for_sale": 12,
@@ -296,7 +296,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 52
+    "days": 53
    },
    "gem_score": 0.66,
    "tier": "buy"
@@ -340,17 +340,17 @@
    },
    "market": {
     "release_id": 226979,
-    "taken_at": "2026-10-28T13:52:49Z",
+    "taken_at": "2026-10-29T13:58:35Z",
     "want": 118,
     "have": 356,
-    "num_for_sale": 4,
-    "lowest_price": 7.0,
+    "num_for_sale": 5,
+    "lowest_price": 6.89,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.657,
    "tier": "buy"
@@ -393,17 +393,17 @@
    },
    "market": {
     "release_id": 105706,
-    "taken_at": "2026-10-28T13:52:42Z",
+    "taken_at": "2026-10-29T13:58:27Z",
     "want": 122,
     "have": 240,
-    "num_for_sale": 9,
+    "num_for_sale": 10,
     "lowest_price": 5.85,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.653,
    "tier": "buy"
@@ -448,7 +448,7 @@
    },
    "market": {
     "release_id": 17764483,
-    "taken_at": "2026-10-28T13:53:08Z",
+    "taken_at": "2026-10-29T13:59:08Z",
     "want": 129,
     "have": 207,
     "num_for_sale": 9,
@@ -458,7 +458,7 @@
    },
    "trend": {
     "want_delta": 3,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.62,
    "tier": "buy"
@@ -503,7 +503,7 @@
    },
    "market": {
     "release_id": 17764483,
-    "taken_at": "2026-10-28T13:53:08Z",
+    "taken_at": "2026-10-29T13:59:08Z",
     "want": 129,
     "have": 207,
     "num_for_sale": 9,
@@ -513,7 +513,7 @@
    },
    "trend": {
     "want_delta": 3,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.62,
    "tier": "buy"
@@ -569,7 +569,7 @@
    },
    "market": {
     "release_id": 98481,
-    "taken_at": "2026-10-28T13:52:40Z",
+    "taken_at": "2026-10-29T13:58:26Z",
     "want": 342,
     "have": 500,
     "num_for_sale": 10,
@@ -579,7 +579,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.583,
    "tier": "buy"
@@ -619,7 +619,7 @@
    },
    "market": {
     "release_id": 835523,
-    "taken_at": "2026-10-28T13:52:55Z",
+    "taken_at": "2026-10-29T13:58:41Z",
     "want": 46,
     "have": 226,
     "num_for_sale": 13,
@@ -629,7 +629,7 @@
    },
    "trend": {
     "want_delta": 2,
-    "days": 45
+    "days": 46
    },
    "gem_score": 0.574,
    "tier": "buy"
@@ -672,7 +672,7 @@
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-10-28T13:53:01Z",
+    "taken_at": "2026-10-29T13:58:51Z",
     "want": 23,
     "have": 160,
     "num_for_sale": 14,
@@ -682,7 +682,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 52
+    "days": 53
    },
    "gem_score": 0.505,
    "tier": "buy"
@@ -725,17 +725,17 @@
    },
    "market": {
     "release_id": 166858,
-    "taken_at": "2026-10-28T13:52:45Z",
+    "taken_at": "2026-10-29T13:58:31Z",
     "want": 62,
     "have": 189,
-    "num_for_sale": 3,
+    "num_for_sale": 4,
     "lowest_price": 6.0,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.492,
    "tier": "buy"
@@ -778,17 +778,17 @@
    },
    "market": {
     "release_id": 250375,
-    "taken_at": "2026-10-28T13:52:50Z",
+    "taken_at": "2026-10-29T13:58:36Z",
     "want": 68,
     "have": 81,
-    "num_for_sale": 3,
+    "num_for_sale": 4,
     "lowest_price": 10.0,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.484,
    "tier": "buy"
@@ -830,7 +830,7 @@
    },
    "market": {
     "release_id": 44476,
-    "taken_at": "2026-10-28T13:52:38Z",
+    "taken_at": "2026-10-29T13:58:23Z",
     "want": 103,
     "have": 189,
     "num_for_sale": 3,
@@ -840,7 +840,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.448,
    "tier": "buy"
@@ -882,7 +882,7 @@
    },
    "market": {
     "release_id": 44476,
-    "taken_at": "2026-10-28T13:52:38Z",
+    "taken_at": "2026-10-29T13:58:23Z",
     "want": 103,
     "have": 189,
     "num_for_sale": 3,
@@ -892,10 +892,326 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
    "gem_score": 0.448,
    "tier": "buy"
+  },
+  {
+   "artist": "Fred again",
+   "title": "Victory Lap (ID remix)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "matched base title (remix/version may differ)",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
+     "position": "9:12",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 35915272,
+    "master_id": 4066780,
+    "title": "USB002",
+    "artists": "Fred again..",
+    "year": 2025,
+    "country": "Europe",
+    "labels": "Atlantic",
+    "formats": "Vinyl LP Album",
+    "styles": "UK Garage, House, Dubstep, Techno, Breakbeat, Grime",
+    "genres": "Electronic, Hip Hop",
+    "thumb": "https://i.discogs.com/O047mm49qpTCijYxbc1xJPcVNApNAfrKZJRAlrPOR4U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTE1/MjcyLTE3NjU2MzAy/NjEtMzc1OS5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=LHJvY1aB2rY",
+     "https://www.youtube.com/watch?v=uc5NSUrnF70",
+     "https://www.youtube.com/watch?v=LHJvY1aB2rY"
+    ],
+    "fetched_at": "2026-10-16T12:08:06Z"
+   },
+   "market": {
+    "release_id": 35915272,
+    "taken_at": "2026-10-29T13:59:25Z",
+    "want": 351,
+    "have": 1802,
+    "num_for_sale": 40,
+    "lowest_price": 38.7,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 10,
+    "days": 13
+   },
+   "gem_score": 0.691,
+   "tier": "pricey"
+  },
+  {
+   "artist": "Dennis Quin",
+   "title": "Be There (Bushbaby remix??)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "matched base title (remix/version may differ)",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
+     "position": "5:29",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 35301913,
+    "master_id": 4015555,
+    "title": "Rock & Rule EP",
+    "artists": "Dennis Quin",
+    "year": 2025,
+    "country": "Netherlands",
+    "labels": "EARDRUMS",
+    "formats": "Vinyl 12\" 33 \u2153 RPM EP Stereo",
+    "styles": "House, UK Garage, Tech House",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/O5mGPZ7dfYSEkIYNTb9UvDm5ztc6zxU8kdQIOqbq0f8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzAx/OTEzLTE3NTk3NjQz/NDYtNTUwNi5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=5cywYseTel0",
+     "https://www.youtube.com/watch?v=Wq_7o219Y8s",
+     "https://www.youtube.com/watch?v=i3gvWsenjlY",
+     "https://www.youtube.com/watch?v=65uiaZVue2M",
+     "https://www.youtube.com/watch?v=5cywYseTel0",
+     "https://www.youtube.com/watch?v=Wq_7o219Y8s",
+     "https://www.youtube.com/watch?v=i3gvWsenjlY",
+     "https://www.youtube.com/watch?v=65uiaZVue2M"
+    ],
+    "fetched_at": "2026-10-16T12:08:02Z"
+   },
+   "market": {
+    "release_id": 35301913,
+    "taken_at": "2026-10-29T13:59:22Z",
+    "want": 53,
+    "have": 96,
+    "num_for_sale": 4,
+    "lowest_price": 20.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.634,
+   "tier": "pricey"
+  },
+  {
+   "artist": "10 Miro",
+   "title": "Final Signal",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 653251,
+    "master_id": 22674,
+    "title": "Thunderdome - The Box",
+    "artists": "Various",
+    "year": 1999,
+    "country": "Netherlands",
+    "labels": "ID&T",
+    "formats": "Box Set Limited Edition, CD Compilation Mixed, VHS Mixed PAL",
+    "styles": "Hardcore, Gabber, Happy Hardcore, Acid, Hard Trance, Techno, Field Recording, Interview",
+    "genres": "Electronic, Non-Music",
+    "thumb": "https://i.discogs.com/t7DhUc5YqPTiyvEOFYiSQjHVNRsB8nqFTHNkKtnD_sk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MzI1/MS0xMTU0MDgyMzUx/LmpwZWc.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-16T12:09:34Z"
+   },
+   "market": {
+    "release_id": 653251,
+    "taken_at": "2026-10-29T13:58:40Z",
+    "want": 210,
+    "have": 129,
+    "num_for_sale": 1,
+    "lowest_price": 50.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 1,
+    "days": 13
+   },
+   "gem_score": 0.628,
+   "tier": "pricey"
+  },
+  {
+   "artist": "In Verruf",
+   "title": "Drown",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": "33:52",
+     "confidence": 0.65
+    }
+   ],
+   "release": {
+    "release_id": 33602817,
+    "master_id": 3802209,
+    "title": "44012",
+    "artists": "In verruf",
+    "year": 2025,
+    "country": "Germany",
+    "labels": "44 Label Group",
+    "formats": "Vinyl 12\" 33 \u2153 RPM EP",
+    "styles": "Techno, Schranz",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/G8QtgRB-HObbL40FdkemM6ubpt8qveCj0wg5N8yzH7E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNjAy/ODE3LTE3NDM4Njg3/NzktOTI2NC5qcGVn.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-16T12:08:48Z"
+   },
+   "market": {
+    "release_id": 33602817,
+    "taken_at": "2026-10-29T13:59:20Z",
+    "want": 70,
+    "have": 64,
+    "num_for_sale": 2,
+    "lowest_price": 150.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": -1,
+    "days": 13
+   },
+   "gem_score": 0.571,
+   "tier": "pricey"
+  },
+  {
+   "artist": "09 DJ Niel",
+   "title": "Under My Skin",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 350498,
+    "master_id": 260547,
+    "title": "Under My Skin",
+    "artists": "DJ Niel",
+    "year": 2005,
+    "country": "Netherlands",
+    "labels": "Zero Tolerance",
+    "formats": "Vinyl 12\" 45 RPM 33 \u2153 RPM",
+    "styles": "Hardcore, Gabber",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/reu5sx7QleBdRH1wEDOBGld0rhZM_UEdOTD8YwsCHt4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MDQ5/OC0xMTI5MjgxODMw/LmpwZWc.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=qAbQMM3oRZ0",
+     "https://www.youtube.com/watch?v=qAbQMM3oRZ0"
+    ],
+    "fetched_at": "2026-10-16T12:09:30Z"
+   },
+   "market": {
+    "release_id": 350498,
+    "taken_at": "2026-10-29T13:58:37Z",
+    "want": 113,
+    "have": 446,
+    "num_for_sale": 5,
+    "lowest_price": 20.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 5,
+    "days": 13
+   },
+   "gem_score": 0.552,
+   "tier": "pricey"
+  },
+  {
+   "artist": "kane grocerys",
+   "title": "who dat",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
+     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
+     "position": "17:55",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 12382635,
+    "master_id": 0,
+    "title": "Land Of GothGhanistan",
+    "artists": "Kane Grocerys",
+    "year": 2016,
+    "country": "US",
+    "labels": "Goth Money Records",
+    "formats": "File MP3 Album",
+    "styles": "Trap",
+    "genres": "Hip Hop",
+    "thumb": "https://i.discogs.com/5nWUWpJ5EBnjEFb4uiT_Rt4sTWC-2y5bRcVu3hByR0A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzgy/NjM1LTE1MzQxNDE5/MDAtNjIxNi5qcGVn.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-28T13:51:49Z"
+   },
+   "market": {
+    "release_id": 12382635,
+    "taken_at": "2026-10-29T13:58:59Z",
+    "want": 24,
+    "have": 18,
+    "num_for_sale": 1,
+    "lowest_price": 108.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.5,
+   "tier": "pricey"
   },
   {
    "artist": "gucci mane",
@@ -935,74 +1251,616 @@
    },
    "market": {
     "release_id": 12677359,
-    "taken_at": "2026-10-28T13:52:01Z",
+    "taken_at": "2026-10-29T13:59:00Z",
     "want": 70,
     "have": 15,
     "num_for_sale": 3,
     "lowest_price": 20.7,
     "currency": "GBP",
-    "yt_views": 688008
+    "yt_views": null
    },
-   "gem_score": 1.077,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.481,
    "tier": "pricey"
   },
   {
-   "artist": "chief keef",
-   "title": "citgo",
+   "artist": "1-800 GIRLS",
+   "title": "Your Side",
    "label_hint": null,
    "mentions": 1,
    "sources": 1,
-   "confidence": 0.7,
+   "confidence": 0.65,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
+     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
+     "position": "12:00",
+     "confidence": 0.65
+    }
+   ],
+   "release": {
+    "release_id": 1196026,
+    "master_id": 0,
+    "title": "Bruce Lee, Heroin, And The Punk Scene",
+    "artists": "Various",
+    "year": 1994,
+    "country": "US",
+    "labels": "Massacre At Central Hi",
+    "formats": "Vinyl 7\" 33 \u2153 RPM 45 RPM Limited Edition",
+    "styles": "Experimental",
+    "genres": "Rock",
+    "thumb": "https://i.discogs.com/h9XwfVS9V8QA2EeNu5dDKwVXhAp3XAQIwJbYWVRGzIc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTYw/MjYtMTE5OTk1NjM5/OC5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=fwzCEspWFiQ"
+    ],
+    "fetched_at": "2026-09-06T04:31:16Z"
+   },
+   "market": {
+    "release_id": 1196026,
+    "taken_at": "2026-10-29T13:58:44Z",
+    "want": 92,
+    "have": 118,
+    "num_for_sale": 10,
+    "lowest_price": 22.5,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 53
+   },
+   "gem_score": 0.457,
+   "tier": "pricey"
+  },
+  {
+   "artist": "Circuit Breaker",
+   "title": "Trac-X",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
    "resolved": 1,
    "match_note": "track match",
    "sightings": [
     {
      "source_type": "yt_comment",
-     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
-     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "36:00",
-     "confidence": 0.7
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.65
     }
    ],
    "release": {
-    "release_id": 22460704,
-    "master_id": 701431,
-    "title": "Finally Rich",
-    "artists": "Chief Keef",
-    "year": 2022,
-    "country": "US",
-    "labels": "Glory Boyz Entertainment, Interscope Records",
-    "formats": "Vinyl LP Album Club Edition Reissue Remastered Stereo",
-    "styles": "Gangsta, Trap, Drill",
-    "genres": "Hip Hop",
-    "thumb": "https://i.discogs.com/i6WhBGYHEfZo6Qg0B87PusDe0WHCsLDieqrw4NRBqNg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNDYw/NzA0LTE2NzYxMzQ1/MzktODc0Ni5qcGVn.jpeg",
+    "release_id": 15353,
+    "master_id": 0,
+    "title": "Trac-X",
+    "artists": "Circuit Breaker",
+    "year": 1992,
+    "country": "USA & Canada",
+    "labels": "Probe Records",
+    "formats": "Vinyl 12\" 45 RPM",
+    "styles": "Hardcore, Techno",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/XhoJNWI1gwvo75BqYvs2OQacZg8MoHoVVITLe_TwTi0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MzUz/LTExNjIzODg0MTku/anBlZw.jpeg",
     "videos": [
-     "https://www.youtube.com/watch?v=YWyHZNBz6FE",
-     "https://www.youtube.com/watch?v=6LabALciaCk",
-     "https://www.youtube.com/watch?v=6g5ZF6DUrHI",
-     "https://www.youtube.com/watch?v=qLo-Lw6idVU",
-     "https://www.youtube.com/watch?v=GLV07jcZ7hY",
-     "https://www.youtube.com/watch?v=HlHYoLCgLYw",
-     "https://www.youtube.com/watch?v=mvDwCfuMb0E",
-     "https://www.youtube.com/watch?v=FE5rpTDoUx0",
-     "https://www.youtube.com/watch?v=WrUV3ue9jn4",
-     "https://www.youtube.com/watch?v=YWyHZNBz6FE",
-     "https://www.youtube.com/watch?v=6LabALciaCk",
-     "https://www.youtube.com/watch?v=WrUV3ue9jn4"
+     "https://www.youtube.com/watch?v=zocUA9cSrIs",
+     "https://www.youtube.com/watch?v=6Z4KLxQwH4U",
+     "https://www.youtube.com/watch?v=c9bPaSn3Yuc"
     ],
-    "fetched_at": "2026-10-28T13:52:19Z"
+    "fetched_at": "2026-10-16T12:08:51Z"
    },
    "market": {
-    "release_id": 22460704,
-    "taken_at": "2026-10-28T13:52:19Z",
-    "want": 1948,
-    "have": 2687,
-    "num_for_sale": 16,
-    "lowest_price": 63.0,
+    "release_id": 15353,
+    "taken_at": "2026-10-29T13:58:21Z",
+    "want": 1040,
+    "have": 1011,
+    "num_for_sale": 18,
+    "lowest_price": 17.5,
     "currency": "GBP",
-    "yt_views": 961884187
+    "yt_views": null
    },
-   "gem_score": 0.889,
+   "trend": {
+    "want_delta": 1,
+    "days": 13
+   },
+   "gem_score": 0.418,
+   "tier": "pricey"
+  },
+  {
+   "artist": "12 Darrien Kelly & The Unknown MC",
+   "title": "The People Want More",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 114985,
+    "master_id": 2458,
+    "title": "The People Want More",
+    "artists": "Darrien Kelly, The Unknown MC (2)",
+    "year": 1998,
+    "country": "Netherlands",
+    "labels": "Hollow Point",
+    "formats": "Vinyl 12\"",
+    "styles": "Hardcore",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/RAE_kHKFLIuElcjEi4jFR9odn-yPdw0HKSdbDNp7NGU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDk4/NS0xNjc2NzM0Mjk2/LTM0ODEuanBlZw.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=DoIxu25-4Qw",
+     "https://www.youtube.com/watch?v=1pHwVMKAn90",
+     "https://www.youtube.com/watch?v=QEtkZixDz0A",
+     "https://www.youtube.com/watch?v=2ztcX5x961M"
+    ],
+    "fetched_at": "2026-10-16T12:09:42Z"
+   },
+   "market": {
+    "release_id": 114985,
+    "taken_at": "2026-10-29T13:58:28Z",
+    "want": 344,
+    "have": 623,
+    "num_for_sale": 7,
+    "lowest_price": 45.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 2,
+    "days": 13
+   },
+   "gem_score": 0.407,
+   "tier": "pricey"
+  },
+  {
+   "artist": "11:45: Keep It Comin",
+   "title": "Beat Addicts (Riordan Remix)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.6,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Riordan | Boiler Room: London",
+     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
+     "position": null,
+     "confidence": 0.6
+    }
+   ],
+   "release": {
+    "release_id": 24032066,
+    "master_id": 0,
+    "title": "Wyld Beests And Weirdos (6CDs Of British 60's R&B Beat Punk)",
+    "artists": "Various",
+    "year": 2022,
+    "country": "UK",
+    "labels": "Rubble (2)",
+    "formats": "Box Set Compilation, CD Compilation Remastered",
+    "styles": "Rhythm & Blues, Garage Rock, Beat, Mod, Rock & Roll",
+    "genres": "Rock, Blues",
+    "thumb": "https://i.discogs.com/tZVau9Beeyg38l6dREdTBzP2O15_8X8z8aVLV4UQCQU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MDMy/MDY2LTE2NjA1NTM0/MzMtNzk4Mi5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=EKgXVeU1XFo",
+     "https://www.youtube.com/watch?v=69MqiVFwauk"
+    ],
+    "fetched_at": "2026-09-06T04:31:28Z"
+   },
+   "market": {
+    "release_id": 24032066,
+    "taken_at": "2026-10-29T13:59:11Z",
+    "want": 111,
+    "have": 92,
+    "num_for_sale": 1,
+    "lowest_price": 48.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 2,
+    "days": 53
+   },
+   "gem_score": 0.406,
+   "tier": "pricey"
+  },
+  {
+   "artist": "01 Marshall Masters",
+   "title": "Return to Zero",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 122837,
+    "master_id": 169602,
+    "title": "Return To Zero",
+    "artists": "Marshall Masters",
+    "year": 1998,
+    "country": "Netherlands",
+    "labels": "ID&T",
+    "formats": "Vinyl 12\" Single Sided 45 RPM",
+    "styles": "Hardcore",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/HC8fY7uwmy1w90Ul8c-fitm2_Qn-gM98io7ITbWUR40/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/Ny0xNjQ0Nzc5NDMx/LTc5MTcuanBlZw.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=qyl7IqckJHo",
+     "https://www.youtube.com/watch?v=qyl7IqckJHo",
+     "https://www.youtube.com/watch?v=WmNbLFpBWUk"
+    ],
+    "fetched_at": "2026-10-16T12:08:59Z"
+   },
+   "market": {
+    "release_id": 122837,
+    "taken_at": "2026-10-29T13:58:30Z",
+    "want": 378,
+    "have": 696,
+    "num_for_sale": 10,
+    "lowest_price": 17.5,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 2,
+    "days": 13
+   },
+   "gem_score": 0.401,
+   "tier": "pricey"
+  },
+  {
+   "artist": "21 DJ Outblast",
+   "title": "Master's Symphony",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 376202,
+    "master_id": 89342,
+    "title": "Master's Symphony",
+    "artists": "DJ Outblast, DJ Wicked",
+    "year": 2001,
+    "country": "Spain",
+    "labels": "PN Records",
+    "formats": "Vinyl 12\" 45 RPM",
+    "styles": "Hardcore, Gabber",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/6IUmy-LS9yv3Fa9bpQzcX9ah6KmQ4nd6dGwbEp6c-QA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjIw/Mi0xMzE0MDk3NzA1/LmpwZWc.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=QXHJVmAu2gY",
+     "https://www.youtube.com/watch?v=P_z6o357XM4",
+     "https://www.youtube.com/watch?v=QXHJVmAu2gY",
+     "https://www.youtube.com/watch?v=P_z6o357XM4"
+    ],
+    "fetched_at": "2026-10-16T12:10:11Z"
+   },
+   "market": {
+    "release_id": 376202,
+    "taken_at": "2026-10-29T13:58:39Z",
+    "want": 243,
+    "have": 405,
+    "num_for_sale": 8,
+    "lowest_price": 42.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.39,
+   "tier": "pricey"
+  },
+  {
+   "artist": "22 Tschabos",
+   "title": "Gib Mir Die Bass (Noch Korrekter!!!)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 60296,
+    "master_id": 26852,
+    "title": "Thunderdome XIX (Cursed By Evil Sickness)",
+    "artists": "Various",
+    "year": 1997,
+    "country": "Europe",
+    "labels": "Arcade, ID&T",
+    "formats": "CD Compilation",
+    "styles": "Hardcore, Gabber, Doomcore",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/-eThnQoAAW06AriWJtuQclsTefULC5nQkARJwkp42YE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMjk2/LTE3MzcxOTc0NTMt/NzYxMS5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=OSmuMIkGRRo",
+     "https://www.youtube.com/watch?v=OSmuMIkGRRo",
+     "https://www.youtube.com/watch?v=qwK7Ndn4eXg"
+    ],
+    "fetched_at": "2026-10-16T12:10:16Z"
+   },
+   "market": {
+    "release_id": 60296,
+    "taken_at": "2026-10-29T13:58:24Z",
+    "want": 242,
+    "have": 1040,
+    "num_for_sale": 7,
+    "lowest_price": 19.49,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.39,
+   "tier": "pricey"
+  },
+  {
+   "artist": "Outblast",
+   "title": "Masters symphony",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.65,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.65
+    }
+   ],
+   "release": {
+    "release_id": 376202,
+    "master_id": 89342,
+    "title": "Master's Symphony",
+    "artists": "DJ Outblast, DJ Wicked",
+    "year": 2001,
+    "country": "Spain",
+    "labels": "PN Records",
+    "formats": "Vinyl 12\" 45 RPM",
+    "styles": "Hardcore, Gabber",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/6IUmy-LS9yv3Fa9bpQzcX9ah6KmQ4nd6dGwbEp6c-QA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjIw/Mi0xMzE0MDk3NzA1/LmpwZWc.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=QXHJVmAu2gY",
+     "https://www.youtube.com/watch?v=P_z6o357XM4",
+     "https://www.youtube.com/watch?v=QXHJVmAu2gY",
+     "https://www.youtube.com/watch?v=P_z6o357XM4"
+    ],
+    "fetched_at": "2026-10-16T12:10:11Z"
+   },
+   "market": {
+    "release_id": 376202,
+    "taken_at": "2026-10-29T13:58:39Z",
+    "want": 243,
+    "have": 405,
+    "num_for_sale": 8,
+    "lowest_price": 42.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.39,
+   "tier": "pricey"
+  },
+  {
+   "artist": "17 Lunatic Asylum",
+   "title": "Chaos Effect",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 12749503,
+    "master_id": 655737,
+    "title": "Digital Cameleon",
+    "artists": "Lunatic Asylum",
+    "year": 2018,
+    "country": "UK",
+    "labels": "Underground Music",
+    "formats": "Vinyl 12\" 33 \u2153 RPM Reissue",
+    "styles": "Hardcore, Hard Trance",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/R_3j0fE_N8GW_W4stBvqOgHG7xJ3n1SDhbQsIZxce7o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzQ5/NTAzLTE1NDM0Nzk0/NDUtMTEwMy5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=VUzODQQqt2c",
+     "https://www.youtube.com/watch?v=VUzODQQqt2c"
+    ],
+    "fetched_at": "2026-10-16T12:09:57Z"
+   },
+   "market": {
+    "release_id": 12749503,
+    "taken_at": "2026-10-29T13:59:01Z",
+    "want": 216,
+    "have": 246,
+    "num_for_sale": 3,
+    "lowest_price": 25.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 1,
+    "days": 13
+   },
+   "gem_score": 0.347,
+   "tier": "pricey"
+  },
+  {
+   "artist": "13 E-Man",
+   "title": "Bass Machine (Acardipane Remix)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 24382,
+    "master_id": 499351,
+    "title": "Bass Machine",
+    "artists": "E-Man (2)",
+    "year": 1999,
+    "country": "Germany",
+    "labels": "Acardipane Records",
+    "formats": "Vinyl 12\" 45 RPM Special Cut",
+    "styles": "Hardcore, Gabber, Doomcore",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/M0wfOIQPUWo0GyeKNomIWVVL8dQFpGBH2C8EVqUAxXU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mzgy/LTE1NDM4NTM3NDct/MTE2NS5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=nyZOqufUKFk",
+     "https://www.youtube.com/watch?v=85OG8HGRuHc",
+     "https://www.youtube.com/watch?v=0_T6RXM0r3I",
+     "https://www.youtube.com/watch?v=nyZOqufUKFk",
+     "https://www.youtube.com/watch?v=85OG8HGRuHc",
+     "https://www.youtube.com/watch?v=0_T6RXM0r3I"
+    ],
+    "fetched_at": "2026-10-16T12:09:46Z"
+   },
+   "market": {
+    "release_id": 24382,
+    "taken_at": "2026-10-29T13:58:22Z",
+    "want": 738,
+    "have": 835,
+    "num_for_sale": 6,
+    "lowest_price": 65.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.333,
+   "tier": "pricey"
+  },
+  {
+   "artist": "20 Pilldriver",
+   "title": "Pitch-Hiker",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 1396749,
+    "master_id": 217524,
+    "title": "Classic Hardcore Vol. 3",
+    "artists": "Pilldriver",
+    "year": 2008,
+    "country": "Germany",
+    "labels": "ACA2017 Productions",
+    "formats": "Vinyl 12\" 45 RPM",
+    "styles": "Hardcore, Gabber",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/cJeipEwkcQcW1Ixm-EPkwqxyXuwiPR3OVPJHB0qt6NQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTY3/NDktMTIxNjIzNTQx/Ny5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=QdnpfZ70AOQ",
+     "https://www.youtube.com/watch?v=XPxwWCHjjZM",
+     "https://www.youtube.com/watch?v=QdnpfZ70AOQ",
+     "https://www.youtube.com/watch?v=XPxwWCHjjZM"
+    ],
+    "fetched_at": "2026-10-16T12:10:07Z"
+   },
+   "market": {
+    "release_id": 1396749,
+    "taken_at": "2026-10-29T13:58:45Z",
+    "want": 876,
+    "have": 904,
+    "num_for_sale": 6,
+    "lowest_price": 65.0,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": -1,
+    "days": 13
+   },
+   "gem_score": 0.309,
    "tier": "pricey"
   },
   {
@@ -1072,286 +1930,24 @@
    },
    "market": {
     "release_id": 2510436,
-    "taken_at": "2026-10-28T13:51:47Z",
+    "taken_at": "2026-10-29T13:58:47Z",
     "want": 1374,
     "have": 1542,
     "num_for_sale": 3,
     "lowest_price": 95.79,
     "currency": "GBP",
-    "yt_views": 12120521
-   },
-   "gem_score": 0.856,
-   "tier": "pricey"
-  },
-  {
-   "artist": "Fred again",
-   "title": "Victory Lap (ID remix)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "matched base title (remix/version may differ)",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
-     "position": "9:12",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 35915272,
-    "master_id": 4066780,
-    "title": "USB002",
-    "artists": "Fred again..",
-    "year": 2025,
-    "country": "Europe",
-    "labels": "Atlantic",
-    "formats": "Vinyl LP Album",
-    "styles": "UK Garage, House, Dubstep, Techno, Breakbeat, Grime",
-    "genres": "Electronic, Hip Hop",
-    "thumb": "https://i.discogs.com/O047mm49qpTCijYxbc1xJPcVNApNAfrKZJRAlrPOR4U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTE1/MjcyLTE3NjU2MzAy/NjEtMzc1OS5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=LHJvY1aB2rY",
-     "https://www.youtube.com/watch?v=uc5NSUrnF70",
-     "https://www.youtube.com/watch?v=LHJvY1aB2rY"
-    ],
-    "fetched_at": "2026-10-16T12:08:06Z"
-   },
-   "market": {
-    "release_id": 35915272,
-    "taken_at": "2026-10-28T13:53:19Z",
-    "want": 351,
-    "have": 1801,
-    "num_for_sale": 40,
-    "lowest_price": 38.7,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 10,
-    "days": 12
-   },
-   "gem_score": 0.691,
-   "tier": "pricey"
-  },
-  {
-   "artist": "Dennis Quin",
-   "title": "Be There (Bushbaby remix??)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "matched base title (remix/version may differ)",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
-     "position": "5:29",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 35301913,
-    "master_id": 4015555,
-    "title": "Rock & Rule EP",
-    "artists": "Dennis Quin",
-    "year": 2025,
-    "country": "Netherlands",
-    "labels": "EARDRUMS",
-    "formats": "Vinyl 12\" 33 \u2153 RPM EP Stereo",
-    "styles": "House, UK Garage, Tech House",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/O5mGPZ7dfYSEkIYNTb9UvDm5ztc6zxU8kdQIOqbq0f8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzAx/OTEzLTE3NTk3NjQz/NDYtNTUwNi5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=5cywYseTel0",
-     "https://www.youtube.com/watch?v=Wq_7o219Y8s",
-     "https://www.youtube.com/watch?v=i3gvWsenjlY",
-     "https://www.youtube.com/watch?v=65uiaZVue2M",
-     "https://www.youtube.com/watch?v=5cywYseTel0",
-     "https://www.youtube.com/watch?v=Wq_7o219Y8s",
-     "https://www.youtube.com/watch?v=i3gvWsenjlY",
-     "https://www.youtube.com/watch?v=65uiaZVue2M"
-    ],
-    "fetched_at": "2026-10-16T12:08:02Z"
-   },
-   "market": {
-    "release_id": 35301913,
-    "taken_at": "2026-10-28T13:53:16Z",
-    "want": 53,
-    "have": 96,
-    "num_for_sale": 4,
-    "lowest_price": 20.0,
-    "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 1
    },
-   "gem_score": 0.634,
+   "gem_score": 0.308,
    "tier": "pricey"
   },
   {
-   "artist": "10 Miro",
-   "title": "Final Signal",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 653251,
-    "master_id": 22674,
-    "title": "Thunderdome - The Box",
-    "artists": "Various",
-    "year": 1999,
-    "country": "Netherlands",
-    "labels": "ID&T",
-    "formats": "Box Set Limited Edition, CD Compilation Mixed, VHS Mixed PAL",
-    "styles": "Hardcore, Gabber, Happy Hardcore, Acid, Hard Trance, Techno, Field Recording, Interview",
-    "genres": "Electronic, Non-Music",
-    "thumb": "https://i.discogs.com/t7DhUc5YqPTiyvEOFYiSQjHVNRsB8nqFTHNkKtnD_sk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MzI1/MS0xMTU0MDgyMzUx/LmpwZWc.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-16T12:09:34Z"
-   },
-   "market": {
-    "release_id": 653251,
-    "taken_at": "2026-10-28T13:52:54Z",
-    "want": 210,
-    "have": 129,
-    "num_for_sale": 1,
-    "lowest_price": 50.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 1,
-    "days": 12
-   },
-   "gem_score": 0.628,
-   "tier": "pricey"
-  },
-  {
-   "artist": "In Verruf",
-   "title": "Drown",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.65,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": "33:52",
-     "confidence": 0.65
-    }
-   ],
-   "release": {
-    "release_id": 33602817,
-    "master_id": 3802209,
-    "title": "44012",
-    "artists": "In verruf",
-    "year": 2025,
-    "country": "Germany",
-    "labels": "44 Label Group",
-    "formats": "Vinyl 12\" 33 \u2153 RPM EP",
-    "styles": "Techno, Schranz",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/G8QtgRB-HObbL40FdkemM6ubpt8qveCj0wg5N8yzH7E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNjAy/ODE3LTE3NDM4Njg3/NzktOTI2NC5qcGVn.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-16T12:08:48Z"
-   },
-   "market": {
-    "release_id": 33602817,
-    "taken_at": "2026-10-28T13:53:15Z",
-    "want": 70,
-    "have": 64,
-    "num_for_sale": 2,
-    "lowest_price": 150.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": -1,
-    "days": 12
-   },
-   "gem_score": 0.571,
-   "tier": "pricey"
-  },
-  {
-   "artist": "09 DJ Niel",
-   "title": "Under My Skin",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 350498,
-    "master_id": 260547,
-    "title": "Under My Skin",
-    "artists": "DJ Niel",
-    "year": 2005,
-    "country": "Netherlands",
-    "labels": "Zero Tolerance",
-    "formats": "Vinyl 12\" 45 RPM 33 \u2153 RPM",
-    "styles": "Hardcore, Gabber",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/reu5sx7QleBdRH1wEDOBGld0rhZM_UEdOTD8YwsCHt4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MDQ5/OC0xMTI5MjgxODMw/LmpwZWc.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=qAbQMM3oRZ0",
-     "https://www.youtube.com/watch?v=qAbQMM3oRZ0"
-    ],
-    "fetched_at": "2026-10-16T12:09:30Z"
-   },
-   "market": {
-    "release_id": 350498,
-    "taken_at": "2026-10-28T13:52:51Z",
-    "want": 113,
-    "have": 446,
-    "num_for_sale": 5,
-    "lowest_price": 20.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 5,
-    "days": 12
-   },
-   "gem_score": 0.552,
-   "tier": "pricey"
-  },
-  {
-   "artist": "kane grocerys",
-   "title": "who dat",
+   "artist": "chief keef",
+   "title": "citgo",
    "label_hint": null,
    "mentions": 1,
    "sources": 1,
@@ -1363,205 +1959,62 @@
      "source_type": "yt_comment",
      "source_name": "Boiler Room: Sematary | Boiler Room: LA",
      "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "17:55",
+     "position": "36:00",
      "confidence": 0.7
     }
    ],
    "release": {
-    "release_id": 12382635,
-    "master_id": 0,
-    "title": "Land Of GothGhanistan",
-    "artists": "Kane Grocerys",
-    "year": 2016,
-    "country": "US",
-    "labels": "Goth Money Records",
-    "formats": "File MP3 Album",
-    "styles": "Trap",
-    "genres": "Hip Hop",
-    "thumb": "https://i.discogs.com/5nWUWpJ5EBnjEFb4uiT_Rt4sTWC-2y5bRcVu3hByR0A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzgy/NjM1LTE1MzQxNDE5/MDAtNjIxNi5qcGVn.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-28T13:51:49Z"
-   },
-   "market": {
-    "release_id": 12382635,
-    "taken_at": "2026-10-28T13:51:49Z",
-    "want": 24,
-    "have": 18,
-    "num_for_sale": 1,
-    "lowest_price": 108.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "gem_score": 0.5,
-   "tier": "pricey"
-  },
-  {
-   "artist": "1-800 GIRLS",
-   "title": "Your Side",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.65,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Chlo\u00eb Robinson | Boiler Room: Nottingham",
-     "source_url": "https://www.youtube.com/watch?v=LthSHee0sMc",
-     "position": "12:00",
-     "confidence": 0.65
-    }
-   ],
-   "release": {
-    "release_id": 1196026,
-    "master_id": 0,
-    "title": "Bruce Lee, Heroin, And The Punk Scene",
-    "artists": "Various",
-    "year": 1994,
-    "country": "US",
-    "labels": "Massacre At Central Hi",
-    "formats": "Vinyl 7\" 33 \u2153 RPM 45 RPM Limited Edition",
-    "styles": "Experimental",
-    "genres": "Rock",
-    "thumb": "https://i.discogs.com/h9XwfVS9V8QA2EeNu5dDKwVXhAp3XAQIwJbYWVRGzIc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTYw/MjYtMTE5OTk1NjM5/OC5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=fwzCEspWFiQ"
-    ],
-    "fetched_at": "2026-09-06T04:31:16Z"
-   },
-   "market": {
-    "release_id": 1196026,
-    "taken_at": "2026-10-28T13:52:57Z",
-    "want": 92,
-    "have": 118,
-    "num_for_sale": 10,
-    "lowest_price": 22.5,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 52
-   },
-   "gem_score": 0.457,
-   "tier": "pricey"
-  },
-  {
-   "artist": "12 Darrien Kelly & The Unknown MC",
-   "title": "The People Want More",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 114985,
-    "master_id": 2458,
-    "title": "The People Want More",
-    "artists": "Darrien Kelly, The Unknown MC (2)",
-    "year": 1998,
-    "country": "Netherlands",
-    "labels": "Hollow Point",
-    "formats": "Vinyl 12\"",
-    "styles": "Hardcore",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/RAE_kHKFLIuElcjEi4jFR9odn-yPdw0HKSdbDNp7NGU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDk4/NS0xNjc2NzM0Mjk2/LTM0ODEuanBlZw.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=DoIxu25-4Qw",
-     "https://www.youtube.com/watch?v=1pHwVMKAn90",
-     "https://www.youtube.com/watch?v=QEtkZixDz0A",
-     "https://www.youtube.com/watch?v=2ztcX5x961M"
-    ],
-    "fetched_at": "2026-10-16T12:09:42Z"
-   },
-   "market": {
-    "release_id": 114985,
-    "taken_at": "2026-10-28T13:52:43Z",
-    "want": 344,
-    "have": 622,
-    "num_for_sale": 7,
-    "lowest_price": 45.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 2,
-    "days": 12
-   },
-   "gem_score": 0.407,
-   "tier": "pricey"
-  },
-  {
-   "artist": "11:45: Keep It Comin",
-   "title": "Beat Addicts (Riordan Remix)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.6,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Riordan | Boiler Room: London",
-     "source_url": "https://www.youtube.com/watch?v=iyTRz9JpYmE",
-     "position": null,
-     "confidence": 0.6
-    }
-   ],
-   "release": {
-    "release_id": 24032066,
-    "master_id": 0,
-    "title": "Wyld Beests And Weirdos (6CDs Of British 60's R&B Beat Punk)",
-    "artists": "Various",
+    "release_id": 22460704,
+    "master_id": 701431,
+    "title": "Finally Rich",
+    "artists": "Chief Keef",
     "year": 2022,
-    "country": "UK",
-    "labels": "Rubble (2)",
-    "formats": "Box Set Compilation, CD Compilation Remastered",
-    "styles": "Rhythm & Blues, Garage Rock, Beat, Mod, Rock & Roll",
-    "genres": "Rock, Blues",
-    "thumb": "https://i.discogs.com/tZVau9Beeyg38l6dREdTBzP2O15_8X8z8aVLV4UQCQU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MDMy/MDY2LTE2NjA1NTM0/MzMtNzk4Mi5qcGVn.jpeg",
+    "country": "US",
+    "labels": "Glory Boyz Entertainment, Interscope Records",
+    "formats": "Vinyl LP Album Club Edition Reissue Remastered Stereo",
+    "styles": "Gangsta, Trap, Drill",
+    "genres": "Hip Hop",
+    "thumb": "https://i.discogs.com/i6WhBGYHEfZo6Qg0B87PusDe0WHCsLDieqrw4NRBqNg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNDYw/NzA0LTE2NzYxMzQ1/MzktODc0Ni5qcGVn.jpeg",
     "videos": [
-     "https://www.youtube.com/watch?v=EKgXVeU1XFo",
-     "https://www.youtube.com/watch?v=69MqiVFwauk"
+     "https://www.youtube.com/watch?v=YWyHZNBz6FE",
+     "https://www.youtube.com/watch?v=6LabALciaCk",
+     "https://www.youtube.com/watch?v=6g5ZF6DUrHI",
+     "https://www.youtube.com/watch?v=qLo-Lw6idVU",
+     "https://www.youtube.com/watch?v=GLV07jcZ7hY",
+     "https://www.youtube.com/watch?v=HlHYoLCgLYw",
+     "https://www.youtube.com/watch?v=mvDwCfuMb0E",
+     "https://www.youtube.com/watch?v=FE5rpTDoUx0",
+     "https://www.youtube.com/watch?v=WrUV3ue9jn4",
+     "https://www.youtube.com/watch?v=YWyHZNBz6FE",
+     "https://www.youtube.com/watch?v=6LabALciaCk",
+     "https://www.youtube.com/watch?v=WrUV3ue9jn4"
     ],
-    "fetched_at": "2026-09-06T04:31:28Z"
+    "fetched_at": "2026-10-28T13:52:19Z"
    },
    "market": {
-    "release_id": 24032066,
-    "taken_at": "2026-10-28T13:53:09Z",
-    "want": 111,
-    "have": 92,
-    "num_for_sale": 1,
-    "lowest_price": 48.0,
+    "release_id": 22460704,
+    "taken_at": "2026-10-29T13:59:10Z",
+    "want": 1949,
+    "have": 2687,
+    "num_for_sale": 17,
+    "lowest_price": 63.0,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": 2,
-    "days": 52
+    "want_delta": 1,
+    "days": 1
    },
-   "gem_score": 0.406,
+   "gem_score": 0.258,
    "tier": "pricey"
   },
   {
-   "artist": "Circuit Breaker",
-   "title": "Trac-X",
+   "artist": "Miro",
+   "title": "Purple moon 2025(Miro Remix)",
    "label_hint": null,
    "mentions": 1,
    "sources": 1,
-   "confidence": 0.65,
+   "confidence": 0.5,
    "resolved": 1,
    "match_note": "track match",
    "sightings": [
@@ -1570,427 +2023,150 @@
      "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
      "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
      "position": null,
-     "confidence": 0.65
-    }
-   ],
-   "release": {
-    "release_id": 15353,
-    "master_id": 0,
-    "title": "Trac-X",
-    "artists": "Circuit Breaker",
-    "year": 1992,
-    "country": "USA & Canada",
-    "labels": "Probe Records",
-    "formats": "Vinyl 12\" 45 RPM",
-    "styles": "Hardcore, Techno",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/XhoJNWI1gwvo75BqYvs2OQacZg8MoHoVVITLe_TwTi0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MzUz/LTExNjIzODg0MTku/anBlZw.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=zocUA9cSrIs",
-     "https://www.youtube.com/watch?v=6Z4KLxQwH4U",
-     "https://www.youtube.com/watch?v=c9bPaSn3Yuc"
-    ],
-    "fetched_at": "2026-10-16T12:08:51Z"
-   },
-   "market": {
-    "release_id": 15353,
-    "taken_at": "2026-10-28T13:52:36Z",
-    "want": 1039,
-    "have": 1011,
-    "num_for_sale": 18,
-    "lowest_price": 17.5,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 0.398,
-   "tier": "pricey"
-  },
-  {
-   "artist": "21 DJ Outblast",
-   "title": "Master's Symphony",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
      "confidence": 0.5
     }
    ],
    "release": {
-    "release_id": 376202,
-    "master_id": 89342,
-    "title": "Master's Symphony",
-    "artists": "DJ Outblast, DJ Wicked",
-    "year": 2001,
-    "country": "Spain",
-    "labels": "PN Records",
-    "formats": "Vinyl 12\" 45 RPM",
-    "styles": "Hardcore, Gabber",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/6IUmy-LS9yv3Fa9bpQzcX9ah6KmQ4nd6dGwbEp6c-QA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjIw/Mi0xMzE0MDk3NzA1/LmpwZWc.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=QXHJVmAu2gY",
-     "https://www.youtube.com/watch?v=P_z6o357XM4",
-     "https://www.youtube.com/watch?v=QXHJVmAu2gY",
-     "https://www.youtube.com/watch?v=P_z6o357XM4"
-    ],
-    "fetched_at": "2026-10-16T12:10:11Z"
-   },
-   "market": {
-    "release_id": 376202,
-    "taken_at": "2026-10-28T13:52:52Z",
-    "want": 243,
-    "have": 405,
-    "num_for_sale": 8,
-    "lowest_price": 42.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 0.39,
-   "tier": "pricey"
-  },
-  {
-   "artist": "22 Tschabos",
-   "title": "Gib Mir Die Bass (Noch Korrekter!!!)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 60296,
-    "master_id": 26852,
-    "title": "Thunderdome XIX (Cursed By Evil Sickness)",
-    "artists": "Various",
-    "year": 1997,
-    "country": "Europe",
-    "labels": "Arcade, ID&T",
-    "formats": "CD Compilation",
-    "styles": "Hardcore, Gabber, Doomcore",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/-eThnQoAAW06AriWJtuQclsTefULC5nQkARJwkp42YE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMjk2/LTE3MzcxOTc0NTMt/NzYxMS5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=OSmuMIkGRRo",
-     "https://www.youtube.com/watch?v=OSmuMIkGRRo",
-     "https://www.youtube.com/watch?v=qwK7Ndn4eXg"
-    ],
-    "fetched_at": "2026-10-16T12:10:16Z"
-   },
-   "market": {
-    "release_id": 60296,
-    "taken_at": "2026-10-28T13:52:39Z",
-    "want": 242,
-    "have": 1040,
-    "num_for_sale": 6,
-    "lowest_price": 19.99,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 0.39,
-   "tier": "pricey"
-  },
-  {
-   "artist": "Outblast",
-   "title": "Masters symphony",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.65,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.65
-    }
-   ],
-   "release": {
-    "release_id": 376202,
-    "master_id": 89342,
-    "title": "Master's Symphony",
-    "artists": "DJ Outblast, DJ Wicked",
-    "year": 2001,
-    "country": "Spain",
-    "labels": "PN Records",
-    "formats": "Vinyl 12\" 45 RPM",
-    "styles": "Hardcore, Gabber",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/6IUmy-LS9yv3Fa9bpQzcX9ah6KmQ4nd6dGwbEp6c-QA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjIw/Mi0xMzE0MDk3NzA1/LmpwZWc.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=QXHJVmAu2gY",
-     "https://www.youtube.com/watch?v=P_z6o357XM4",
-     "https://www.youtube.com/watch?v=QXHJVmAu2gY",
-     "https://www.youtube.com/watch?v=P_z6o357XM4"
-    ],
-    "fetched_at": "2026-10-16T12:10:11Z"
-   },
-   "market": {
-    "release_id": 376202,
-    "taken_at": "2026-10-28T13:52:52Z",
-    "want": 243,
-    "have": 405,
-    "num_for_sale": 8,
-    "lowest_price": 42.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 0.39,
-   "tier": "pricey"
-  },
-  {
-   "artist": "01 Marshall Masters",
-   "title": "Return to Zero",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 122837,
-    "master_id": 169602,
-    "title": "Return To Zero",
-    "artists": "Marshall Masters",
-    "year": 1998,
-    "country": "Netherlands",
-    "labels": "ID&T",
-    "formats": "Vinyl 12\" Single Sided 45 RPM",
+    "release_id": 33445883,
+    "master_id": 3785354,
+    "title": "The Remixes Part 1",
+    "artists": "Miro",
+    "year": 2025,
+    "country": "Germany",
+    "labels": "Planet Phuture (2)",
+    "formats": "File MP3",
     "styles": "Hardcore",
     "genres": "Electronic",
-    "thumb": "https://i.discogs.com/HC8fY7uwmy1w90Ul8c-fitm2_Qn-gM98io7ITbWUR40/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/Ny0xNjQ0Nzc5NDMx/LTc5MTcuanBlZw.jpeg",
+    "thumb": "https://i.discogs.com/_cXqTWgocxzW-rFNxcQ9Y2kWY6V0jJ5iQtSRHCw7u7s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNDQ1/ODgzLTE3NDIzMTM5/OTktNjc4Ny5qcGVn.jpeg",
     "videos": [
-     "https://www.youtube.com/watch?v=qyl7IqckJHo",
-     "https://www.youtube.com/watch?v=qyl7IqckJHo",
-     "https://www.youtube.com/watch?v=WmNbLFpBWUk"
+     "https://www.youtube.com/watch?v=nhCcVrlzq6o",
+     "https://www.youtube.com/watch?v=BaagoTaa228",
+     "https://www.youtube.com/watch?v=IdItxZbzO0g",
+     "https://www.youtube.com/watch?v=I_e_6vZ3L0w"
     ],
-    "fetched_at": "2026-10-16T12:08:59Z"
+    "fetched_at": "2026-10-16T12:10:40Z"
    },
    "market": {
-    "release_id": 122837,
-    "taken_at": "2026-10-28T13:52:44Z",
-    "want": 377,
-    "have": 696,
-    "num_for_sale": 10,
-    "lowest_price": 17.5,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 1,
-    "days": 12
-   },
-   "gem_score": 0.383,
-   "tier": "pricey"
-  },
-  {
-   "artist": "17 Lunatic Asylum",
-   "title": "Chaos Effect",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 12749503,
-    "master_id": 655737,
-    "title": "Digital Cameleon",
-    "artists": "Lunatic Asylum",
-    "year": 2018,
-    "country": "UK",
-    "labels": "Underground Music",
-    "formats": "Vinyl 12\" 33 \u2153 RPM Reissue",
-    "styles": "Hardcore, Hard Trance",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/R_3j0fE_N8GW_W4stBvqOgHG7xJ3n1SDhbQsIZxce7o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzQ5/NTAzLTE1NDM0Nzk0/NDUtMTEwMy5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=VUzODQQqt2c",
-     "https://www.youtube.com/watch?v=VUzODQQqt2c"
-    ],
-    "fetched_at": "2026-10-16T12:09:57Z"
-   },
-   "market": {
-    "release_id": 12749503,
-    "taken_at": "2026-10-28T13:53:05Z",
-    "want": 216,
-    "have": 246,
-    "num_for_sale": 3,
-    "lowest_price": 25.0,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 1,
-    "days": 12
-   },
-   "gem_score": 0.347,
-   "tier": "pricey"
-  },
-  {
-   "artist": "13 E-Man",
-   "title": "Bass Machine (Acardipane Remix)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 24382,
-    "master_id": 499351,
-    "title": "Bass Machine",
-    "artists": "E-Man (2)",
-    "year": 1999,
-    "country": "Germany",
-    "labels": "Acardipane Records",
-    "formats": "Vinyl 12\" 45 RPM Special Cut",
-    "styles": "Hardcore, Gabber, Doomcore",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/M0wfOIQPUWo0GyeKNomIWVVL8dQFpGBH2C8EVqUAxXU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mzgy/LTE1NDM4NTM3NDct/MTE2NS5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=nyZOqufUKFk",
-     "https://www.youtube.com/watch?v=85OG8HGRuHc",
-     "https://www.youtube.com/watch?v=0_T6RXM0r3I",
-     "https://www.youtube.com/watch?v=nyZOqufUKFk",
-     "https://www.youtube.com/watch?v=85OG8HGRuHc",
-     "https://www.youtube.com/watch?v=0_T6RXM0r3I"
-    ],
-    "fetched_at": "2026-10-16T12:09:46Z"
-   },
-   "market": {
-    "release_id": 24382,
-    "taken_at": "2026-10-28T13:52:37Z",
-    "want": 738,
-    "have": 835,
-    "num_for_sale": 6,
-    "lowest_price": 65.0,
+    "release_id": 33445883,
+    "taken_at": "2026-10-29T13:59:18Z",
+    "want": 0,
+    "have": 12,
+    "num_for_sale": 0,
+    "lowest_price": null,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
-   "gem_score": 0.333,
-   "tier": "pricey"
+   "gem_score": 2.109,
+   "tier": "watch"
   },
   {
-   "artist": "20 Pilldriver",
-   "title": "Pitch-Hiker",
+   "artist": "L.P. Rhythm",
+   "title": "Versatile (Gorgon City Remix)",
    "label_hint": null,
    "mentions": 1,
    "sources": 1,
-   "confidence": 0.5,
+   "confidence": 0.7,
    "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
+   "match_note": "track match",
    "sightings": [
     {
      "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
+     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
+     "position": "31:09",
+     "confidence": 0.7
     }
    ],
    "release": {
-    "release_id": 1396749,
-    "master_id": 217524,
-    "title": "Classic Hardcore Vol. 3",
-    "artists": "Pilldriver",
-    "year": 2008,
-    "country": "Germany",
-    "labels": "ACA2017 Productions",
-    "formats": "Vinyl 12\" 45 RPM",
-    "styles": "Hardcore, Gabber",
+    "release_id": 35809126,
+    "master_id": 3935753,
+    "title": "Versatile (Gorgon City Remix)",
+    "artists": "L.P. Rhythm",
+    "year": 2025,
+    "country": "UK",
+    "labels": "DisOrder Records (8)",
+    "formats": "File AIFF FLAC MP3 WAV Single",
+    "styles": "Speed Garage",
     "genres": "Electronic",
-    "thumb": "https://i.discogs.com/cJeipEwkcQcW1Ixm-EPkwqxyXuwiPR3OVPJHB0qt6NQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTY3/NDktMTIxNjIzNTQx/Ny5qcGVn.jpeg",
+    "thumb": "https://i.discogs.com/5g_1YMv6Cf8VAKW-8p0aPBD1EIXZXNXGZQl4xMlAm1E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1ODA5/MTI2LTE3NjQ1NDMy/MzItNTI2Ni5qcGVn.jpeg",
     "videos": [
-     "https://www.youtube.com/watch?v=QdnpfZ70AOQ",
-     "https://www.youtube.com/watch?v=XPxwWCHjjZM",
-     "https://www.youtube.com/watch?v=QdnpfZ70AOQ",
-     "https://www.youtube.com/watch?v=XPxwWCHjjZM"
+     "https://www.youtube.com/watch?v=UO5RZzm8iCU",
+     "https://www.youtube.com/watch?v=Jg56z6J0KJE",
+     "https://www.youtube.com/watch?v=YW7cTfxf1ik",
+     "https://www.youtube.com/watch?v=UO5RZzm8iCU"
     ],
-    "fetched_at": "2026-10-16T12:10:07Z"
+    "fetched_at": "2026-10-16T12:08:19Z"
    },
    "market": {
-    "release_id": 1396749,
-    "taken_at": "2026-10-28T13:52:58Z",
-    "want": 876,
-    "have": 904,
-    "num_for_sale": 6,
-    "lowest_price": 65.0,
+    "release_id": 35809126,
+    "taken_at": "2026-10-29T13:59:24Z",
+    "want": 0,
+    "have": 1,
+    "num_for_sale": 0,
+    "lowest_price": null,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": -1,
-    "days": 12
+    "want_delta": 0,
+    "days": 13
    },
-   "gem_score": 0.309,
-   "tier": "pricey"
+   "gem_score": 2.109,
+   "tier": "watch"
+  },
+  {
+   "artist": "skrilla",
+   "title": "crash out boyz",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
+     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
+     "position": "30:00",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 33509897,
+    "master_id": 3792086,
+    "title": "Zombie Love Kensington Paradise",
+    "artists": "Skrilla (11)",
+    "year": 2024,
+    "country": "Worldwide",
+    "labels": "Priority Records",
+    "formats": "File AAC Album",
+    "styles": "Gangsta, Drill, Trap",
+    "genres": "Hip Hop",
+    "thumb": "https://i.discogs.com/zoaIWHhw9VqzLUiQF0QE1rqHJyqh2kaT4a1rrjmMSS0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTA5/ODk3LTE3NDI5MTQy/MTEtMzE3My5qcGVn.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-28T13:52:09Z"
+   },
+   "market": {
+    "release_id": 33509897,
+    "taken_at": "2026-10-29T13:59:19Z",
+    "want": 0,
+    "have": 0,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 2.109,
+   "tier": "watch"
   },
   {
    "artist": "Mexikodro",
@@ -2030,15 +2206,19 @@
    },
    "market": {
     "release_id": 34147819,
-    "taken_at": "2026-10-28T13:52:31Z",
+    "taken_at": "2026-10-29T13:59:21Z",
     "want": 0,
     "have": 1,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
-    "yt_views": 10612314
+    "yt_views": null
    },
-   "gem_score": 5.817,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 2.109,
    "tier": "watch"
   },
   {
@@ -2078,15 +2258,219 @@
    },
    "market": {
     "release_id": 32888304,
-    "taken_at": "2026-10-28T13:52:24Z",
+    "taken_at": "2026-10-29T13:59:16Z",
     "want": 1,
     "have": 0,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
-    "yt_views": 7403600
+    "yt_views": null
    },
-   "gem_score": 4.021,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 1.495,
+   "tier": "watch"
+  },
+  {
+   "artist": "rio da yung og",
+   "title": "city on my back (AT mixxx)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "matched base title (remix/version may differ)",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
+     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
+     "position": "22:47",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 15080548,
+    "master_id": 0,
+    "title": "City On My Back",
+    "artists": "Rio Da Yung OG",
+    "year": 2020,
+    "country": "US",
+    "labels": "#Boyz Entertainment",
+    "formats": "File MP3 Mixtape",
+    "styles": "",
+    "genres": "Hip Hop",
+    "thumb": "https://i.discogs.com/6m86su5L8TtS1z8OGvUX8-bA3ulebSwdhaxVr3eXgf8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MDgw/NTQ4LTE2ODYzNDIz/MjgtMTU5NS5qcGVn.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-28T13:51:57Z"
+   },
+   "market": {
+    "release_id": 15080548,
+    "taken_at": "2026-10-29T13:59:05Z",
+    "want": 1,
+    "have": 2,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 1.246,
+   "tier": "watch"
+  },
+  {
+   "artist": "Club Angel",
+   "title": "Burna",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
+     "position": "18:26",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 27776160,
+    "master_id": 0,
+    "title": "Grandmaster 2019 Volume Two",
+    "artists": "Various",
+    "year": 2019,
+    "country": "UK",
+    "labels": "Music Factory",
+    "formats": "CD Compilation Mixed",
+    "styles": "Europop",
+    "genres": "Funk / Soul, Pop",
+    "thumb": "https://i.discogs.com/biTWxCgVXaGw1L_PXf3rN_cWFbbw-tk5LL0mN6lmbUY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Nzc2/MTYwLTE2OTAyNjk2/NzQtNDYzNS5qcGVn.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-16T12:08:15Z"
+   },
+   "market": {
+    "release_id": 27776160,
+    "taken_at": "2026-10-29T13:59:14Z",
+    "want": 2,
+    "have": 2,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 1.005,
+   "tier": "watch"
+  },
+  {
+   "artist": "Gentleman's Club",
+   "title": "Work Dub",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
+     "position": "52:23",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 8612286,
+    "master_id": 0,
+    "title": "The 4 Box Volume 8 2001",
+    "artists": "Various",
+    "year": 2001,
+    "country": "Netherlands",
+    "labels": "PPP",
+    "formats": "CD Compilation Unofficial Release",
+    "styles": "Eurodance, Europop, Pop Rap, Pop Rock, RnB/Swing",
+    "genres": "Electronic, Hip Hop, Rock, Funk / Soul, Pop",
+    "thumb": "https://i.discogs.com/pFdJTgPnhf5DWdyFb2cjkVLMiiT2dWOGcIgjp9JD_tg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2MTIy/ODYtMTQ2NTEzMzc0/MC03Nzk4LmpwZWc.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-16T12:08:43Z"
+   },
+   "market": {
+    "release_id": 8612286,
+    "taken_at": "2026-10-29T13:58:54Z",
+    "want": 4,
+    "have": 10,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.97,
+   "tier": "watch"
+  },
+  {
+   "artist": "Interplanetary Criminal, Sammy Virji",
+   "title": "Damager",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
+     "position": "42:35",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 32394792,
+    "master_id": 0,
+    "title": "Damager",
+    "artists": "Sammy Virji, Interplanetary Criminal",
+    "year": 2024,
+    "country": "UK",
+    "labels": "Capitol Records",
+    "formats": "File FLAC Single Stereo",
+    "styles": "UK Garage",
+    "genres": "Electronic, Hip Hop",
+    "thumb": "https://i.discogs.com/gr3Oo8s3JAJ3XWfVIkpGXwaWdJCjxdwe51AGM6Nzs8s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMzk0/NzkyLTE3MzI1NDYy/MjItNDA2MC5qcGVn.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-16T12:08:33Z"
+   },
+   "market": {
+    "release_id": 32394792,
+    "taken_at": "2026-10-29T13:59:15Z",
+    "want": 3,
+    "have": 5,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.884,
    "tier": "watch"
   },
   {
@@ -2135,130 +2519,24 @@
    },
    "market": {
     "release_id": 37424217,
-    "taken_at": "2026-10-28T13:52:11Z",
+    "taken_at": "2026-10-29T13:59:27Z",
     "want": 6,
     "have": 1,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
-    "yt_views": 14396148
-   },
-   "gem_score": 2.419,
-   "tier": "watch"
-  },
-  {
-   "artist": "Miro",
-   "title": "Purple moon 2025(Miro Remix)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 33445883,
-    "master_id": 3785354,
-    "title": "The Remixes Part 1",
-    "artists": "Miro",
-    "year": 2025,
-    "country": "Germany",
-    "labels": "Planet Phuture (2)",
-    "formats": "File MP3",
-    "styles": "Hardcore",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/_cXqTWgocxzW-rFNxcQ9Y2kWY6V0jJ5iQtSRHCw7u7s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNDQ1/ODgzLTE3NDIzMTM5/OTktNjc4Ny5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=nhCcVrlzq6o",
-     "https://www.youtube.com/watch?v=BaagoTaa228",
-     "https://www.youtube.com/watch?v=IdItxZbzO0g",
-     "https://www.youtube.com/watch?v=I_e_6vZ3L0w"
-    ],
-    "fetched_at": "2026-10-16T12:10:40Z"
-   },
-   "market": {
-    "release_id": 33445883,
-    "taken_at": "2026-10-28T13:53:14Z",
-    "want": 0,
-    "have": 12,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 1
    },
-   "gem_score": 2.109,
+   "gem_score": 0.859,
    "tier": "watch"
   },
   {
-   "artist": "L.P. Rhythm",
-   "title": "Versatile (Gorgon City Remix)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
-     "position": "31:09",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 35809126,
-    "master_id": 3935753,
-    "title": "Versatile (Gorgon City Remix)",
-    "artists": "L.P. Rhythm",
-    "year": 2025,
-    "country": "UK",
-    "labels": "DisOrder Records (8)",
-    "formats": "File AIFF FLAC MP3 WAV Single",
-    "styles": "Speed Garage",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/5g_1YMv6Cf8VAKW-8p0aPBD1EIXZXNXGZQl4xMlAm1E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1ODA5/MTI2LTE3NjQ1NDMy/MzItNTI2Ni5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=UO5RZzm8iCU",
-     "https://www.youtube.com/watch?v=Jg56z6J0KJE",
-     "https://www.youtube.com/watch?v=YW7cTfxf1ik",
-     "https://www.youtube.com/watch?v=UO5RZzm8iCU"
-    ],
-    "fetched_at": "2026-10-16T12:08:19Z"
-   },
-   "market": {
-    "release_id": 35809126,
-    "taken_at": "2026-10-28T13:53:17Z",
-    "want": 0,
-    "have": 1,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 2.109,
-   "tier": "watch"
-  },
-  {
-   "artist": "skrilla",
-   "title": "crash out boyz",
+   "artist": "ballout",
+   "title": "been ballin",
    "label_hint": null,
    "mentions": 1,
    "sources": 1,
@@ -2270,36 +2548,157 @@
      "source_type": "yt_comment",
      "source_name": "Boiler Room: Sematary | Boiler Room: LA",
      "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "30:00",
+     "position": "8:03",
      "confidence": 0.7
     }
    ],
    "release": {
-    "release_id": 33509897,
-    "master_id": 3792086,
-    "title": "Zombie Love Kensington Paradise",
-    "artists": "Skrilla (11)",
-    "year": 2024,
-    "country": "Worldwide",
-    "labels": "Priority Records",
-    "formats": "File AAC Album",
-    "styles": "Gangsta, Drill, Trap",
+    "release_id": 5598316,
+    "master_id": 0,
+    "title": "Ballin' No NBA",
+    "artists": "Ballout",
+    "year": 2013,
+    "country": "US",
+    "labels": "Glory Boyz Entertainment",
+    "formats": "File MP3 Mixtape",
+    "styles": "Trap, Drill, Gangsta",
     "genres": "Hip Hop",
-    "thumb": "https://i.discogs.com/zoaIWHhw9VqzLUiQF0QE1rqHJyqh2kaT4a1rrjmMSS0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTA5/ODk3LTE3NDI5MTQy/MTEtMzE3My5qcGVn.jpeg",
+    "thumb": "https://i.discogs.com/GKlqVlZ_LZiwq1ris7tiW3uLBx_8MCGllCWeJ0PR298/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1OTgz/MTYtMTM5NzYwMzYz/Ni03NDM4LmpwZWc.jpeg",
     "videos": [],
-    "fetched_at": "2026-10-28T13:52:09Z"
+    "fetched_at": "2026-10-28T13:51:42Z"
    },
    "market": {
-    "release_id": 33509897,
-    "taken_at": "2026-10-28T13:52:09Z",
-    "want": 0,
-    "have": 0,
+    "release_id": 5598316,
+    "taken_at": "2026-10-29T13:58:53Z",
+    "want": 4,
+    "have": 8,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
     "yt_views": null
    },
-   "gem_score": 2.109,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.808,
+   "tier": "watch"
+  },
+  {
+   "artist": "03 Marc Acardipane & The Stunned Guys",
+   "title": "Gloria 1996 (E-Mission Old School Area OST)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 10651856,
+    "master_id": 0,
+    "title": "10 Years Of Glory (Official E-Mission 2017 OST)",
+    "artists": "Various",
+    "year": 2017,
+    "country": "Italy",
+    "labels": "Traxtorm Records",
+    "formats": "File MP3",
+    "styles": "Hardcore",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/x3gVr02bWmVbdUmSOi1XjC2VNPK1VfQD6df_cVYJlfQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjUx/ODU2LTE1MDE3MDY3/MzQtNDQ0OS5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=JZtTANIt6j8",
+     "https://www.youtube.com/watch?v=fF0ZXrRYe-M",
+     "https://www.youtube.com/watch?v=IcQvNRURtGQ",
+     "https://www.youtube.com/watch?v=q-oNbg_-zrg",
+     "https://www.youtube.com/watch?v=YeBMqMiMOcs",
+     "https://www.youtube.com/watch?v=8lJ3jCta7Nk",
+     "https://www.youtube.com/watch?v=hgktU2-66bU",
+     "https://www.youtube.com/watch?v=PBO1yHqnL0Q"
+    ],
+    "fetched_at": "2026-10-16T12:09:09Z"
+   },
+   "market": {
+    "release_id": 10651856,
+    "taken_at": "2026-10-29T13:58:56Z",
+    "want": 8,
+    "have": 21,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.66,
+   "tier": "watch"
+  },
+  {
+   "artist": "lil blood",
+   "title": "3rd world free boski",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
+     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
+     "position": "33:12",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 12016716,
+    "master_id": 0,
+    "title": "Methadone (Kicking The Habit)",
+    "artists": "Lil' Blood",
+    "year": 2011,
+    "country": "US",
+    "labels": "Livewire Records (2)",
+    "formats": "CDr Album",
+    "styles": "Gangsta",
+    "genres": "Hip Hop",
+    "thumb": "https://i.discogs.com/uFI7-SzMlonsOYVSeHB1cxHnp3cx8nrfj3sfatfQ3Bs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDE2/NzE2LTE3NzQyMDQ0/NzgtMzEwOC5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=UwgRY2gwc5k",
+     "https://www.youtube.com/watch?v=TyIuHpCTrPI",
+     "https://www.youtube.com/watch?v=VF6J2bC3TNg",
+     "https://www.youtube.com/watch?v=7wwe0jh9gG8",
+     "https://www.youtube.com/watch?v=J-1N-yK5xP8",
+     "https://www.youtube.com/watch?v=kFhSLC7_EOY",
+     "https://www.youtube.com/watch?v=PHyDUp2Cm3s"
+    ],
+    "fetched_at": "2026-10-28T13:52:14Z"
+   },
+   "market": {
+    "release_id": 12016716,
+    "taken_at": "2026-10-29T13:58:58Z",
+    "want": 16,
+    "have": 12,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.66,
    "tier": "watch"
   },
   {
@@ -2356,19 +2755,19 @@
    },
    "market": {
     "release_id": 14746402,
-    "taken_at": "2026-10-28T13:52:34Z",
+    "taken_at": "2026-10-29T13:59:04Z",
     "want": 28,
     "have": 14,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
-    "yt_views": 21636352
+    "yt_views": null
    },
    "trend": {
     "want_delta": 0,
     "days": 1
    },
-   "gem_score": 1.677,
+   "gem_score": 0.579,
    "tier": "watch"
   },
   {
@@ -2425,120 +2824,24 @@
    },
    "market": {
     "release_id": 14746402,
-    "taken_at": "2026-10-28T13:52:34Z",
+    "taken_at": "2026-10-29T13:59:04Z",
     "want": 28,
     "have": 14,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
-    "yt_views": 21636352
+    "yt_views": null
    },
    "trend": {
     "want_delta": 0,
     "days": 1
    },
-   "gem_score": 1.677,
+   "gem_score": 0.579,
    "tier": "watch"
   },
   {
-   "artist": "rio da yung og",
-   "title": "city on my back (AT mixxx)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "matched base title (remix/version may differ)",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
-     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "22:47",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 15080548,
-    "master_id": 0,
-    "title": "City On My Back",
-    "artists": "Rio Da Yung OG",
-    "year": 2020,
-    "country": "US",
-    "labels": "#Boyz Entertainment",
-    "formats": "File MP3 Mixtape",
-    "styles": "",
-    "genres": "Hip Hop",
-    "thumb": "https://i.discogs.com/6m86su5L8TtS1z8OGvUX8-bA3ulebSwdhaxVr3eXgf8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MDgw/NTQ4LTE2ODYzNDIz/MjgtMTU5NS5qcGVn.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-28T13:51:57Z"
-   },
-   "market": {
-    "release_id": 15080548,
-    "taken_at": "2026-10-28T13:51:57Z",
-    "want": 1,
-    "have": 2,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "gem_score": 1.246,
-   "tier": "watch"
-  },
-  {
-   "artist": "Club Angel",
-   "title": "Burna",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
-     "position": "18:26",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 27776160,
-    "master_id": 0,
-    "title": "Grandmaster 2019 Volume Two",
-    "artists": "Various",
-    "year": 2019,
-    "country": "UK",
-    "labels": "Music Factory",
-    "formats": "CD Compilation Mixed",
-    "styles": "Europop",
-    "genres": "Funk / Soul, Pop",
-    "thumb": "https://i.discogs.com/biTWxCgVXaGw1L_PXf3rN_cWFbbw-tk5LL0mN6lmbUY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Nzc2/MTYwLTE2OTAyNjk2/NzQtNDYzNS5qcGVn.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-16T12:08:15Z"
-   },
-   "market": {
-    "release_id": 27776160,
-    "taken_at": "2026-10-28T13:53:12Z",
-    "want": 2,
-    "have": 2,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 1.005,
-   "tier": "watch"
-  },
-  {
-   "artist": "lil peep",
-   "title": "drive by",
+   "artist": "lorn",
+   "title": "sega sunset",
    "label_hint": null,
    "mentions": 1,
    "sources": 1,
@@ -2550,55 +2853,104 @@
      "source_type": "yt_comment",
      "source_name": "Boiler Room: Sematary | Boiler Room: LA",
      "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "37:40",
+     "position": "43:49",
      "confidence": 0.7
     }
    ],
    "release": {
-    "release_id": 21167047,
-    "master_id": 1291016,
-    "title": "Hellboy",
-    "artists": "Lil Peep",
-    "year": 2021,
-    "country": "USA & Europe",
-    "labels": "Not On Label (Lil Peep)",
-    "formats": "Vinyl LP Limited Edition Mixtape Unofficial Release",
-    "styles": "Cloud Rap, Emo, Trap",
-    "genres": "Hip Hop, Rock",
-    "thumb": "https://i.discogs.com/H74iNhfX7-UFejyTEbQCDyzwOfsOQJsm8qpLijKsieQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMTY3/MDQ3LTE2MzgyMDA0/NzAtMTczOS5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=xLnhtTlwjak",
-     "https://www.youtube.com/watch?v=ZeZ8UHmqOe0",
-     "https://www.youtube.com/watch?v=lL7CuhLDErQ",
-     "https://www.youtube.com/watch?v=s9t1ZfMZfH4",
-     "https://www.youtube.com/watch?v=TJSV7ihGk0A",
-     "https://www.youtube.com/watch?v=s9t1ZfMZfH4",
-     "https://www.youtube.com/watch?v=HX3CtTLcwJk",
-     "https://www.youtube.com/watch?v=rQ4va4C1g9Y",
-     "https://www.youtube.com/watch?v=KI1Qpuv_z_U",
-     "https://www.youtube.com/watch?v=MnC8qw8AMtk",
-     "https://www.youtube.com/watch?v=pcrDH2dyL-g",
-     "https://www.youtube.com/watch?v=pW0qr4k_tMk",
-     "https://www.youtube.com/watch?v=nP7xk7vwInU"
-    ],
-    "fetched_at": "2026-10-28T13:52:21Z"
+    "release_id": 4816530,
+    "master_id": 0,
+    "title": "Self Confidence Vol. 3",
+    "artists": "Lorn (2)",
+    "year": 2013,
+    "country": "US",
+    "labels": "Wednesday Sound",
+    "formats": "File MP3 Compilation",
+    "styles": "Experimental",
+    "genres": "Electronic, Hip Hop",
+    "thumb": "https://i.discogs.com/IZpgBEHxAmiwLFXcUmralVKJmQFkmb8ePQUg9VhSHBg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MTY1/MzAtMTM4MTM0Nzk5/NS0zMDM0LmpwZWc.jpeg",
+    "videos": [],
+    "fetched_at": "2026-10-28T13:52:28Z"
    },
    "market": {
-    "release_id": 21167047,
-    "taken_at": "2026-10-28T13:52:21Z",
-    "want": 380,
-    "have": 164,
+    "release_id": 4816530,
+    "taken_at": "2026-10-29T13:58:50Z",
+    "want": 20,
+    "have": 59,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
-    "yt_views": 139022819
+    "yt_views": null
    },
-   "gem_score": 0.986,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.521,
    "tier": "watch"
   },
   {
-   "artist": "Gentleman's Club",
-   "title": "Work Dub",
+   "artist": "ear",
+   "title": "real life",
+   "label_hint": null,
+   "mentions": 2,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
+     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
+     "position": "9:11",
+     "confidence": 0.7
+    },
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
+     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
+     "position": "10:00",
+     "confidence": 0.65
+    }
+   ],
+   "release": {
+    "release_id": 35920804,
+    "master_id": 0,
+    "title": "The Most Dear And The Future",
+    "artists": "Ear (11)",
+    "year": 2025,
+    "country": "US",
+    "labels": "Not On Label (Ear (11) Self-released)",
+    "formats": "File WAV, Memory Stick Album Stereo",
+    "styles": "Electro, Breakbeat",
+    "genres": "Electronic, Pop",
+    "thumb": "https://i.discogs.com/ygpxk2EVtLRKmaa8NmsBl4jAS1TL3PJFUKo3zLbNZr0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTIw/ODA0LTE3NjU2ODEy/NjUtNTE5Ni5wbmc.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=dk5pnjnKPHg"
+    ],
+    "fetched_at": "2026-10-28T13:51:31Z"
+   },
+   "market": {
+    "release_id": 35920804,
+    "taken_at": "2026-10-29T13:59:26Z",
+    "want": 109,
+    "have": 20,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 1,
+    "days": 1
+   },
+   "gem_score": 0.463,
+   "tier": "watch"
+  },
+  {
+   "artist": "Mark \"Ruff\" Ryder",
+   "title": "Joy feat. Special MC (ID remix)",
    "label_hint": null,
    "mentions": 1,
    "sources": 1,
@@ -2610,30 +2962,32 @@
      "source_type": "yt_comment",
      "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
      "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
-     "position": "52:23",
+     "position": "38:12",
      "confidence": 0.7
     }
    ],
    "release": {
-    "release_id": 8612286,
+    "release_id": 2253021,
     "master_id": 0,
-    "title": "The 4 Box Volume 8 2001",
-    "artists": "Various",
+    "title": "101% UK Garage Part 1",
+    "artists": "Mark Ryder",
     "year": 2001,
-    "country": "Netherlands",
-    "labels": "PPP",
-    "formats": "CD Compilation Unofficial Release",
-    "styles": "Eurodance, Europop, Pop Rap, Pop Rock, RnB/Swing",
-    "genres": "Electronic, Hip Hop, Rock, Funk / Soul, Pop",
-    "thumb": "https://i.discogs.com/pFdJTgPnhf5DWdyFb2cjkVLMiiT2dWOGcIgjp9JD_tg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2MTIy/ODYtMTQ2NTEzMzc0/MC03Nzk4LmpwZWc.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-16T12:08:43Z"
+    "country": "UK",
+    "labels": "Massive Music Company",
+    "formats": "CD Mixed",
+    "styles": "Breakbeat, UK Garage",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/MyuaFAGg0TXjvpq-TA0MXaXIbSCZFCpp3HHIFKiPsHg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNTMw/MjEtMTU4MjcwODE0/MC0xMjUwLmpwZWc.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=WXeby2sNQIE"
+    ],
+    "fetched_at": "2026-10-16T12:08:27Z"
    },
    "market": {
-    "release_id": 8612286,
-    "taken_at": "2026-10-28T13:53:02Z",
-    "want": 4,
-    "have": 10,
+    "release_id": 2253021,
+    "taken_at": "2026-10-29T13:58:46Z",
+    "want": 90,
+    "have": 39,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
@@ -2641,9 +2995,65 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 13
    },
-   "gem_score": 0.97,
+   "gem_score": 0.459,
+   "tier": "watch"
+  },
+  {
+   "artist": "02 Marshall Masters",
+   "title": "I Like it Loud (Original Mixx)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 168851,
+    "master_id": 48235,
+    "title": "I Like It Loud",
+    "artists": "Marc Acardipane, Marshall Masters",
+    "year": 2001,
+    "country": "Spain",
+    "labels": "Hard Traxx",
+    "formats": "Vinyl 12\" 33 \u2153 RPM",
+    "styles": "Hardcore",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/wng_arwHmeM_bJ5V-XnFxk8gjFIgbe5EjJw4tsTOP_k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2ODg1/MS0xNDY0OTgzMTgw/LTcxMzUuanBlZw.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=rz7v6GXrZP8",
+     "https://www.youtube.com/watch?v=bbaX2vcojq4",
+     "https://www.youtube.com/watch?v=99D4Gj_Han8",
+     "https://www.youtube.com/watch?v=Lwh1oFcqYjg",
+     "https://www.youtube.com/watch?v=iyK7pPpgdXg"
+    ],
+    "fetched_at": "2026-10-16T12:09:04Z"
+   },
+   "market": {
+    "release_id": 168851,
+    "taken_at": "2026-10-29T13:58:32Z",
+    "want": 210,
+    "have": 107,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 13
+   },
+   "gem_score": 0.398,
    "tier": "watch"
   },
   {
@@ -2727,15 +3137,83 @@
    },
    "market": {
     "release_id": 3533809,
-    "taken_at": "2026-10-28T13:51:34Z",
+    "taken_at": "2026-10-29T13:58:49Z",
     "want": 1480,
     "have": 94,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
-    "yt_views": 17287812
+    "yt_views": null
    },
-   "gem_score": 0.928,
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.364,
+   "tier": "watch"
+  },
+  {
+   "artist": "lil peep",
+   "title": "drive by",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
+     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
+     "position": "37:40",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 21167047,
+    "master_id": 1291016,
+    "title": "Hellboy",
+    "artists": "Lil Peep",
+    "year": 2021,
+    "country": "USA & Europe",
+    "labels": "Not On Label (Lil Peep)",
+    "formats": "Vinyl LP Limited Edition Mixtape Unofficial Release",
+    "styles": "Cloud Rap, Emo, Trap",
+    "genres": "Hip Hop, Rock",
+    "thumb": "https://i.discogs.com/H74iNhfX7-UFejyTEbQCDyzwOfsOQJsm8qpLijKsieQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMTY3/MDQ3LTE2MzgyMDA0/NzAtMTczOS5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=xLnhtTlwjak",
+     "https://www.youtube.com/watch?v=ZeZ8UHmqOe0",
+     "https://www.youtube.com/watch?v=lL7CuhLDErQ",
+     "https://www.youtube.com/watch?v=s9t1ZfMZfH4",
+     "https://www.youtube.com/watch?v=TJSV7ihGk0A",
+     "https://www.youtube.com/watch?v=s9t1ZfMZfH4",
+     "https://www.youtube.com/watch?v=HX3CtTLcwJk",
+     "https://www.youtube.com/watch?v=rQ4va4C1g9Y",
+     "https://www.youtube.com/watch?v=KI1Qpuv_z_U",
+     "https://www.youtube.com/watch?v=MnC8qw8AMtk",
+     "https://www.youtube.com/watch?v=pcrDH2dyL-g",
+     "https://www.youtube.com/watch?v=pW0qr4k_tMk",
+     "https://www.youtube.com/watch?v=nP7xk7vwInU"
+    ],
+    "fetched_at": "2026-10-28T13:52:21Z"
+   },
+   "market": {
+    "release_id": 21167047,
+    "taken_at": "2026-10-29T13:59:09Z",
+    "want": 380,
+    "have": 164,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 1
+   },
+   "gem_score": 0.304,
    "tier": "watch"
   },
   {
@@ -2789,433 +3267,19 @@
    },
    "market": {
     "release_id": 13743351,
-    "taken_at": "2026-10-28T13:52:17Z",
+    "taken_at": "2026-10-29T13:59:02Z",
     "want": 456,
     "have": 125,
     "num_for_sale": 0,
     "lowest_price": null,
     "currency": "GBP",
-    "yt_views": 45174389
-   },
-   "gem_score": 0.898,
-   "tier": "watch"
-  },
-  {
-   "artist": "Interplanetary Criminal, Sammy Virji",
-   "title": "Damager",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
-     "position": "42:35",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 32394792,
-    "master_id": 0,
-    "title": "Damager",
-    "artists": "Sammy Virji, Interplanetary Criminal",
-    "year": 2024,
-    "country": "UK",
-    "labels": "Capitol Records",
-    "formats": "File FLAC Single Stereo",
-    "styles": "UK Garage",
-    "genres": "Electronic, Hip Hop",
-    "thumb": "https://i.discogs.com/gr3Oo8s3JAJ3XWfVIkpGXwaWdJCjxdwe51AGM6Nzs8s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMzk0/NzkyLTE3MzI1NDYy/MjItNDA2MC5qcGVn.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-16T12:08:33Z"
-   },
-   "market": {
-    "release_id": 32394792,
-    "taken_at": "2026-10-28T13:53:13Z",
-    "want": 3,
-    "have": 5,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 0,
-    "days": 12
+    "days": 1
    },
-   "gem_score": 0.884,
-   "tier": "watch"
-  },
-  {
-   "artist": "ballout",
-   "title": "been ballin",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
-     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "8:03",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 5598316,
-    "master_id": 0,
-    "title": "Ballin' No NBA",
-    "artists": "Ballout",
-    "year": 2013,
-    "country": "US",
-    "labels": "Glory Boyz Entertainment",
-    "formats": "File MP3 Mixtape",
-    "styles": "Trap, Drill, Gangsta",
-    "genres": "Hip Hop",
-    "thumb": "https://i.discogs.com/GKlqVlZ_LZiwq1ris7tiW3uLBx_8MCGllCWeJ0PR298/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1OTgz/MTYtMTM5NzYwMzYz/Ni03NDM4LmpwZWc.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-28T13:51:42Z"
-   },
-   "market": {
-    "release_id": 5598316,
-    "taken_at": "2026-10-28T13:51:42Z",
-    "want": 4,
-    "have": 8,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "gem_score": 0.808,
-   "tier": "watch"
-  },
-  {
-   "artist": "lil blood",
-   "title": "3rd world free boski",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
-     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "33:12",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 12016716,
-    "master_id": 0,
-    "title": "Methadone (Kicking The Habit)",
-    "artists": "Lil' Blood",
-    "year": 2011,
-    "country": "US",
-    "labels": "Livewire Records (2)",
-    "formats": "CDr Album",
-    "styles": "Gangsta",
-    "genres": "Hip Hop",
-    "thumb": "https://i.discogs.com/uFI7-SzMlonsOYVSeHB1cxHnp3cx8nrfj3sfatfQ3Bs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDE2/NzE2LTE3NzQyMDQ0/NzgtMzEwOC5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=UwgRY2gwc5k",
-     "https://www.youtube.com/watch?v=TyIuHpCTrPI",
-     "https://www.youtube.com/watch?v=VF6J2bC3TNg",
-     "https://www.youtube.com/watch?v=7wwe0jh9gG8",
-     "https://www.youtube.com/watch?v=J-1N-yK5xP8",
-     "https://www.youtube.com/watch?v=kFhSLC7_EOY",
-     "https://www.youtube.com/watch?v=PHyDUp2Cm3s"
-    ],
-    "fetched_at": "2026-10-28T13:52:14Z"
-   },
-   "market": {
-    "release_id": 12016716,
-    "taken_at": "2026-10-28T13:52:14Z",
-    "want": 16,
-    "have": 12,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": 682
-   },
-   "gem_score": 0.725,
-   "tier": "watch"
-  },
-  {
-   "artist": "03 Marc Acardipane & The Stunned Guys",
-   "title": "Gloria 1996 (E-Mission Old School Area OST)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 10651856,
-    "master_id": 0,
-    "title": "10 Years Of Glory (Official E-Mission 2017 OST)",
-    "artists": "Various",
-    "year": 2017,
-    "country": "Italy",
-    "labels": "Traxtorm Records",
-    "formats": "File MP3",
-    "styles": "Hardcore",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/x3gVr02bWmVbdUmSOi1XjC2VNPK1VfQD6df_cVYJlfQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjUx/ODU2LTE1MDE3MDY3/MzQtNDQ0OS5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=JZtTANIt6j8",
-     "https://www.youtube.com/watch?v=fF0ZXrRYe-M",
-     "https://www.youtube.com/watch?v=IcQvNRURtGQ",
-     "https://www.youtube.com/watch?v=q-oNbg_-zrg",
-     "https://www.youtube.com/watch?v=YeBMqMiMOcs",
-     "https://www.youtube.com/watch?v=8lJ3jCta7Nk",
-     "https://www.youtube.com/watch?v=hgktU2-66bU",
-     "https://www.youtube.com/watch?v=PBO1yHqnL0Q"
-    ],
-    "fetched_at": "2026-10-16T12:09:09Z"
-   },
-   "market": {
-    "release_id": 10651856,
-    "taken_at": "2026-10-28T13:53:04Z",
-    "want": 8,
-    "have": 21,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 0.66,
-   "tier": "watch"
-  },
-  {
-   "artist": "lorn",
-   "title": "sega sunset",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
-     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "43:49",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 4816530,
-    "master_id": 0,
-    "title": "Self Confidence Vol. 3",
-    "artists": "Lorn (2)",
-    "year": 2013,
-    "country": "US",
-    "labels": "Wednesday Sound",
-    "formats": "File MP3 Compilation",
-    "styles": "Experimental",
-    "genres": "Electronic, Hip Hop",
-    "thumb": "https://i.discogs.com/IZpgBEHxAmiwLFXcUmralVKJmQFkmb8ePQUg9VhSHBg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MTY1/MzAtMTM4MTM0Nzk5/NS0zMDM0LmpwZWc.jpeg",
-    "videos": [],
-    "fetched_at": "2026-10-28T13:52:28Z"
-   },
-   "market": {
-    "release_id": 4816530,
-    "taken_at": "2026-10-28T13:52:28Z",
-    "want": 20,
-    "have": 59,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "gem_score": 0.521,
-   "tier": "watch"
-  },
-  {
-   "artist": "ear",
-   "title": "real life",
-   "label_hint": null,
-   "mentions": 2,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
-     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "9:11",
-     "confidence": 0.7
-    },
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
-     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "10:00",
-     "confidence": 0.65
-    }
-   ],
-   "release": {
-    "release_id": 35920804,
-    "master_id": 0,
-    "title": "The Most Dear And The Future",
-    "artists": "Ear (11)",
-    "year": 2025,
-    "country": "US",
-    "labels": "Not On Label (Ear (11) Self-released)",
-    "formats": "File WAV, Memory Stick Album Stereo",
-    "styles": "Electro, Breakbeat",
-    "genres": "Electronic, Pop",
-    "thumb": "https://i.discogs.com/ygpxk2EVtLRKmaa8NmsBl4jAS1TL3PJFUKo3zLbNZr0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTIw/ODA0LTE3NjU2ODEy/NjUtNTE5Ni5wbmc.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=dk5pnjnKPHg"
-    ],
-    "fetched_at": "2026-10-28T13:51:31Z"
-   },
-   "market": {
-    "release_id": 35920804,
-    "taken_at": "2026-10-28T13:51:31Z",
-    "want": 108,
-    "have": 20,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": 1083
-   },
-   "gem_score": 0.493,
-   "tier": "watch"
-  },
-  {
-   "artist": "Mark \"Ruff\" Ryder",
-   "title": "Joy feat. Special MC (ID remix)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
-     "position": "38:12",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 2253021,
-    "master_id": 0,
-    "title": "101% UK Garage Part 1",
-    "artists": "Mark Ryder",
-    "year": 2001,
-    "country": "UK",
-    "labels": "Massive Music Company",
-    "formats": "CD Mixed",
-    "styles": "Breakbeat, UK Garage",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/MyuaFAGg0TXjvpq-TA0MXaXIbSCZFCpp3HHIFKiPsHg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNTMw/MjEtMTU4MjcwODE0/MC0xMjUwLmpwZWc.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=WXeby2sNQIE"
-    ],
-    "fetched_at": "2026-10-16T12:08:27Z"
-   },
-   "market": {
-    "release_id": 2253021,
-    "taken_at": "2026-10-28T13:52:59Z",
-    "want": 90,
-    "have": 39,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 0.459,
-   "tier": "watch"
-  },
-  {
-   "artist": "02 Marshall Masters",
-   "title": "I Like it Loud (Original Mixx)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 168851,
-    "master_id": 48235,
-    "title": "I Like It Loud",
-    "artists": "Marc Acardipane, Marshall Masters",
-    "year": 2001,
-    "country": "Spain",
-    "labels": "Hard Traxx",
-    "formats": "Vinyl 12\" 33 \u2153 RPM",
-    "styles": "Hardcore",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/wng_arwHmeM_bJ5V-XnFxk8gjFIgbe5EjJw4tsTOP_k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2ODg1/MS0xNDY0OTgzMTgw/LTcxMzUuanBlZw.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=rz7v6GXrZP8",
-     "https://www.youtube.com/watch?v=bbaX2vcojq4",
-     "https://www.youtube.com/watch?v=99D4Gj_Han8",
-     "https://www.youtube.com/watch?v=Lwh1oFcqYjg",
-     "https://www.youtube.com/watch?v=iyK7pPpgdXg"
-    ],
-    "fetched_at": "2026-10-16T12:09:04Z"
-   },
-   "market": {
-    "release_id": 168851,
-    "taken_at": "2026-10-28T13:52:46Z",
-    "want": 210,
-    "have": 107,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 12
-   },
-   "gem_score": 0.398,
+   "gem_score": 0.296,
    "tier": "watch"
   },
   {
