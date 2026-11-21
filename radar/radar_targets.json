@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T15:56:39Z",
+ "generated": "2026-11-21T15:08:45Z",
  "currency": "GBP",
  "targets": [
   {
@@ -48,7 +48,7 @@
    },
    "market": {
     "release_id": 16060788,
-    "taken_at": "2026-11-19T16:23:43Z",
+    "taken_at": "2026-11-21T15:08:24Z",
     "want": 11,
     "have": 6,
     "num_for_sale": 2,
@@ -58,7 +58,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 34
+    "days": 36
    },
    "gem_score": 1.144,
    "tier": "buy"
@@ -105,7 +105,7 @@
    },
    "market": {
     "release_id": 1147508,
-    "taken_at": "2026-11-19T16:23:21Z",
+    "taken_at": "2026-11-21T15:08:01Z",
     "want": 47,
     "have": 504,
     "num_for_sale": 51,
@@ -115,7 +115,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 74
+    "days": 76
    },
    "gem_score": 0.818,
    "tier": "buy"
@@ -176,7 +176,7 @@
    },
    "market": {
     "release_id": 200097,
-    "taken_at": "2026-11-19T16:23:13Z",
+    "taken_at": "2026-11-21T15:07:52Z",
     "want": 154,
     "have": 294,
     "num_for_sale": 12,
@@ -186,7 +186,7 @@
    },
    "trend": {
     "want_delta": 4,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.754,
    "tier": "buy"
@@ -230,17 +230,17 @@
    },
    "market": {
     "release_id": 226979,
-    "taken_at": "2026-11-19T16:23:14Z",
+    "taken_at": "2026-11-21T15:07:53Z",
     "want": 119,
     "have": 357,
     "num_for_sale": 6,
-    "lowest_price": 6.89,
+    "lowest_price": 6.5,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 1,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.689,
    "tier": "buy"
@@ -283,17 +283,17 @@
    },
    "market": {
     "release_id": 105706,
-    "taken_at": "2026-11-19T16:23:07Z",
+    "taken_at": "2026-11-21T15:07:46Z",
     "want": 123,
     "have": 241,
-    "num_for_sale": 10,
-    "lowest_price": 6.22,
+    "num_for_sale": 9,
+    "lowest_price": 6.18,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 1,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.685,
    "tier": "buy"
@@ -333,7 +333,7 @@
    },
    "market": {
     "release_id": 9741465,
-    "taken_at": "2026-11-19T16:23:33Z",
+    "taken_at": "2026-11-21T15:08:13Z",
     "want": 8,
     "have": 63,
     "num_for_sale": 13,
@@ -343,7 +343,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 74
+    "days": 76
    },
    "gem_score": 0.66,
    "tier": "buy"
@@ -388,7 +388,7 @@
    },
    "market": {
     "release_id": 17764483,
-    "taken_at": "2026-11-19T16:23:45Z",
+    "taken_at": "2026-11-21T15:08:25Z",
     "want": 130,
     "have": 209,
     "num_for_sale": 9,
@@ -398,7 +398,7 @@
    },
    "trend": {
     "want_delta": 4,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.646,
    "tier": "buy"
@@ -443,7 +443,7 @@
    },
    "market": {
     "release_id": 17764483,
-    "taken_at": "2026-11-19T16:23:45Z",
+    "taken_at": "2026-11-21T15:08:25Z",
     "want": 130,
     "have": 209,
     "num_for_sale": 9,
@@ -453,7 +453,7 @@
    },
    "trend": {
     "want_delta": 4,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.646,
    "tier": "buy"
@@ -509,7 +509,7 @@
    },
    "market": {
     "release_id": 98481,
-    "taken_at": "2026-11-19T16:23:06Z",
+    "taken_at": "2026-11-21T15:07:44Z",
     "want": 344,
     "have": 503,
     "num_for_sale": 11,
@@ -519,7 +519,7 @@
    },
    "trend": {
     "want_delta": 3,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.638,
    "tier": "buy"
@@ -559,17 +559,17 @@
    },
    "market": {
     "release_id": 835523,
-    "taken_at": "2026-11-19T16:23:20Z",
+    "taken_at": "2026-11-21T15:07:59Z",
     "want": 48,
     "have": 228,
-    "num_for_sale": 11,
+    "num_for_sale": 10,
     "lowest_price": 0.64,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 4,
-    "days": 67
+    "days": 69
    },
    "gem_score": 0.621,
    "tier": "buy"
@@ -612,7 +612,7 @@
    },
    "market": {
     "release_id": 5562936,
-    "taken_at": "2026-11-19T16:23:29Z",
+    "taken_at": "2026-11-21T15:08:09Z",
     "want": 23,
     "have": 161,
     "num_for_sale": 15,
@@ -622,7 +622,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 74
+    "days": 76
    },
    "gem_score": 0.505,
    "tier": "buy"
@@ -665,7 +665,7 @@
    },
    "market": {
     "release_id": 166858,
-    "taken_at": "2026-11-19T16:23:10Z",
+    "taken_at": "2026-11-21T15:07:49Z",
     "want": 62,
     "have": 189,
     "num_for_sale": 4,
@@ -675,7 +675,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.492,
    "tier": "buy"
@@ -718,7 +718,7 @@
    },
    "market": {
     "release_id": 250375,
-    "taken_at": "2026-11-19T16:23:15Z",
+    "taken_at": "2026-11-21T15:07:54Z",
     "want": 68,
     "have": 81,
     "num_for_sale": 4,
@@ -728,7 +728,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.484,
    "tier": "buy"
@@ -777,19 +777,19 @@
    },
    "market": {
     "release_id": 35301913,
-    "taken_at": "2026-11-19T16:23:59Z",
-    "want": 57,
+    "taken_at": "2026-11-21T15:08:40Z",
+    "want": 56,
     "have": 98,
-    "num_for_sale": 4,
+    "num_for_sale": 6,
     "lowest_price": 17.96,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": 4,
-    "days": 34
+    "want_delta": 3,
+    "days": 36
    },
-   "gem_score": 0.75,
+   "gem_score": 0.721,
    "tier": "pricey"
   },
   {
@@ -837,7 +837,7 @@
    },
    "market": {
     "release_id": 25713682,
-    "taken_at": "2026-11-19T16:23:49Z",
+    "taken_at": "2026-11-21T15:08:30Z",
     "want": 47,
     "have": 68,
     "num_for_sale": 4,
@@ -847,7 +847,7 @@
    },
    "trend": {
     "want_delta": 2,
-    "days": 74
+    "days": 76
    },
    "gem_score": 0.714,
    "tier": "pricey"
@@ -887,9 +887,9 @@
    },
    "market": {
     "release_id": 33602817,
-    "taken_at": "2026-11-19T16:23:56Z",
+    "taken_at": "2026-11-21T15:08:37Z",
     "want": 75,
-    "have": 64,
+    "have": 65,
     "num_for_sale": 4,
     "lowest_price": 110.0,
     "currency": "GBP",
@@ -897,7 +897,7 @@
    },
    "trend": {
     "want_delta": 4,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.712,
    "tier": "pricey"
@@ -941,17 +941,17 @@
    },
    "market": {
     "release_id": 35915272,
-    "taken_at": "2026-11-19T16:24:01Z",
-    "want": 373,
-    "have": 1850,
-    "num_for_sale": 38,
-    "lowest_price": 40.94,
+    "taken_at": "2026-11-21T15:08:42Z",
+    "want": 374,
+    "have": 1853,
+    "num_for_sale": 41,
+    "lowest_price": 35.0,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": 32,
-    "days": 34
+    "want_delta": 33,
+    "days": 36
    },
    "gem_score": 0.685,
    "tier": "pricey"
@@ -991,7 +991,7 @@
    },
    "market": {
     "release_id": 653251,
-    "taken_at": "2026-11-19T16:23:19Z",
+    "taken_at": "2026-11-21T15:07:58Z",
     "want": 209,
     "have": 130,
     "num_for_sale": 1,
@@ -1001,7 +1001,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.598,
    "tier": "pricey"
@@ -1045,17 +1045,17 @@
    },
    "market": {
     "release_id": 122837,
-    "taken_at": "2026-11-19T16:23:09Z",
+    "taken_at": "2026-11-21T15:07:48Z",
     "want": 385,
     "have": 697,
-    "num_for_sale": 10,
+    "num_for_sale": 8,
     "lowest_price": 17.5,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
     "want_delta": 9,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.528,
    "tier": "pricey"
@@ -1098,7 +1098,7 @@
    },
    "market": {
     "release_id": 350498,
-    "taken_at": "2026-11-19T16:23:16Z",
+    "taken_at": "2026-11-21T15:07:56Z",
     "want": 111,
     "have": 450,
     "num_for_sale": 4,
@@ -1108,7 +1108,7 @@
    },
    "trend": {
     "want_delta": 3,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.509,
    "tier": "pricey"
@@ -1148,7 +1148,7 @@
    },
    "market": {
     "release_id": 12382635,
-    "taken_at": "2026-11-19T16:23:36Z",
+    "taken_at": "2026-11-21T15:08:17Z",
     "want": 24,
     "have": 18,
     "num_for_sale": 1,
@@ -1158,7 +1158,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.5,
    "tier": "pricey"
@@ -1201,7 +1201,7 @@
    },
    "market": {
     "release_id": 12677359,
-    "taken_at": "2026-11-19T16:23:37Z",
+    "taken_at": "2026-11-21T15:08:18Z",
     "want": 70,
     "have": 15,
     "num_for_sale": 3,
@@ -1211,7 +1211,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.481,
    "tier": "pricey"
@@ -1255,9 +1255,9 @@
    },
    "market": {
     "release_id": 15353,
-    "taken_at": "2026-11-19T16:23:01Z",
+    "taken_at": "2026-11-21T15:07:39Z",
     "want": 1043,
-    "have": 1015,
+    "have": 1016,
     "num_for_sale": 19,
     "lowest_price": 16.0,
     "currency": "GBP",
@@ -1265,7 +1265,7 @@
    },
    "trend": {
     "want_delta": 4,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.477,
    "tier": "pricey"
@@ -1310,7 +1310,7 @@
    },
    "market": {
     "release_id": 1396749,
-    "taken_at": "2026-11-19T16:23:23Z",
+    "taken_at": "2026-11-21T15:08:03Z",
     "want": 886,
     "have": 906,
     "num_for_sale": 6,
@@ -1320,7 +1320,7 @@
    },
    "trend": {
     "want_delta": 9,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.471,
    "tier": "pricey"
@@ -1362,7 +1362,7 @@
    },
    "market": {
     "release_id": 1196026,
-    "taken_at": "2026-11-19T16:23:22Z",
+    "taken_at": "2026-11-21T15:08:02Z",
     "want": 92,
     "have": 117,
     "num_for_sale": 11,
@@ -1372,7 +1372,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 74
+    "days": 76
    },
    "gem_score": 0.457,
    "tier": "pricey"
@@ -1414,7 +1414,7 @@
    },
    "market": {
     "release_id": 44476,
-    "taken_at": "2026-11-19T16:23:03Z",
+    "taken_at": "2026-11-21T15:07:42Z",
     "want": 103,
     "have": 190,
     "num_for_sale": 3,
@@ -1424,7 +1424,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.448,
    "tier": "pricey"
@@ -1466,7 +1466,7 @@
    },
    "market": {
     "release_id": 44476,
-    "taken_at": "2026-11-19T16:23:03Z",
+    "taken_at": "2026-11-21T15:07:42Z",
     "want": 103,
     "have": 190,
     "num_for_sale": 3,
@@ -1476,7 +1476,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.448,
    "tier": "pricey"
@@ -1548,19 +1548,19 @@
    },
    "market": {
     "release_id": 2510436,
-    "taken_at": "2026-11-19T16:23:26Z",
-    "want": 1382,
-    "have": 1544,
+    "taken_at": "2026-11-21T15:08:06Z",
+    "want": 1383,
+    "have": 1545,
     "num_for_sale": 1,
     "lowest_price": 180.0,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": 8,
-    "days": 22
+    "want_delta": 9,
+    "days": 24
    },
-   "gem_score": 0.43,
+   "gem_score": 0.446,
    "tier": "pricey"
   },
   {
@@ -1605,8 +1605,8 @@
    },
    "market": {
     "release_id": 24382,
-    "taken_at": "2026-11-19T16:23:02Z",
-    "want": 743,
+    "taken_at": "2026-11-21T15:07:40Z",
+    "want": 744,
     "have": 839,
     "num_for_sale": 5,
     "lowest_price": 65.0,
@@ -1614,10 +1614,10 @@
     "yt_views": null
    },
    "trend": {
-    "want_delta": 5,
-    "days": 34
+    "want_delta": 6,
+    "days": 36
    },
-   "gem_score": 0.416,
+   "gem_score": 0.432,
    "tier": "pricey"
   },
   {
@@ -1660,7 +1660,7 @@
    },
    "market": {
     "release_id": 376202,
-    "taken_at": "2026-11-19T16:23:17Z",
+    "taken_at": "2026-11-21T15:07:57Z",
     "want": 244,
     "have": 406,
     "num_for_sale": 9,
@@ -1670,7 +1670,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.409,
    "tier": "pricey"
@@ -1715,7 +1715,7 @@
    },
    "market": {
     "release_id": 376202,
-    "taken_at": "2026-11-19T16:23:17Z",
+    "taken_at": "2026-11-21T15:07:57Z",
     "want": 244,
     "have": 406,
     "num_for_sale": 9,
@@ -1725,7 +1725,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.409,
    "tier": "pricey"
@@ -1769,7 +1769,7 @@
    },
    "market": {
     "release_id": 60296,
-    "taken_at": "2026-11-19T16:23:05Z",
+    "taken_at": "2026-11-21T15:07:43Z",
     "want": 242,
     "have": 1043,
     "num_for_sale": 6,
@@ -1779,7 +1779,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.39,
    "tier": "pricey"
@@ -1822,7 +1822,7 @@
    },
    "market": {
     "release_id": 12749503,
-    "taken_at": "2026-11-19T16:23:39Z",
+    "taken_at": "2026-11-21T15:08:19Z",
     "want": 218,
     "have": 247,
     "num_for_sale": 2,
@@ -1832,9 +1832,64 @@
    },
    "trend": {
     "want_delta": 3,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.38,
+   "tier": "pricey"
+  },
+  {
+   "artist": "12 Darrien Kelly & The Unknown MC",
+   "title": "The People Want More",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.5,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
+     "position": null,
+     "confidence": 0.5
+    }
+   ],
+   "release": {
+    "release_id": 114985,
+    "master_id": 2458,
+    "title": "The People Want More",
+    "artists": "Darrien Kelly, The Unknown MC (2)",
+    "year": 1998,
+    "country": "Netherlands",
+    "labels": "Hollow Point",
+    "formats": "Vinyl 12\"",
+    "styles": "Hardcore",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/RAE_kHKFLIuElcjEi4jFR9odn-yPdw0HKSdbDNp7NGU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDk4/NS0xNjc2NzM0Mjk2/LTM0ODEuanBlZw.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=DoIxu25-4Qw",
+     "https://www.youtube.com/watch?v=1pHwVMKAn90",
+     "https://www.youtube.com/watch?v=QEtkZixDz0A",
+     "https://www.youtube.com/watch?v=2ztcX5x961M"
+    ],
+    "fetched_at": "2026-10-16T12:09:42Z"
+   },
+   "market": {
+    "release_id": 114985,
+    "taken_at": "2026-11-21T15:07:47Z",
+    "want": 342,
+    "have": 624,
+    "num_for_sale": 7,
+    "lowest_price": 49.95,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 36
+   },
+   "gem_score": 0.37,
    "tier": "pricey"
   },
   {
@@ -1885,74 +1940,19 @@
    },
    "market": {
     "release_id": 22460704,
-    "taken_at": "2026-11-19T16:23:47Z",
-    "want": 1960,
-    "have": 2688,
+    "taken_at": "2026-11-21T15:08:28Z",
+    "want": 1962,
+    "have": 2689,
     "num_for_sale": 21,
     "lowest_price": 54.6,
     "currency": "GBP",
     "yt_views": null
    },
    "trend": {
-    "want_delta": 12,
-    "days": 22
+    "want_delta": 14,
+    "days": 24
    },
    "gem_score": 0.369,
-   "tier": "pricey"
-  },
-  {
-   "artist": "12 Darrien Kelly & The Unknown MC",
-   "title": "The People Want More",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.5,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Marc Acardipane | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=mPprMA21M6k",
-     "position": null,
-     "confidence": 0.5
-    }
-   ],
-   "release": {
-    "release_id": 114985,
-    "master_id": 2458,
-    "title": "The People Want More",
-    "artists": "Darrien Kelly, The Unknown MC (2)",
-    "year": 1998,
-    "country": "Netherlands",
-    "labels": "Hollow Point",
-    "formats": "Vinyl 12\"",
-    "styles": "Hardcore",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/RAE_kHKFLIuElcjEi4jFR9odn-yPdw0HKSdbDNp7NGU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDk4/NS0xNjc2NzM0Mjk2/LTM0ODEuanBlZw.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=DoIxu25-4Qw",
-     "https://www.youtube.com/watch?v=1pHwVMKAn90",
-     "https://www.youtube.com/watch?v=QEtkZixDz0A",
-     "https://www.youtube.com/watch?v=2ztcX5x961M"
-    ],
-    "fetched_at": "2026-10-16T12:09:42Z"
-   },
-   "market": {
-    "release_id": 114985,
-    "taken_at": "2026-11-19T16:23:08Z",
-    "want": 341,
-    "have": 624,
-    "num_for_sale": 7,
-    "lowest_price": 49.95,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": -1,
-    "days": 34
-   },
-   "gem_score": 0.352,
    "tier": "pricey"
   },
   {
@@ -1995,7 +1995,7 @@
    },
    "market": {
     "release_id": 33445883,
-    "taken_at": "2026-11-19T16:23:54Z",
+    "taken_at": "2026-11-21T15:08:35Z",
     "want": 0,
     "have": 13,
     "num_for_sale": 0,
@@ -2005,7 +2005,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 2.109,
    "tier": "watch"
@@ -2050,7 +2050,7 @@
    },
    "market": {
     "release_id": 35809126,
-    "taken_at": "2026-11-19T16:24:00Z",
+    "taken_at": "2026-11-21T15:08:41Z",
     "want": 0,
     "have": 1,
     "num_for_sale": 0,
@@ -2060,7 +2060,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 2.109,
    "tier": "watch"
@@ -2100,7 +2100,7 @@
    },
    "market": {
     "release_id": 33509897,
-    "taken_at": "2026-11-19T16:23:55Z",
+    "taken_at": "2026-11-21T15:08:36Z",
     "want": 0,
     "have": 0,
     "num_for_sale": 0,
@@ -2110,7 +2110,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 2.109,
    "tier": "watch"
@@ -2153,7 +2153,7 @@
    },
    "market": {
     "release_id": 34147819,
-    "taken_at": "2026-11-19T16:23:57Z",
+    "taken_at": "2026-11-21T15:08:39Z",
     "want": 0,
     "have": 1,
     "num_for_sale": 0,
@@ -2163,7 +2163,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 2.109,
    "tier": "watch"
@@ -2205,7 +2205,7 @@
    },
    "market": {
     "release_id": 32888304,
-    "taken_at": "2026-11-19T16:23:53Z",
+    "taken_at": "2026-11-21T15:08:34Z",
     "want": 1,
     "have": 0,
     "num_for_sale": 0,
@@ -2215,7 +2215,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 1.495,
    "tier": "watch"
@@ -2255,7 +2255,7 @@
    },
    "market": {
     "release_id": 15080548,
-    "taken_at": "2026-11-19T16:23:42Z",
+    "taken_at": "2026-11-21T15:08:23Z",
     "want": 1,
     "have": 2,
     "num_for_sale": 0,
@@ -2265,7 +2265,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 1.246,
    "tier": "watch"
@@ -2305,7 +2305,7 @@
    },
    "market": {
     "release_id": 8612286,
-    "taken_at": "2026-11-19T16:23:32Z",
+    "taken_at": "2026-11-21T15:08:12Z",
     "want": 4,
     "have": 11,
     "num_for_sale": 0,
@@ -2315,7 +2315,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.97,
    "tier": "watch"
@@ -2355,7 +2355,7 @@
    },
    "market": {
     "release_id": 27776160,
-    "taken_at": "2026-11-19T16:23:50Z",
+    "taken_at": "2026-11-21T15:08:31Z",
     "want": 3,
     "have": 2,
     "num_for_sale": 0,
@@ -2365,7 +2365,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.928,
    "tier": "watch"
@@ -2416,7 +2416,7 @@
    },
    "market": {
     "release_id": 37424217,
-    "taken_at": "2026-11-19T16:24:03Z",
+    "taken_at": "2026-11-21T15:08:45Z",
     "want": 6,
     "have": 1,
     "num_for_sale": 0,
@@ -2426,7 +2426,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.859,
    "tier": "watch"
@@ -2466,7 +2466,7 @@
    },
    "market": {
     "release_id": 32394792,
-    "taken_at": "2026-11-19T16:23:52Z",
+    "taken_at": "2026-11-21T15:08:33Z",
     "want": 4,
     "have": 5,
     "num_for_sale": 0,
@@ -2476,7 +2476,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 34
+    "days": 36
    },
    "gem_score": 0.849,
    "tier": "watch"
@@ -2516,7 +2516,7 @@
    },
    "market": {
     "release_id": 5598316,
-    "taken_at": "2026-11-19T16:23:30Z",
+    "taken_at": "2026-11-21T15:08:11Z",
     "want": 4,
     "have": 8,
     "num_for_sale": 0,
@@ -2526,9 +2526,67 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.808,
+   "tier": "watch"
+  },
+  {
+   "artist": "lil blood",
+   "title": "3rd world free boski",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "track match",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
+     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
+     "position": "33:12",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 12016716,
+    "master_id": 0,
+    "title": "Methadone (Kicking The Habit)",
+    "artists": "Lil' Blood",
+    "year": 2011,
+    "country": "US",
+    "labels": "Livewire Records (2)",
+    "formats": "CDr Album",
+    "styles": "Gangsta",
+    "genres": "Hip Hop",
+    "thumb": "https://i.discogs.com/uFI7-SzMlonsOYVSeHB1cxHnp3cx8nrfj3sfatfQ3Bs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDE2/NzE2LTE3NzQyMDQ0/NzgtMzEwOC5qcGVn.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=UwgRY2gwc5k",
+     "https://www.youtube.com/watch?v=TyIuHpCTrPI",
+     "https://www.youtube.com/watch?v=VF6J2bC3TNg",
+     "https://www.youtube.com/watch?v=7wwe0jh9gG8",
+     "https://www.youtube.com/watch?v=J-1N-yK5xP8",
+     "https://www.youtube.com/watch?v=kFhSLC7_EOY",
+     "https://www.youtube.com/watch?v=PHyDUp2Cm3s"
+    ],
+    "fetched_at": "2026-10-28T13:52:14Z"
+   },
+   "market": {
+    "release_id": 12016716,
+    "taken_at": "2026-11-21T15:08:15Z",
+    "want": 17,
+    "have": 12,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 1,
+    "days": 24
+   },
+   "gem_score": 0.683,
    "tier": "watch"
   },
   {
@@ -2575,7 +2633,7 @@
    },
    "market": {
     "release_id": 10651856,
-    "taken_at": "2026-11-19T16:23:34Z",
+    "taken_at": "2026-11-21T15:08:14Z",
     "want": 8,
     "have": 22,
     "num_for_sale": 0,
@@ -2585,65 +2643,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 34
-   },
-   "gem_score": 0.66,
-   "tier": "watch"
-  },
-  {
-   "artist": "lil blood",
-   "title": "3rd world free boski",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "track match",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Sematary | Boiler Room: LA",
-     "source_url": "https://www.youtube.com/watch?v=7fwMSrtNLEo",
-     "position": "33:12",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 12016716,
-    "master_id": 0,
-    "title": "Methadone (Kicking The Habit)",
-    "artists": "Lil' Blood",
-    "year": 2011,
-    "country": "US",
-    "labels": "Livewire Records (2)",
-    "formats": "CDr Album",
-    "styles": "Gangsta",
-    "genres": "Hip Hop",
-    "thumb": "https://i.discogs.com/uFI7-SzMlonsOYVSeHB1cxHnp3cx8nrfj3sfatfQ3Bs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDE2/NzE2LTE3NzQyMDQ0/NzgtMzEwOC5qcGVn.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=UwgRY2gwc5k",
-     "https://www.youtube.com/watch?v=TyIuHpCTrPI",
-     "https://www.youtube.com/watch?v=VF6J2bC3TNg",
-     "https://www.youtube.com/watch?v=7wwe0jh9gG8",
-     "https://www.youtube.com/watch?v=J-1N-yK5xP8",
-     "https://www.youtube.com/watch?v=kFhSLC7_EOY",
-     "https://www.youtube.com/watch?v=PHyDUp2Cm3s"
-    ],
-    "fetched_at": "2026-10-28T13:52:14Z"
-   },
-   "market": {
-    "release_id": 12016716,
-    "taken_at": "2026-11-19T16:23:35Z",
-    "want": 16,
-    "have": 12,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 22
+    "days": 36
    },
    "gem_score": 0.66,
    "tier": "watch"
@@ -2692,7 +2692,7 @@
    },
    "market": {
     "release_id": 35920804,
-    "taken_at": "2026-11-19T16:24:02Z",
+    "taken_at": "2026-11-21T15:08:44Z",
     "want": 120,
     "have": 20,
     "num_for_sale": 0,
@@ -2702,7 +2702,7 @@
    },
    "trend": {
     "want_delta": 12,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.651,
    "tier": "watch"
@@ -2761,7 +2761,7 @@
    },
    "market": {
     "release_id": 14746402,
-    "taken_at": "2026-11-19T16:23:41Z",
+    "taken_at": "2026-11-21T15:08:21Z",
     "want": 27,
     "have": 14,
     "num_for_sale": 0,
@@ -2771,7 +2771,7 @@
    },
    "trend": {
     "want_delta": -1,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.555,
    "tier": "watch"
@@ -2830,7 +2830,7 @@
    },
    "market": {
     "release_id": 14746402,
-    "taken_at": "2026-11-19T16:23:41Z",
+    "taken_at": "2026-11-21T15:08:21Z",
     "want": 27,
     "have": 14,
     "num_for_sale": 0,
@@ -2840,7 +2840,7 @@
    },
    "trend": {
     "want_delta": -1,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.555,
    "tier": "watch"
@@ -2880,7 +2880,7 @@
    },
    "market": {
     "release_id": 4816530,
-    "taken_at": "2026-11-19T16:23:28Z",
+    "taken_at": "2026-11-21T15:08:08Z",
     "want": 20,
     "have": 59,
     "num_for_sale": 0,
@@ -2890,61 +2890,9 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.521,
-   "tier": "watch"
-  },
-  {
-   "artist": "Mark \"Ruff\" Ryder",
-   "title": "Joy feat. Special MC (ID remix)",
-   "label_hint": null,
-   "mentions": 1,
-   "sources": 1,
-   "confidence": 0.7,
-   "resolved": 1,
-   "match_note": "loose text match \u2014 check it",
-   "sightings": [
-    {
-     "source_type": "yt_comment",
-     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
-     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
-     "position": "38:12",
-     "confidence": 0.7
-    }
-   ],
-   "release": {
-    "release_id": 2253021,
-    "master_id": 0,
-    "title": "101% UK Garage Part 1",
-    "artists": "Mark Ryder",
-    "year": 2001,
-    "country": "UK",
-    "labels": "Massive Music Company",
-    "formats": "CD Mixed",
-    "styles": "Breakbeat, UK Garage",
-    "genres": "Electronic",
-    "thumb": "https://i.discogs.com/MyuaFAGg0TXjvpq-TA0MXaXIbSCZFCpp3HHIFKiPsHg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNTMw/MjEtMTU4MjcwODE0/MC0xMjUwLmpwZWc.jpeg",
-    "videos": [
-     "https://www.youtube.com/watch?v=WXeby2sNQIE"
-    ],
-    "fetched_at": "2026-10-16T12:08:27Z"
-   },
-   "market": {
-    "release_id": 2253021,
-    "taken_at": "2026-11-19T16:23:25Z",
-    "want": 90,
-    "have": 39,
-    "num_for_sale": 0,
-    "lowest_price": null,
-    "currency": "GBP",
-    "yt_views": null
-   },
-   "trend": {
-    "want_delta": 0,
-    "days": 34
-   },
-   "gem_score": 0.459,
    "tier": "watch"
   },
   {
@@ -3028,8 +2976,8 @@
    },
    "market": {
     "release_id": 3533809,
-    "taken_at": "2026-11-19T16:23:27Z",
-    "want": 1484,
+    "taken_at": "2026-11-21T15:08:07Z",
+    "want": 1486,
     "have": 94,
     "num_for_sale": 0,
     "lowest_price": null,
@@ -3037,10 +2985,10 @@
     "yt_views": null
    },
    "trend": {
-    "want_delta": 4,
-    "days": 22
+    "want_delta": 6,
+    "days": 24
    },
-   "gem_score": 0.436,
+   "gem_score": 0.472,
    "tier": "watch"
   },
   {
@@ -3081,8 +3029,8 @@
    },
    "market": {
     "release_id": 24032066,
-    "taken_at": "2026-11-19T16:23:48Z",
-    "want": 112,
+    "taken_at": "2026-11-21T15:08:29Z",
+    "want": 114,
     "have": 94,
     "num_for_sale": 0,
     "lowest_price": null,
@@ -3090,10 +3038,62 @@
     "yt_views": null
    },
    "trend": {
-    "want_delta": 3,
-    "days": 74
+    "want_delta": 5,
+    "days": 76
    },
-   "gem_score": 0.423,
+   "gem_score": 0.459,
+   "tier": "watch"
+  },
+  {
+   "artist": "Mark \"Ruff\" Ryder",
+   "title": "Joy feat. Special MC (ID remix)",
+   "label_hint": null,
+   "mentions": 1,
+   "sources": 1,
+   "confidence": 0.7,
+   "resolved": 1,
+   "match_note": "loose text match \u2014 check it",
+   "sightings": [
+    {
+     "source_type": "yt_comment",
+     "source_name": "Boiler Room: Diffrent | Boiler Room: Rotterdam",
+     "source_url": "https://www.youtube.com/watch?v=l-VHXfda5J0",
+     "position": "38:12",
+     "confidence": 0.7
+    }
+   ],
+   "release": {
+    "release_id": 2253021,
+    "master_id": 0,
+    "title": "101% UK Garage Part 1",
+    "artists": "Mark Ryder",
+    "year": 2001,
+    "country": "UK",
+    "labels": "Massive Music Company",
+    "formats": "CD Mixed",
+    "styles": "Breakbeat, UK Garage",
+    "genres": "Electronic",
+    "thumb": "https://i.discogs.com/MyuaFAGg0TXjvpq-TA0MXaXIbSCZFCpp3HHIFKiPsHg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNTMw/MjEtMTU4MjcwODE0/MC0xMjUwLmpwZWc.jpeg",
+    "videos": [
+     "https://www.youtube.com/watch?v=WXeby2sNQIE"
+    ],
+    "fetched_at": "2026-10-16T12:08:27Z"
+   },
+   "market": {
+    "release_id": 2253021,
+    "taken_at": "2026-11-21T15:08:04Z",
+    "want": 90,
+    "have": 39,
+    "num_for_sale": 0,
+    "lowest_price": null,
+    "currency": "GBP",
+    "yt_views": null
+   },
+   "trend": {
+    "want_delta": 0,
+    "days": 36
+   },
+   "gem_score": 0.459,
    "tier": "watch"
   },
   {
@@ -3137,8 +3137,8 @@
    },
    "market": {
     "release_id": 168851,
-    "taken_at": "2026-11-19T16:23:12Z",
-    "want": 210,
+    "taken_at": "2026-11-21T15:07:51Z",
+    "want": 209,
     "have": 107,
     "num_for_sale": 0,
     "lowest_price": null,
@@ -3146,10 +3146,10 @@
     "yt_views": null
    },
    "trend": {
-    "want_delta": 0,
-    "days": 34
+    "want_delta": -1,
+    "days": 36
    },
-   "gem_score": 0.398,
+   "gem_score": 0.379,
    "tier": "watch"
   },
   {
@@ -3203,7 +3203,7 @@
    },
    "market": {
     "release_id": 13743351,
-    "taken_at": "2026-11-19T16:23:40Z",
+    "taken_at": "2026-11-21T15:08:20Z",
     "want": 457,
     "have": 125,
     "num_for_sale": 0,
@@ -3213,7 +3213,7 @@
    },
    "trend": {
     "want_delta": 1,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.311,
    "tier": "watch"
@@ -3267,7 +3267,7 @@
    },
    "market": {
     "release_id": 21167047,
-    "taken_at": "2026-11-19T16:23:46Z",
+    "taken_at": "2026-11-21T15:08:26Z",
     "want": 380,
     "have": 166,
     "num_for_sale": 0,
@@ -3277,7 +3277,7 @@
    },
    "trend": {
     "want_delta": 0,
-    "days": 22
+    "days": 24
    },
    "gem_score": 0.304,
    "tier": "watch"
